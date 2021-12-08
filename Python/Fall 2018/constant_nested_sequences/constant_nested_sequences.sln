@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "constant_nested_sequences", "constant_nested_sequences.pyproj", "{2CA5B6E3-EBC0-4515-B282-98828BDC872F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CA5B6E3-EBC0-4515-B282-98828BDC872F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA5B6E3-EBC0-4515-B282-98828BDC872F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D529C662-3D2E-4CA9-83A4-4DB379B43CE4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "gui_calculator", "gui_calculator.pyproj", "{6AB35EAC-3E85-4FAD-B5E9-28F9647CC3F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AB35EAC-3E85-4FAD-B5E9-28F9647CC3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB35EAC-3E85-4FAD-B5E9-28F9647CC3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22D3A1B4-4E5E-4D98-873D-E10C59F92737}
+	EndGlobalSection
+EndGlobal
