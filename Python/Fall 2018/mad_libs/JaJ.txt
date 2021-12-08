@@ -1,0 +1,6 @@
+[Person 1] and [Person 2]
+Went up the [Place]
+To fetch a [Noun]
+[Person1] fell down
+And broke their [Bodypart]
+And [Person 2] came tumbling after.
