@@ -1,0 +1,14 @@
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\bin\Debug\netcoreapp3.1\array2.exe
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\bin\Debug\netcoreapp3.1\array2.deps.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\bin\Debug\netcoreapp3.1\array2.runtimeconfig.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\bin\Debug\netcoreapp3.1\array2.runtimeconfig.dev.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\bin\Debug\netcoreapp3.1\array2.dll
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\bin\Debug\netcoreapp3.1\array2.pdb
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\obj\Debug\netcoreapp3.1\array2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\obj\Debug\netcoreapp3.1\array2.AssemblyInfoInputs.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\obj\Debug\netcoreapp3.1\array2.AssemblyInfo.cs
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\obj\Debug\netcoreapp3.1\array2.csproj.CoreCompileInputs.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\obj\Debug\netcoreapp3.1\array2.dll
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\obj\Debug\netcoreapp3.1\array2.pdb
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\obj\Debug\netcoreapp3.1\array2.genruntimeconfig.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array2\array2\obj\Debug\netcoreapp3.1\array2.csproj.AssemblyReference.cache

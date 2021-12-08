@@ -1,0 +1,20 @@
+user input number of hours
+
+user input gpa
+
+if (12 <= hours && 3.5 <= GPA)
+{
+	Congratulations, you are eligible to be placed on the Dean's list.
+}
+else if (12 <= hours && 3.5 > GPA)
+{
+	You are not eligible to be placed on the Dean's list, you need to improve your GPA to be eligible.
+}
+else if (12 > hours && 3.5 <= GPA)
+{
+	You are not eligible to be on the Dean's list, you need to have more credit hours to be eligible.
+}
+else if (12 > hours && 3.5 > GPA)
+{
+	You are not eligible to be on the Dean's list, you need to improve your GPA and have more credit hours.
+} 

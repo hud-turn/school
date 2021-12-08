@@ -1,0 +1,13 @@
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\bin\Debug\netcoreapp3.1\Helloworld.exe
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\bin\Debug\netcoreapp3.1\Helloworld.deps.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\bin\Debug\netcoreapp3.1\Helloworld.runtimeconfig.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\bin\Debug\netcoreapp3.1\Helloworld.runtimeconfig.dev.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\bin\Debug\netcoreapp3.1\Helloworld.dll
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\bin\Debug\netcoreapp3.1\Helloworld.pdb
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\obj\Debug\netcoreapp3.1\Helloworld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\obj\Debug\netcoreapp3.1\Helloworld.AssemblyInfoInputs.cache
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\obj\Debug\netcoreapp3.1\Helloworld.AssemblyInfo.cs
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\obj\Debug\netcoreapp3.1\Helloworld.csproj.CoreCompileInputs.cache
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\obj\Debug\netcoreapp3.1\Helloworld.dll
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\obj\Debug\netcoreapp3.1\Helloworld.pdb
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Helloworld\Helloworld\obj\Debug\netcoreapp3.1\Helloworld.genruntimeconfig.cache

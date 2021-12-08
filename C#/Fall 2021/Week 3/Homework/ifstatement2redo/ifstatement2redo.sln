@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ifstatement2redo", "ifstatement2redo\ifstatement2redo.csproj", "{80F37E43-451B-4E34-B787-5687A151D1C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80F37E43-451B-4E34-B787-5687A151D1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F37E43-451B-4E34-B787-5687A151D1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F37E43-451B-4E34-B787-5687A151D1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F37E43-451B-4E34-B787-5687A151D1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D071F5B-A4B0-463B-A81F-9B10EA1B66B1}
+	EndGlobalSection
+EndGlobal

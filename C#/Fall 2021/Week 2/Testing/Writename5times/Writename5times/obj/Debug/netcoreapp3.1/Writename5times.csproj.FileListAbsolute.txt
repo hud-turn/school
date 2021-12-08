@@ -1,0 +1,13 @@
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\bin\Debug\netcoreapp3.1\Writename5times.exe
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\bin\Debug\netcoreapp3.1\Writename5times.deps.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\bin\Debug\netcoreapp3.1\Writename5times.runtimeconfig.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\bin\Debug\netcoreapp3.1\Writename5times.runtimeconfig.dev.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\bin\Debug\netcoreapp3.1\Writename5times.dll
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\bin\Debug\netcoreapp3.1\Writename5times.pdb
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\obj\Debug\netcoreapp3.1\Writename5times.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\obj\Debug\netcoreapp3.1\Writename5times.AssemblyInfoInputs.cache
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\obj\Debug\netcoreapp3.1\Writename5times.AssemblyInfo.cs
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\obj\Debug\netcoreapp3.1\Writename5times.csproj.CoreCompileInputs.cache
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\obj\Debug\netcoreapp3.1\Writename5times.dll
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\obj\Debug\netcoreapp3.1\Writename5times.pdb
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Writename5times\Writename5times\obj\Debug\netcoreapp3.1\Writename5times.genruntimeconfig.cache

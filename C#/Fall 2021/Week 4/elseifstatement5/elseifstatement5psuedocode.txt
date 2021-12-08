@@ -1,0 +1,39 @@
+user input
+input conversion
+
+do math using modulus operator %
+2
+3
+5
+7
+8
+13
+
+if intdiv2 = 0
+[
+
+]
+else if intdiv3 = 0
+[
+
+]
+else if intdiv5 = 0
+[
+
+]
+else if intdiv7 = 0
+[
+
+]
+else if intdiv8 = 0
+[
+
+]
+else if intdiv13 = 0
+[
+
+]
+else
+[
+
+]

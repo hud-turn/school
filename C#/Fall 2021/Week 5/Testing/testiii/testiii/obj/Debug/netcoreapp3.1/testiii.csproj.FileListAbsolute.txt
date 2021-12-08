@@ -1,0 +1,13 @@
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\obj\Debug\netcoreapp3.1\testiii.csproj.AssemblyReference.cache
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\obj\Debug\netcoreapp3.1\testiii.AssemblyInfoInputs.cache
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\obj\Debug\netcoreapp3.1\testiii.AssemblyInfo.cs
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\obj\Debug\netcoreapp3.1\testiii.csproj.CoreCompileInputs.cache
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\bin\Debug\netcoreapp3.1\testiii.exe
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\bin\Debug\netcoreapp3.1\testiii.deps.json
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\bin\Debug\netcoreapp3.1\testiii.runtimeconfig.json
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\bin\Debug\netcoreapp3.1\testiii.runtimeconfig.dev.json
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\bin\Debug\netcoreapp3.1\testiii.dll
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\bin\Debug\netcoreapp3.1\testiii.pdb
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\obj\Debug\netcoreapp3.1\testiii.dll
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\obj\Debug\netcoreapp3.1\testiii.pdb
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\testiii\testiii\obj\Debug\netcoreapp3.1\testiii.genruntimeconfig.cache

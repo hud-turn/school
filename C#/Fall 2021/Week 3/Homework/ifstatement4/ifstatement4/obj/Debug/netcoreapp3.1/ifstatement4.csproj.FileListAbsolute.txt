@@ -1,0 +1,12 @@
+D:\labwork\ifstatement4\ifstatement4\obj\Debug\netcoreapp3.1\ifstatement4.AssemblyInfoInputs.cache
+D:\labwork\ifstatement4\ifstatement4\obj\Debug\netcoreapp3.1\ifstatement4.AssemblyInfo.cs
+D:\labwork\ifstatement4\ifstatement4\obj\Debug\netcoreapp3.1\ifstatement4.csproj.CoreCompileInputs.cache
+D:\labwork\ifstatement4\ifstatement4\bin\Debug\netcoreapp3.1\ifstatement4.exe
+D:\labwork\ifstatement4\ifstatement4\bin\Debug\netcoreapp3.1\ifstatement4.deps.json
+D:\labwork\ifstatement4\ifstatement4\bin\Debug\netcoreapp3.1\ifstatement4.runtimeconfig.json
+D:\labwork\ifstatement4\ifstatement4\bin\Debug\netcoreapp3.1\ifstatement4.runtimeconfig.dev.json
+D:\labwork\ifstatement4\ifstatement4\bin\Debug\netcoreapp3.1\ifstatement4.dll
+D:\labwork\ifstatement4\ifstatement4\bin\Debug\netcoreapp3.1\ifstatement4.pdb
+D:\labwork\ifstatement4\ifstatement4\obj\Debug\netcoreapp3.1\ifstatement4.dll
+D:\labwork\ifstatement4\ifstatement4\obj\Debug\netcoreapp3.1\ifstatement4.pdb
+D:\labwork\ifstatement4\ifstatement4\obj\Debug\netcoreapp3.1\ifstatement4.genruntimeconfig.cache

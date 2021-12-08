@@ -1,0 +1,14 @@
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\bin\Debug\netcoreapp3.1\listi.exe
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\bin\Debug\netcoreapp3.1\listi.deps.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\bin\Debug\netcoreapp3.1\listi.runtimeconfig.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\bin\Debug\netcoreapp3.1\listi.runtimeconfig.dev.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\bin\Debug\netcoreapp3.1\listi.dll
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\bin\Debug\netcoreapp3.1\listi.pdb
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\obj\Debug\netcoreapp3.1\listi.csproj.AssemblyReference.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\obj\Debug\netcoreapp3.1\listi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\obj\Debug\netcoreapp3.1\listi.AssemblyInfoInputs.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\obj\Debug\netcoreapp3.1\listi.AssemblyInfo.cs
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\obj\Debug\netcoreapp3.1\listi.csproj.CoreCompileInputs.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\obj\Debug\netcoreapp3.1\listi.dll
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\obj\Debug\netcoreapp3.1\listi.pdb
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 8\listi\listi\obj\Debug\netcoreapp3.1\listi.genruntimeconfig.cache

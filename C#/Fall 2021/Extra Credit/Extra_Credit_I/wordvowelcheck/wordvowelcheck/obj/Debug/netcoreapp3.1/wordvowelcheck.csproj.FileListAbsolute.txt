@@ -1,0 +1,14 @@
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\bin\Debug\netcoreapp3.1\wordvowelcheck.exe
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\bin\Debug\netcoreapp3.1\wordvowelcheck.deps.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\bin\Debug\netcoreapp3.1\wordvowelcheck.runtimeconfig.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\bin\Debug\netcoreapp3.1\wordvowelcheck.runtimeconfig.dev.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\bin\Debug\netcoreapp3.1\wordvowelcheck.dll
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\bin\Debug\netcoreapp3.1\wordvowelcheck.pdb
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\obj\Debug\netcoreapp3.1\wordvowelcheck.csproj.AssemblyReference.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\obj\Debug\netcoreapp3.1\wordvowelcheck.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\obj\Debug\netcoreapp3.1\wordvowelcheck.AssemblyInfoInputs.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\obj\Debug\netcoreapp3.1\wordvowelcheck.AssemblyInfo.cs
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\obj\Debug\netcoreapp3.1\wordvowelcheck.csproj.CoreCompileInputs.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\obj\Debug\netcoreapp3.1\wordvowelcheck.dll
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\obj\Debug\netcoreapp3.1\wordvowelcheck.pdb
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Extra Credit\Extra_Credit_I\wordvowelcheck\wordvowelcheck\obj\Debug\netcoreapp3.1\wordvowelcheck.genruntimeconfig.cache

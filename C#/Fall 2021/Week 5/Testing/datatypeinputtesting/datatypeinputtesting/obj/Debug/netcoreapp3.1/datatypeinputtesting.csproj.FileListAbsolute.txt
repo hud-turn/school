@@ -1,0 +1,12 @@
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\bin\Debug\netcoreapp3.1\datatypeinputtesting.exe
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\bin\Debug\netcoreapp3.1\datatypeinputtesting.deps.json
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\bin\Debug\netcoreapp3.1\datatypeinputtesting.runtimeconfig.json
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\bin\Debug\netcoreapp3.1\datatypeinputtesting.runtimeconfig.dev.json
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\bin\Debug\netcoreapp3.1\datatypeinputtesting.dll
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\bin\Debug\netcoreapp3.1\datatypeinputtesting.pdb
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\obj\Debug\netcoreapp3.1\datatypeinputtesting.AssemblyInfoInputs.cache
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\obj\Debug\netcoreapp3.1\datatypeinputtesting.AssemblyInfo.cs
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\obj\Debug\netcoreapp3.1\datatypeinputtesting.csproj.CoreCompileInputs.cache
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\obj\Debug\netcoreapp3.1\datatypeinputtesting.dll
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\obj\Debug\netcoreapp3.1\datatypeinputtesting.pdb
+D:\school-main\school-main\C#\Fall 2021\Week 5\Testing\datatypeinputtesting\datatypeinputtesting\obj\Debug\netcoreapp3.1\datatypeinputtesting.genruntimeconfig.cache

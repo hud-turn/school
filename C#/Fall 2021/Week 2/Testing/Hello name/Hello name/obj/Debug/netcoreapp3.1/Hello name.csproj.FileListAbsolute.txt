@@ -1,0 +1,13 @@
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\bin\Debug\netcoreapp3.1\Hello name.exe
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\bin\Debug\netcoreapp3.1\Hello name.deps.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\bin\Debug\netcoreapp3.1\Hello name.runtimeconfig.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\bin\Debug\netcoreapp3.1\Hello name.runtimeconfig.dev.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\bin\Debug\netcoreapp3.1\Hello name.dll
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\bin\Debug\netcoreapp3.1\Hello name.pdb
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\obj\Debug\netcoreapp3.1\Hello name.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\obj\Debug\netcoreapp3.1\Hello name.AssemblyInfoInputs.cache
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\obj\Debug\netcoreapp3.1\Hello name.AssemblyInfo.cs
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\obj\Debug\netcoreapp3.1\Hello name.csproj.CoreCompileInputs.cache
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\obj\Debug\netcoreapp3.1\Hello name.dll
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\obj\Debug\netcoreapp3.1\Hello name.pdb
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Hello name\Hello name\obj\Debug\netcoreapp3.1\Hello name.genruntimeconfig.cache

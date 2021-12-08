@@ -1,0 +1,13 @@
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\bin\Debug\netcoreapp3.1\Myname.exe
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\bin\Debug\netcoreapp3.1\Myname.deps.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\bin\Debug\netcoreapp3.1\Myname.runtimeconfig.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\bin\Debug\netcoreapp3.1\Myname.runtimeconfig.dev.json
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\bin\Debug\netcoreapp3.1\Myname.dll
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\bin\Debug\netcoreapp3.1\Myname.pdb
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\obj\Debug\netcoreapp3.1\Myname.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\obj\Debug\netcoreapp3.1\Myname.AssemblyInfoInputs.cache
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\obj\Debug\netcoreapp3.1\Myname.AssemblyInfo.cs
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\obj\Debug\netcoreapp3.1\Myname.csproj.CoreCompileInputs.cache
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\obj\Debug\netcoreapp3.1\Myname.dll
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\obj\Debug\netcoreapp3.1\Myname.pdb
+C:\Users\shamelesshornet\Documents\2021\College\Fall Graphical Interface Programming - BACS 287 - 023\Week 2\Myname\Myname\obj\Debug\netcoreapp3.1\Myname.genruntimeconfig.cache

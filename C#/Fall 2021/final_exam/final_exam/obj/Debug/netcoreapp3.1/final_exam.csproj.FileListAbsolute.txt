@@ -1,0 +1,27 @@
+C:\Users\turn4527\Desktop\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.exe
+C:\Users\turn4527\Desktop\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.deps.json
+C:\Users\turn4527\Desktop\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.runtimeconfig.json
+C:\Users\turn4527\Desktop\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.runtimeconfig.dev.json
+C:\Users\turn4527\Desktop\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.dll
+C:\Users\turn4527\Desktop\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.pdb
+C:\Users\turn4527\Desktop\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.csproj.AssemblyReference.cache
+C:\Users\turn4527\Desktop\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.AssemblyInfoInputs.cache
+C:\Users\turn4527\Desktop\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.AssemblyInfo.cs
+C:\Users\turn4527\Desktop\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.csproj.CoreCompileInputs.cache
+C:\Users\turn4527\Desktop\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.dll
+C:\Users\turn4527\Desktop\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.pdb
+C:\Users\turn4527\Desktop\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.genruntimeconfig.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.exe
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.deps.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.runtimeconfig.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.runtimeconfig.dev.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.dll
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\bin\Debug\netcoreapp3.1\final_exam.pdb
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.csproj.AssemblyReference.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.AssemblyInfoInputs.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.AssemblyInfo.cs
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.csproj.CoreCompileInputs.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.dll
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.pdb
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\final_exam\final_exam\obj\Debug\netcoreapp3.1\final_exam.genruntimeconfig.cache

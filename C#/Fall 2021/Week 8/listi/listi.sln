@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listi", "listi\listi.csproj", "{7B44265D-14CA-4B87-B0A4-24F90DAF3A61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B44265D-14CA-4B87-B0A4-24F90DAF3A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B44265D-14CA-4B87-B0A4-24F90DAF3A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B44265D-14CA-4B87-B0A4-24F90DAF3A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B44265D-14CA-4B87-B0A4-24F90DAF3A61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38489032-8E2C-48B0-AF18-55345DF2E467}
+	EndGlobalSection
+EndGlobal

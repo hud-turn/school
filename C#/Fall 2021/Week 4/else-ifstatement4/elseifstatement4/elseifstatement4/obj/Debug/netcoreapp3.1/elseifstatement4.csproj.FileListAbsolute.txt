@@ -1,0 +1,14 @@
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\bin\Debug\netcoreapp3.1\elseifstatement4.exe
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\bin\Debug\netcoreapp3.1\elseifstatement4.deps.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\bin\Debug\netcoreapp3.1\elseifstatement4.runtimeconfig.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\bin\Debug\netcoreapp3.1\elseifstatement4.runtimeconfig.dev.json
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\bin\Debug\netcoreapp3.1\elseifstatement4.dll
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\bin\Debug\netcoreapp3.1\elseifstatement4.pdb
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\obj\Debug\netcoreapp3.1\elseifstatement4.csproj.AssemblyReference.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\obj\Debug\netcoreapp3.1\elseifstatement4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\obj\Debug\netcoreapp3.1\elseifstatement4.AssemblyInfoInputs.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\obj\Debug\netcoreapp3.1\elseifstatement4.AssemblyInfo.cs
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\obj\Debug\netcoreapp3.1\elseifstatement4.csproj.CoreCompileInputs.cache
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\obj\Debug\netcoreapp3.1\elseifstatement4.dll
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\obj\Debug\netcoreapp3.1\elseifstatement4.pdb
+C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 4\else-ifstatement4\elseifstatement4\elseifstatement4\obj\Debug\netcoreapp3.1\elseifstatement4.genruntimeconfig.cache

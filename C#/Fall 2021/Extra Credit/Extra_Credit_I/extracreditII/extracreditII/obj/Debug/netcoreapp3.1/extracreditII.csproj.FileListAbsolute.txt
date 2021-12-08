@@ -1,0 +1,13 @@
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\bin\Debug\netcoreapp3.1\extracreditII.exe
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\bin\Debug\netcoreapp3.1\extracreditII.deps.json
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\bin\Debug\netcoreapp3.1\extracreditII.runtimeconfig.json
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\bin\Debug\netcoreapp3.1\extracreditII.runtimeconfig.dev.json
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\bin\Debug\netcoreapp3.1\extracreditII.dll
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\bin\Debug\netcoreapp3.1\extracreditII.pdb
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\obj\Debug\netcoreapp3.1\extracreditII.csproj.AssemblyReference.cache
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\obj\Debug\netcoreapp3.1\extracreditII.AssemblyInfoInputs.cache
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\obj\Debug\netcoreapp3.1\extracreditII.AssemblyInfo.cs
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\obj\Debug\netcoreapp3.1\extracreditII.csproj.CoreCompileInputs.cache
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\obj\Debug\netcoreapp3.1\extracreditII.dll
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\obj\Debug\netcoreapp3.1\extracreditII.pdb
+C:\Users\turn4527\Desktop\extracreditII\extracreditII\obj\Debug\netcoreapp3.1\extracreditII.genruntimeconfig.cache

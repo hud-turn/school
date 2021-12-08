@@ -1,0 +1,13 @@
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\obj\Debug\netcoreapp3.1\whileloop2.csproj.AssemblyReference.cache
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\obj\Debug\netcoreapp3.1\whileloop2.AssemblyInfoInputs.cache
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\obj\Debug\netcoreapp3.1\whileloop2.AssemblyInfo.cs
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\obj\Debug\netcoreapp3.1\whileloop2.csproj.CoreCompileInputs.cache
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\bin\Debug\netcoreapp3.1\whileloop2.exe
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\bin\Debug\netcoreapp3.1\whileloop2.deps.json
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\bin\Debug\netcoreapp3.1\whileloop2.runtimeconfig.json
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\bin\Debug\netcoreapp3.1\whileloop2.runtimeconfig.dev.json
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\bin\Debug\netcoreapp3.1\whileloop2.dll
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\bin\Debug\netcoreapp3.1\whileloop2.pdb
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\obj\Debug\netcoreapp3.1\whileloop2.dll
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\obj\Debug\netcoreapp3.1\whileloop2.pdb
+D:\school-main\school-main\C#\Fall 2021\Week 5\whileloop2\whileloop2\obj\Debug\netcoreapp3.1\whileloop2.genruntimeconfig.cache

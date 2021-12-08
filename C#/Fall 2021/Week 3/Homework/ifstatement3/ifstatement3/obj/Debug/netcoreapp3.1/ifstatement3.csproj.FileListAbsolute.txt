@@ -1,0 +1,13 @@
+D:\labwork\ifstatement3\ifstatement3\bin\Debug\netcoreapp3.1\ifstatement3.exe
+D:\labwork\ifstatement3\ifstatement3\bin\Debug\netcoreapp3.1\ifstatement3.deps.json
+D:\labwork\ifstatement3\ifstatement3\bin\Debug\netcoreapp3.1\ifstatement3.runtimeconfig.json
+D:\labwork\ifstatement3\ifstatement3\bin\Debug\netcoreapp3.1\ifstatement3.runtimeconfig.dev.json
+D:\labwork\ifstatement3\ifstatement3\bin\Debug\netcoreapp3.1\ifstatement3.dll
+D:\labwork\ifstatement3\ifstatement3\bin\Debug\netcoreapp3.1\ifstatement3.pdb
+D:\labwork\ifstatement3\ifstatement3\obj\Debug\netcoreapp3.1\ifstatement3.csproj.AssemblyReference.cache
+D:\labwork\ifstatement3\ifstatement3\obj\Debug\netcoreapp3.1\ifstatement3.AssemblyInfoInputs.cache
+D:\labwork\ifstatement3\ifstatement3\obj\Debug\netcoreapp3.1\ifstatement3.AssemblyInfo.cs
+D:\labwork\ifstatement3\ifstatement3\obj\Debug\netcoreapp3.1\ifstatement3.csproj.CoreCompileInputs.cache
+D:\labwork\ifstatement3\ifstatement3\obj\Debug\netcoreapp3.1\ifstatement3.dll
+D:\labwork\ifstatement3\ifstatement3\obj\Debug\netcoreapp3.1\ifstatement3.pdb
+D:\labwork\ifstatement3\ifstatement3\obj\Debug\netcoreapp3.1\ifstatement3.genruntimeconfig.cache

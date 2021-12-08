@@ -1,0 +1,96 @@
+input one
+randomguesser = random guess
+if input one =  random guess
+(
+	then write correct
+)
+else if input one is greater than 10 or less than 1 
+(
+	you can't submit that number, use a number between 1-10
+	input two
+	if input two =  random guess
+	(
+		then write correct
+	)
+	else if input two is greater than 10 or less than 1
+	(
+		you can't submit that number, use a number between 1-10
+		input two
+		if input two =  random guess
+		(
+			then write correct
+		)
+		else if input one is greater than 10 or less than 1
+		(
+			You can't submit that number and you are out of tries.
+		)
+		else
+		(
+			That number was incorrect and you are out of tries
+		)
+	
+	)
+	else input != random guess
+	(
+		that number was incorrect
+		input two
+		if input two =  random guess
+		(
+			then write correct
+		)
+		else if input one is greater than 10 or less than 1
+		(
+			You can't submit that number and you are out of tries.
+		)
+		else
+		(
+			That number was incorrect and you are out of tries
+		)
+	)
+
+)
+else 
+(
+	your answer was incorrect
+	input two
+	if input two =  random guess
+	(
+		then write correct
+	)
+	else if input two is greater than 10 or less than 1
+	(
+		you can't submit that number, use a number between 1-10
+		input two
+		if input two =  random guess
+		(
+			then write correct
+		)
+		else if input one is greater than 10 or less than 1
+		(
+			You can't submit that number and you are out of tries.
+		)
+		else
+		(
+			That number was incorrect and you are out of tries
+		)
+	
+	)
+	else input != random guess
+	(
+		that number was incorrect
+		input two
+		if input two =  random guess
+		(
+			then write correct
+		)
+		else if input one is greater than 10 or less than 1
+		(
+			You can't submit that number and you are out of tries.
+		)
+		else
+		(
+			That number was incorrect and you are out of tries
+		)
+	)
+
+)

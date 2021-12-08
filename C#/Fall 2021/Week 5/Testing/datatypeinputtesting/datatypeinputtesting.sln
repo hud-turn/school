@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datatypeinputtesting", "datatypeinputtesting\datatypeinputtesting.csproj", "{EE98B593-F4FD-40FF-90AA-CAB73725D471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE98B593-F4FD-40FF-90AA-CAB73725D471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE98B593-F4FD-40FF-90AA-CAB73725D471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE98B593-F4FD-40FF-90AA-CAB73725D471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE98B593-F4FD-40FF-90AA-CAB73725D471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DA9A9FB-7635-43A7-99E8-1EC8E2F33275}
+	EndGlobalSection
+EndGlobal
