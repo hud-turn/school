@@ -1,3 +1,6 @@
+Helping People:
+This was a project where I sat down with other students and tried to help them in a tutor like fashion.
+
 Week 2/Output #1: 
 Print all the numbers from 0-25 in ascending order using one integer variable. No string variables allowed.
 
