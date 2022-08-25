@@ -73,6 +73,6 @@ Write a C# console application that has a menu allowing an instructor to:
 	Quit
 	
 Requirements:
-	- Must only use Lists. A list cannot contain any type of array/dictionary/list object.
-	- Grades are of type decimal
-	- Cannot allow creation of a duplicate student based on ID
+- Must only use Lists. A list cannot contain any type of array/dictionary/list object.
+- Grades are of type decimal
+- Cannot allow creation of a duplicate student based on ID
