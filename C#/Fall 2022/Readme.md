@@ -1,4 +1,3 @@
-_______________________________________________________________________________________________________________________________________________________________________
 Assignment Name: List Print
 	Create a list of type string and add 10 arbitrary names (e.g, Mike, Rosa, etc...) to it. 
 	Then sort the list in descending (e.g., Z to A) order and display to screen.

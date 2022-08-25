@@ -66,8 +66,8 @@ Assignment Name: Student Grades Manager 2 (without OOP Concepts)
 	Display % of D's (60-69)
 	Display % of F's (0-59)
 	Quit
+	
 	Requirements:
-
-	Must only use Lists. A list cannot contain any type of array/dictionary/list object.
-	Grades are of type decimal
-	Cannot allow creation of a duplicate student based on ID
+		- Must only use Lists. A list cannot contain any type of array/dictionary/list object.
+		- Grades are of type decimal
+		- Cannot allow creation of a duplicate student based on ID
