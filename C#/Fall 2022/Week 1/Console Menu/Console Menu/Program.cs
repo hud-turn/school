@@ -8,10 +8,10 @@ namespace ConsoleMenu
             int intuserinput = 0;
             while (intuserinput != 2)
             {
-                Console.Clear();
-                Console.WriteLine("Please select one of the following:\n1. About this developer\n2. Exit the program");
                 string struserinput = Console.ReadLine();
                 intuserinput = int.Parse(struserinput);
+                Console.Clear();
+                Console.WriteLine("Please select one of the following:\n1. About this developer\n2. Exit the program");
                 if (intuserinput == 1)
                 {
                     Console.Clear();
