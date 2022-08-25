@@ -21,7 +21,7 @@ Assignment Name: Analytics
 
 	-Find maximum number and display to screen.
 --------------------------------------------------------------------------------------
-Assignment Name: Student Grades Manager 1 (without OOP Concepts)
+Assignment Name: 
 	Write a C# console application that allows me to type in any word and get the value of the word. You will calculate the value of the word by assigning a value to each letter starting with A going through Z. You will use the Fibonacci sequence (Links to an external site.) to assign values.  Start your sequence with zero so then the values will start as follows:
 
 	A	=	0
