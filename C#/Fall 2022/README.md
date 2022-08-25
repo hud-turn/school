@@ -24,7 +24,8 @@ ________________________________________________________________________________
 Assignment Name: Student Grades Manager 1 (without OOP Concepts)
 	Write a C# console application that allows me to type in any word and get the value of the word. 
 	You will calculate the value of the word by assigning a value to each letter starting with A going through Z. 
-	You will use the Fibonacci sequence (Links to an external site.) to assign values.  Start your sequence with zero so then the values will start as follows:
+	You will use the Fibonacci sequence (Links to an external site.) to assign values.  
+	Start your sequence with zero so then the values will start as follows:
 
 	A	=	0
 	B	=	1
@@ -35,11 +36,13 @@ Assignment Name: Student Grades Manager 1 (without OOP Concepts)
 	G	=	8
 	...	..	..
 	Z	=	75025
-	Using this series, the value of the word "CAB" would be equal to 2. This is because C = 1, A = 0, and B = 1; 1 + 0 + 1 = 2.
+	Using this series, the value of the word "CAB" would be equal to 2. 
+	This is because C = 1, A = 0, and B = 1; 1 + 0 + 1 = 2.
 
 	I should be able to type in any word and get a single number value back that represents the "value" of the word. 
 
-	Below are some test words that you can use to validate that your code is working properly. I will also test your code with other words. 
+	Below are some test words that you can use to validate that your code is working properly. 
+	I will also test your code with other words. 
 
 	UNC	6999
 	objects	7181
