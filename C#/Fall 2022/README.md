@@ -22,7 +22,9 @@ Assignment Name: Analytics
 	-Find maximum number and display to screen.
 _______________________________________________________________________________________________________________________________________________________________________
 Assignment Name: Student Grades Manager 1 (without OOP Concepts)
-	Write a C# console application that allows me to type in any word and get the value of the word. You will calculate the value of the word by assigning a value to each letter starting with A going through Z. You will use the Fibonacci sequence (Links to an external site.) to assign values.  Start your sequence with zero so then the values will start as follows:
+	Write a C# console application that allows me to type in any word and get the value of the word. 
+	You will calculate the value of the word by assigning a value to each letter starting with A going through Z. 
+	You will use the Fibonacci sequence (Links to an external site.) to assign values.  Start your sequence with zero so then the values will start as follows:
 
 	A	=	0
 	B	=	1
@@ -46,7 +48,8 @@ Assignment Name: Student Grades Manager 1 (without OOP Concepts)
 	Polymorphism	52934
 _______________________________________________________________________________________________________________________________________________________________________
 Assignment Name: Student Grades Manager 2 (without OOP Concepts)
-	Write a C# console application that has a menu allowing an instructor to:
+	
+Write a C# console application that has a menu allowing an instructor to:
 
 	Enter Students (id, first name, last name)
 	Enter Student grade (e.g, 0-100; ex: 92.5)
@@ -66,7 +69,7 @@ Assignment Name: Student Grades Manager 2 (without OOP Concepts)
 	Display % of F's (0-59)
 	Quit
 	
-	Requirements:
-		- Must only use Lists. A list cannot contain any type of array/dictionary/list object.
-		- Grades are of type decimal
-		- Cannot allow creation of a duplicate student based on ID
+Requirements:
+	- Must only use Lists. A list cannot contain any type of array/dictionary/list object.
+	- Grades are of type decimal
+	- Cannot allow creation of a duplicate student based on ID
