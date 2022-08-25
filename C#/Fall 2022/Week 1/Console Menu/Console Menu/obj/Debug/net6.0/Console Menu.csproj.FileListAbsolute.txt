@@ -1,0 +1,15 @@
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\bin\Debug\net6.0\Console Menu.exe
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\bin\Debug\net6.0\Console Menu.deps.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\bin\Debug\net6.0\Console Menu.runtimeconfig.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\bin\Debug\net6.0\Console Menu.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\bin\Debug\net6.0\Console Menu.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\obj\Debug\net6.0\Console Menu.csproj.AssemblyReference.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\obj\Debug\net6.0\Console Menu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\obj\Debug\net6.0\Console Menu.AssemblyInfoInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\obj\Debug\net6.0\Console Menu.AssemblyInfo.cs
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\obj\Debug\net6.0\Console Menu.csproj.CoreCompileInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\obj\Debug\net6.0\Console Menu.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\obj\Debug\net6.0\refint\Console Menu.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\obj\Debug\net6.0\Console Menu.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\obj\Debug\net6.0\Console Menu.genruntimeconfig.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Console Menu\Console Menu\obj\Debug\net6.0\ref\Console Menu.dll
