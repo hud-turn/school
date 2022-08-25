@@ -164,7 +164,8 @@ Write a program that asks the user to enter 10 numbers, that range from 0-100.
 Make sure that you do not accept any numbers less than 0, if a user enters a number that is less than 0 then ask him again. 
 Once the user enters all 10 numbers, find and print out the median.
 
-How to calculate the Median
+How to calculate the Median:
+
 The median is the middle score of a distribution. To calculate the median
 Arrange your numbers in numerical order.
 Count how many numbers you have.
@@ -204,7 +205,7 @@ Week 8/List #1:
 Write a program that asks the user to enter numbers, that range from 0-100. If a user enters -1 then stop asking the user to enter numbers. 
 At this point find and print out the median value.
 
-How to calculate the Median
+How to calculate the Median:
 The median is the middle score of a distribution. To calculate the median
 Arrange your numbers in numerical order.
 Count how many numbers you have.
