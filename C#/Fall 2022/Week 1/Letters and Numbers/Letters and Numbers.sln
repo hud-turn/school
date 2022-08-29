@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Letters and Numbers", "Letters and Numbers.csproj", "{6ECFECCB-EB11-4F13-B233-0CA7273013FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ECFECCB-EB11-4F13-B233-0CA7273013FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECFECCB-EB11-4F13-B233-0CA7273013FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ECFECCB-EB11-4F13-B233-0CA7273013FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECFECCB-EB11-4F13-B233-0CA7273013FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24BEAD17-8470-4DC1-B55D-592F2634EFDD}
+	EndGlobalSection
+EndGlobal
