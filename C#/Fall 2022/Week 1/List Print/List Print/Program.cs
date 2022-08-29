@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.Generic;//importing the library that allows us to use list
 
 namespace ListPrint
 {
