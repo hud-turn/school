@@ -1,0 +1,15 @@
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\bin\Debug\net6.0\List Print.exe
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\bin\Debug\net6.0\List Print.deps.json
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\bin\Debug\net6.0\List Print.runtimeconfig.json
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\bin\Debug\net6.0\List Print.dll
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\bin\Debug\net6.0\List Print.pdb
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\obj\Debug\net6.0\List Print.csproj.AssemblyReference.cache
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\obj\Debug\net6.0\List Print.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\obj\Debug\net6.0\List Print.AssemblyInfoInputs.cache
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\obj\Debug\net6.0\List Print.AssemblyInfo.cs
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\obj\Debug\net6.0\List Print.csproj.CoreCompileInputs.cache
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\obj\Debug\net6.0\List Print.dll
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\obj\Debug\net6.0\refint\List Print.dll
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\obj\Debug\net6.0\List Print.pdb
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\obj\Debug\net6.0\List Print.genruntimeconfig.cache
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 1\List Print\List Print\obj\Debug\net6.0\ref\List Print.dll
