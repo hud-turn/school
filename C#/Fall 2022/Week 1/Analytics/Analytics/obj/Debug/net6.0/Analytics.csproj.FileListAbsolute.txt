@@ -1,0 +1,15 @@
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\obj\Debug\net6.0\Analytics.csproj.AssemblyReference.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\obj\Debug\net6.0\Analytics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\obj\Debug\net6.0\Analytics.AssemblyInfoInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\obj\Debug\net6.0\Analytics.AssemblyInfo.cs
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\obj\Debug\net6.0\Analytics.csproj.CoreCompileInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\bin\Debug\net6.0\Analytics.exe
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\bin\Debug\net6.0\Analytics.deps.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\bin\Debug\net6.0\Analytics.runtimeconfig.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\bin\Debug\net6.0\Analytics.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\bin\Debug\net6.0\Analytics.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\obj\Debug\net6.0\Analytics.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\obj\Debug\net6.0\refint\Analytics.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\obj\Debug\net6.0\Analytics.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\obj\Debug\net6.0\Analytics.genruntimeconfig.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Analytics\Analytics\obj\Debug\net6.0\ref\Analytics.dll
