@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Hudson Turner\\.nuget\\packages\\": {}
+    "C:\\Users\\turn4527\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 1\\Letters and Numbers\\Letters and Numbers.csproj",
+      "projectUniqueName": "C:\\Users\\turn4527\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 1\\Letters and Numbers\\Letters and Numbers.csproj",
       "projectName": "Letters and Numbers",
-      "projectPath": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 1\\Letters and Numbers\\Letters and Numbers.csproj",
-      "packagesPath": "C:\\Users\\Hudson Turner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 1\\Letters and Numbers\\obj\\",
+      "projectPath": "C:\\Users\\turn4527\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 1\\Letters and Numbers\\Letters and Numbers.csproj",
+      "packagesPath": "C:\\Users\\turn4527\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\turn4527\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 1\\Letters and Numbers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hudson Turner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\turn4527\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
