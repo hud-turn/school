@@ -1,0 +1,15 @@
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\bin\Debug\net6.0\Fibonacci Sequence.exe
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\bin\Debug\net6.0\Fibonacci Sequence.deps.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\bin\Debug\net6.0\Fibonacci Sequence.runtimeconfig.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\bin\Debug\net6.0\Fibonacci Sequence.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\bin\Debug\net6.0\Fibonacci Sequence.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\obj\Debug\net6.0\Fibonacci Sequence.csproj.AssemblyReference.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\obj\Debug\net6.0\Fibonacci Sequence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\obj\Debug\net6.0\Fibonacci Sequence.AssemblyInfoInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\obj\Debug\net6.0\Fibonacci Sequence.AssemblyInfo.cs
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\obj\Debug\net6.0\Fibonacci Sequence.csproj.CoreCompileInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\obj\Debug\net6.0\Fibonacci Sequence.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\obj\Debug\net6.0\refint\Fibonacci Sequence.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\obj\Debug\net6.0\Fibonacci Sequence.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\obj\Debug\net6.0\Fibonacci Sequence.genruntimeconfig.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Fibonacci Sequence\Fibonacci Sequence\obj\Debug\net6.0\ref\Fibonacci Sequence.dll
