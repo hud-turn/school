@@ -1,0 +1,15 @@
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\bin\Release\net6.0\Letters and Numbers.exe
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\bin\Release\net6.0\Letters and Numbers.deps.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\bin\Release\net6.0\Letters and Numbers.runtimeconfig.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\bin\Release\net6.0\Letters and Numbers.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\bin\Release\net6.0\Letters and Numbers.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\obj\Release\net6.0\Letters and Numbers.csproj.AssemblyReference.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\obj\Release\net6.0\Letters and Numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\obj\Release\net6.0\Letters and Numbers.AssemblyInfoInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\obj\Release\net6.0\Letters and Numbers.AssemblyInfo.cs
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\obj\Release\net6.0\Letters and Numbers.csproj.CoreCompileInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\obj\Release\net6.0\Letters and Numbers.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\obj\Release\net6.0\refint\Letters and Numbers.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\obj\Release\net6.0\Letters and Numbers.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\obj\Release\net6.0\Letters and Numbers.genruntimeconfig.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 1\Letters and Numbers\obj\Release\net6.0\ref\Letters and Numbers.dll

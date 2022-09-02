@@ -10,7 +10,7 @@ namespace lettersandnumbers
 
             string strinput = Console.ReadLine();//getting the user input
             string str = strinput.ToLower();//converts the string to uppercase so that the program will accept the input
-            int inttest = strinput.Length, inttotal = 0, iq = 0, test = 0;//setting parametrs for the program
+            int inttest = strinput.Length, inttotal = 0, iq = 0, test = 0;//setting parameters for the program
 
             List<string> stringlist = new List<string> {};//creating a list that we load the user input into
             List<char> letters = new List<char> {};//creating the alphabet and also allowing for spaces in the word
