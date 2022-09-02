@@ -1,12 +1,15 @@
 ﻿List<int> numbers = new List<int> { };
-for (int intfibone = 0, intfiblst = 0; intfiblst != 26; intfiblst++)//creating the fibonacci sequence
+
+for (int i = 0, a = 0, b = 1, c = 0, len =26; i < len; i++)
 {
-    numbers.Add(intfibone);
+    c = a + b;
+    numbers.Add(a);
+    a = b;
+    b = c;
+    
+}
 
-    if (intfiblst == 1)
-    {
-        intfibone++;
-    }
-
-    Console.WriteLine(intfibone);
+foreach(int q in numbers)
+{
+    Console.WriteLine(q);
 }
