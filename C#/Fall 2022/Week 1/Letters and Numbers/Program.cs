@@ -22,7 +22,7 @@ namespace lettersandnumbers
             for (int i = 0, a = 0, b = 1, c = 0, len = 26; i < len; i++)//creating the fibonnaci sequence of numbers
             {
                 c = a + b;
-                numbers.Add(a);
+                numbers.Add(a);//inputing the numbers into a list
                 a = b;
                 b = c;
             }
