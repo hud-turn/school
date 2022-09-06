@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Student Grades Manager 1 (without OOP Concepts)/1.0.0": {
+        "runtime": {
+          "Student Grades Manager 1 (without OOP Concepts).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Student Grades Manager 1 (without OOP Concepts)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
