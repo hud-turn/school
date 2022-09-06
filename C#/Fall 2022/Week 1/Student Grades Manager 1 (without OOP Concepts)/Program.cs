@@ -29,26 +29,26 @@ namespace ListPrint
                     Console.WriteLine("Great! You entered the student's information.\nYou will be returned to the main menu in 3 seconds.");
                     System.Threading.Thread.Sleep(3000);//tells the program to sleep for 3000 milliseconds
                 }
-                else if (intuserinput == 2)
+                else if (intuserinput == 2)//if the user selects the display student grade average
                 {
                     Console.Clear();
-                    decimal decsuminput = 0;
+                    decimal decsuminput = 0;//resets the sum
                     foreach (decimal dec in decgrdlst)
                     {
-                        decsuminput += dec;
+                        decsuminput += dec;//recomputes the sum
                     }
-                    Console.WriteLine("The average grade of the students in this class is " + decsuminput/decgrdlst.Count() + "\nPlease hit [ENTER] to return to the main menu.");
-                    Console.ReadKey();
+                    Console.WriteLine("The average grade of the students in this class is: " + decsuminput/decgrdlst.Count() + "\nYou will be returned to the main menu in 3 seconds.");//outputs the student grade average
+                    System.Threading.Thread.Sleep(3000);//tells the program to sleep for 3000 milliseconds
                 }
                 else if (intuserinput == 3)
                 {
-                    Console.Clear();
+                    Console.Clear();//clears console and prevents the else from catching a 3
                 }
                 else
                 {
                     Console.Clear();
-                    Console.WriteLine("Hello!\n\nYou input an improper number.\nPlease try again and input a number between 1 - 3.\nPlease hit [ENTER] to return to the main menu.");
-                    Console.ReadKey();
+                    Console.WriteLine("Hello!\n\nYou input an improper number.\nPlease try again and input a number between 1 - 3.\nYou will be returned to the main menu in 3 seconds.");
+                    System.Threading.Thread.Sleep(3000);//tells the program to sleep for 3000 milliseconds
                 }
                 Console.Clear();
             }
