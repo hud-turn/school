@@ -8,36 +8,46 @@ namespace ListPrint
         static void Main(string[] args)
         {
             List<string> strnamelst = new List<string> { };//creating the empty list
-            List<int> intamelst = new List<int> { };//creating the empty list
+            List<decimal> decgrdlst = new List<decimal> { };//creating the empty list
             int intuserinput = 0;
+            
             while (intuserinput != 3)
             {
                 
                 Console.WriteLine("Please select one of the following commands to issue:");
-                Console.WriteLine("1. Enter Students (name, grade)\n2. Display student grade average\n3. Quit");
+                Console.Write("1. Enter Students (name, grade)\n2. Display student grade average\n3. Quit\nWhat would you like to do?: ");//gives the user
                 intuserinput = int.Parse(Console.ReadLine());
                 if (intuserinput == 1)
                 {
-                    Console.Clear();
-                    Console.WriteLine("1");
-                    Console.ReadKey();
+                    Console.Clear();//clears terminal
+                    Console.WriteLine("Please input the name of the student you want to add:");//tells the user how to use the program
+                    strnamelst.Add(Console.ReadLine());
+                    Console.Clear();//clear
+                    Console.WriteLine("Please input the letter grade of the student you just added:");
+                    decgrdlst.Add(decimal.Parse(Console.ReadLine()));//converts a string to a decimal and then adds it to the decimal list
+                    Console.Clear();//clears console
+                    Console.WriteLine("Great! You entered the student's information.\nYou will be returned to the main menu in 3 seconds.");
+                    System.Threading.Thread.Sleep(3000);//tells the program to sleep for 3000 milliseconds
                 }
                 else if (intuserinput == 2)
                 {
                     Console.Clear();
-                    Console.WriteLine("2");
+                    decimal decsuminput = 0;
+                    foreach (decimal dec in decgrdlst)
+                    {
+                        decsuminput += dec;
+                    }
+                    Console.WriteLine("The average grade of the students in this class is " + decsuminput/decgrdlst.Count() + "\nPlease hit [ENTER] to return to the main menu.");
                     Console.ReadKey();
                 }
                 else if (intuserinput == 3)
                 {
                     Console.Clear();
-                    Console.WriteLine("3");
-                    Console.ReadKey();
                 }
                 else
                 {
                     Console.Clear();
-                    Console.WriteLine("Else");
+                    Console.WriteLine("Hello!\n\nYou input an improper number.\nPlease try again and input a number between 1 - 3.\nPlease hit [ENTER] to return to the main menu.");
                     Console.ReadKey();
                 }
                 Console.Clear();
