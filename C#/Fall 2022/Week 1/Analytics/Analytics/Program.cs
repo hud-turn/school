@@ -7,33 +7,33 @@ namespace ListPrint
     {
         static void Main(string[] args)
         {
-            List<float> fltlst = new List<float> {};//creating the empty list
-            fltlst.Add(1);
-            fltlst.Add(2);
-            fltlst.Add(3);
-            fltlst.Add(4);//adding to the empty list
-            fltlst.Add(5);
-            fltlst.Add(6);
-            fltlst.Add(7);
-            fltlst.Add(8);
-            fltlst.Add(9);
-            fltlst.Add(10);
+            List<double> dbllst = new List<double> {};//creating the empty list
+            dbllst.Add(1.5574);
+            dbllst.Add(268762);
+            dbllst.Add(3.65461);
+            dbllst.Add(4.64687);//adding to the empty list
+            dbllst.Add(565464);
+            dbllst.Add(62138);
+            dbllst.Add(7.1654);
+            dbllst.Add(8.167);
+            dbllst.Add(9.16579);
+            dbllst.Add(10.654164);
 
-            float fltsum = 0, fltmax = float.MinValue, fltmin = float.MaxValue;//setting values
+            double dblsum = 0, dblmax = float.MinValue, dblmin = float.MaxValue;//setting values
             //int inti = 9;//starting at 9 and counting down
-            for (int i = 0; i != fltlst.Count(); i++)//for loop to iterate through the list and add it to the sum
+            for (int i = 0; i != dbllst.Count(); i++)//for loop to iterate through the list and add it to the sum
             {
-                if (fltlst[i] > fltmax)
+                if (dbllst[i] > dblmax)//logic for determining min and max values
                 {
-                    fltmax = fltlst[i];
+                    dblmax = dbllst[i];
                 }
-                if (fltlst[i] < fltmin)
+                if (dbllst[i] < dblmin)//logic for determining min and max values
                 {
-                    fltmin = fltlst[i];
+                    dblmin = dbllst[i];
                 }
-                fltsum += fltlst[i];//this adds the list number 
+                dblsum += dbllst[i];//this adds the list number 
             }
-            Console.WriteLine(fltsum/fltlst.Count() + " " + fltmin + " " + fltmax);
+            Console.WriteLine("The average of the list is: " + dblsum/dbllst.Count() + "\nThe minimum number in the list is: " + dblmin + "\nThe maximum number in the list is: " + dblmax);//outputting results
             
             Console.ReadKey();//preventing the program from closing
         }
