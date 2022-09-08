@@ -22,26 +22,27 @@ namespace ListPrint
                 if (intuserinput == 1)//if the user selects the enter students name and grade option
                 {
                     Console.Clear();//clears terminal
-                    Console.WriteLine("Please input the ID of the student you want to add. \nA student ID should start with UNC and contain 9 letters (Between A-F) and numbers.\nFor Example:\nUNC351175209\nUNCA0257AFBC\nUNCE7941F7F1\n\nPlease Input the ID for the Student: ");//tells the user how to use the program
+                    Console.WriteLine("Please input the ID of the student you want to add. \nA student ID should start with UNC and contain 9 letters (Between A-F) and numbers.\n\nFor Example:\nUNC351175209\nUNCA0257AFBC\nUNCE7941F7F1\n\nPlease Input the ID for the Student: ");//tells the user how to use the program
                     strstud_idlst.Add(Console.ReadLine());//adding name to list
                     Console.Clear();//clear
                     Console.WriteLine("Please input the first name of the student you want to add:");//telling user what to do
                     strfirstnamelst.Add(Console.ReadLine());//converts a string to a decimal and then adds it to the decimal list
                     Console.Clear();//clears console
                     Console.WriteLine("Please input the last name of the student you want to add:");//telling user what to do
-                    strfirstnamelst.Add(Console.ReadLine());//converts a string to a decimal and then adds it to the decimal list
+                    strlastnamelst.Add(Console.ReadLine());//converts a string to a decimal and then adds it to the decimal list
                     Console.WriteLine("Great! You entered the student's information.\nYou will be returned to the main menu in 3 seconds.");//telling user what to do
                     System.Threading.Thread.Sleep(3000);//tells the program to sleep for 3000 milliseconds
                 }
                 else if (intuserinput == 2)//if the user selects the display student grade average
                 {
                     Console.Clear();//clears terminal
-                    decimal decsuminput = 0;//resets the sum
-                    foreach (string first in strfirstnamelst)
+                    //decimal decsuminput = 0;//resets the sum
+                    Console.WriteLine("  ID          | Full Name");
+                    for (int i = 0; i != strfirstnamelst.Count(); i++)
                     {
-                        Console.WriteLine(first);//recomputes the sum
+                        Console.WriteLine(" " + strstud_idlst[i] + " | " + strfirstnamelst[i] + " " + strlastnamelst[i]);
                     }
-                    Console.WriteLine("The average grade of the students in this class is: " + decsuminput / decgrdlst.Count() + "\nYou will be returned to the main menu in 3 seconds.");//outputs the student grade average
+                    Console.WriteLine("The average grade of the students in this class is:x \nYou will be returned to the main menu in 3 seconds.");//outputs the student grade average
                     System.Threading.Thread.Sleep(3000);//tells the program to sleep for 3000 milliseconds
                 }
                 else if (intuserinput == 3)
