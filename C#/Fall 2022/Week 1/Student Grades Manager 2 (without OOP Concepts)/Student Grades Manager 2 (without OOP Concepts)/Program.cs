@@ -42,7 +42,8 @@ namespace ListPrint
                     {
                         Console.WriteLine(" " + strstud_idlst[i] + " | " + strfirstnamelst[i] + " " + strlastnamelst[i]);
                     }
-                    Console.WriteLine("The average grade of the students in this class is:x \nYou will be returned to the main menu in 3 seconds.");//outputs the student grade average
+                    Console.WriteLine("Please input the Student ID of the grade you want to modify: ");//outputs the student grade average
+                    decgrdlst.Add(decimal.Parse(Console.ReadLine()));
                     System.Threading.Thread.Sleep(3000);//tells the program to sleep for 3000 milliseconds
                 }
                 else if (intuserinput == 3)
