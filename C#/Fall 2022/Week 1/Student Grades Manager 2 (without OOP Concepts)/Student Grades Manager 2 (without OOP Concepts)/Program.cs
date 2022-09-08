@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;//importing the library that allows us to use list
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ListPrint
 {
@@ -11,8 +12,8 @@ namespace ListPrint
             List<string> strlastnamelst = new List<string> { };//creating the empty list
             List<string> strstud_idlst = new List<string> { };
             List<decimal> decgrdlst = new List<decimal> { };//creating the empty list
-            int intuserinput = 0;
-
+            int intuserinput = 0, intiterator;
+            string strstu_id;
             while (intuserinput != 5)
             {
 
@@ -30,8 +31,10 @@ namespace ListPrint
                     Console.Clear();//clears console
                     Console.WriteLine("Please input the last name of the student you want to add:");//telling user what to do
                     strlastnamelst.Add(Console.ReadLine());//converts a string to a decimal and then adds it to the decimal list
-                    Console.WriteLine("Great! You entered the student's information.\nYou will be returned to the main menu in 3 seconds.");//telling user what to do
-                    System.Threading.Thread.Sleep(3000);//tells the program to sleep for 3000 milliseconds
+                    decgrdlst.Add(-500);
+                    Console.WriteLine("Great! You entered the student's information.\nPlease hit enter to return to the main menu");//telling user what to do
+                    Console.ReadKey();
+                    System.Threading.Thread.Sleep(100);//tells the program to sleep for 100 milliseconds
                 }
                 else if (intuserinput == 2)//if the user selects the display student grade average
                 {
@@ -43,8 +46,38 @@ namespace ListPrint
                         Console.WriteLine(" " + strstud_idlst[i] + " | " + strfirstnamelst[i] + " " + strlastnamelst[i]);
                     }
                     Console.WriteLine("Please input the Student ID of the grade you want to modify: ");//outputs the student grade average
-                    decgrdlst.Add(decimal.Parse(Console.ReadLine()));
-                    System.Threading.Thread.Sleep(3000);//tells the program to sleep for 3000 milliseconds
+                    strstu_id = Console.ReadLine();
+                    intiterator = 0;
+                    foreach (string strstudentid in strstud_idlst)
+                    {
+                        if (intiterator != 12 && strstud_idlst[intiterator].Contains(strstudentid))//checks to see if intiterator is less than 26 and if the letter in the array is the same as the one in the list
+                        {
+                            for(int i = 0; i != 503;)
+                            {
+                                Console.WriteLine("Please input the grade for " + strfirstnamelst[intiterator] + strlastnamelst[intiterator] + " :");
+                                decgrdlst[intiterator] = decimal.Parse(Console.ReadLine());
+                                if (decgrdlst[intiterator] > 100 || decgrdlst[intiterator] < 0)
+                                {
+                                    Console.Clear();
+                                    Console.Write("Please input a valid number between 0 and 100.\nPlease input a new grade");
+                                    decgrdlst[intiterator] = decimal.Parse(Console.ReadLine());
+                                    Console.Clear();
+                                }
+                                else
+                                {
+                                    i = 503;
+                                }
+                            }
+                        }
+                        if (intiterator == 12)//this will detect if we have reached the end of the alphabet
+                        {
+                            intiterator = -1;//this will reset intiterator so that we don't go out of range
+                        }
+                        intiterator++;
+                        //Console.WriteLine("Inttotal" + inttotal); This was here for testing
+                        //Console.ReadKey(); This was here for testing
+                    }
+                    System.Threading.Thread.Sleep(100);//tells the program to sleep for 3000 milliseconds
                 }
                 else if (intuserinput == 3)
                 {
