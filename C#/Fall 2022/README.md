@@ -1,18 +1,18 @@
-Assignment Name: List Print
+Week 1/Assignment Name: List Print
 	Create a list of type string and add 10 arbitrary names (e.g, Mike, Rosa, etc...) to it. 
 	Then sort the list in descending (e.g., Z to A) order and display to screen.
 _______________________________________________________________________________________________________________________________________________________________________
-Assignment Name: Console Menu
+Week 1/Assignment Name: Console Menu
 	Write a C# console application that has a menu with the following options:
 
 	1. About this developer: display anything interesting about you.
 	2. Quit: this option will quit the application. 
 _______________________________________________________________________________________________________________________________________________________________________
-Assignment Name: Remove from list
+Week 1/Assignment Name: Remove from list
 	Modify your "List Print" assignment where after you print the names, you ask the user to enter a name to remove from the list.  
 	Then display the new list.
 _______________________________________________________________________________________________________________________________________________________________________
-Assignment Name: Analytics
+Week 1/Assignment Name: Analytics
 	Create a list of type decimal and add 10  decimal numbers to it.
 
 	-Calculate the average and display to screen.
@@ -21,7 +21,7 @@ Assignment Name: Analytics
 
 	-Find maximum number and display to screen.
 _______________________________________________________________________________________________________________________________________________________________________
-Assignment Name: Student Grades Manager 1 (without OOP Concepts)
+Week 1/Assignment Name: Student Grades Manager 1 (without OOP Concepts)
 	Write a C# console application that allows me to type in any word and get the value of the word. 
 	You will calculate the value of the word by assigning a value to each letter starting with A going through Z. 
 	You will use the Fibonacci sequence (Links to an external site.) to assign values.  
@@ -50,7 +50,7 @@ Assignment Name: Student Grades Manager 1 (without OOP Concepts)
 	Zoology	122621
 	Polymorphism	52934
 _______________________________________________________________________________________________________________________________________________________________________
-Assignment Name: Student Grades Manager 2 (without OOP Concepts)
+Week 1/Assignment Name: Student Grades Manager 2 (without OOP Concepts)
 	
 Write a C# console application that has a menu allowing an instructor to:
 
