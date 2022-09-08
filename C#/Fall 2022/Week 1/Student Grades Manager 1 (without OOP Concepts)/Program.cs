@@ -37,7 +37,7 @@ namespace ListPrint
                     {
                         decsuminput += dec;//recomputes the sum
                     }
-                    Console.WriteLine("The average grade of the students in this class is: " + Math.Round(decsuminput/decgrdlst.Count(),2) + "\nYou will be returned to the main menu in 3 seconds.");//outputs the student grade average
+                    Console.WriteLine("The average grade of the students in this class is: " + decsuminput/decgrdlst.Count() + "\nYou will be returned to the main menu in 3 seconds.");//outputs the student grade average
                     System.Threading.Thread.Sleep(3000);//tells the program to sleep for 3000 milliseconds
                 }
                 else if (intuserinput == 3)
