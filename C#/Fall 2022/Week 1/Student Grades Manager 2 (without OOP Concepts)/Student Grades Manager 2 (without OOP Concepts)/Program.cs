@@ -45,10 +45,10 @@ namespace ListPrint
                     {
                         Console.WriteLine(" " + strstud_idlst[i] + " | " + strfirstnamelst[i] + " " + strlastnamelst[i]);
                     }
-                    Console.WriteLine("Please input the Student ID of the grade you want to modify: ");//outputs the student grade average
+                    Console.Write("Please input the Student ID of the grade you want to modify: ");//outputs the student grade average
                     strstu_id = Console.ReadLine();
                     intiterator = 0;
-                    foreach (string strstudentid in strstud_idlst)
+                    for(int strstudentid = 0;strstudentid!=0;)
                     {
                         if (intiterator != 12 && strstud_idlst[intiterator].Contains(strstudentid))//checks to see if intiterator is less than 26 and if the letter in the array is the same as the one in the list
                         {
@@ -81,7 +81,33 @@ namespace ListPrint
                 }
                 else if (intuserinput == 3)
                 {
-                   
+                    Console.Clear();//clears terminal
+                    //decimal decsuminput = 0;//resets the sum
+                    Console.WriteLine("  ID          | Full Name");
+                    for (int i = 0; i != strfirstnamelst.Count(); i++)
+                    {
+                        Console.WriteLine(" " + strstud_idlst[i] + " | " + strfirstnamelst[i] + " " + strlastnamelst[i]);
+                    }
+                    Console.Write("Please input the Student ID of the student you want to remove from the system: ");//outputs the student grade average
+                    strstu_id = Console.ReadLine();
+                    intiterator = 0;
+                    foreach (string strstudentid in strstud_idlst)
+                    {
+                        if (intiterator != strstud_idlst.Count() && strstud_idlst[intiterator].Contains(strstudentid))
+                        {
+                            strstud_idlst[intiterator].Remove(intiterator);
+                            strfirstnamelst[intiterator].Remove(intiterator);
+                            strlastnamelst[intiterator].Remove(intiterator);
+
+                        }
+                        if (intiterator == 12)//this will detect if we have reached the end of the alphabet
+                        {
+                            intiterator = -1;//this will reset intiterator so that we don't go out of range
+                        }
+                        intiterator++;
+                        //Console.WriteLine("Inttotal" + inttotal); This was here for testing
+                        //Console.ReadKey(); This was here for testing
+                    }
                 }
                 else if (intuserinput == 4 )
                 {
