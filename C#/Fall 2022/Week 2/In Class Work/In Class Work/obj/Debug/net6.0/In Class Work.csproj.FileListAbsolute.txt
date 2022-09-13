@@ -1,0 +1,15 @@
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\bin\Debug\net6.0\In Class Work.exe
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\bin\Debug\net6.0\In Class Work.deps.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\bin\Debug\net6.0\In Class Work.runtimeconfig.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\bin\Debug\net6.0\In Class Work.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\bin\Debug\net6.0\In Class Work.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\obj\Debug\net6.0\In Class Work.csproj.AssemblyReference.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\obj\Debug\net6.0\In Class Work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\obj\Debug\net6.0\In Class Work.AssemblyInfoInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\obj\Debug\net6.0\In Class Work.AssemblyInfo.cs
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\obj\Debug\net6.0\In Class Work.csproj.CoreCompileInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\obj\Debug\net6.0\In Class Work.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\obj\Debug\net6.0\refint\In Class Work.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\obj\Debug\net6.0\In Class Work.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\obj\Debug\net6.0\In Class Work.genruntimeconfig.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\In Class Work\In Class Work\obj\Debug\net6.0\ref\In Class Work.dll

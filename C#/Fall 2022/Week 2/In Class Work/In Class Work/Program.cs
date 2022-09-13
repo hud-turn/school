@@ -1,11 +1,13 @@
-﻿using System;
-namespace ConsoleApp3
+﻿using In_Class_Work;
+using System;
+namespace In_Class_Work
 {
     class Program
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Student mySelf = new Student("Moe ", "Manshad");
+            Console.WriteLine(mySelf.FirstName + mySelf.LastName);
         }
     }
 }
