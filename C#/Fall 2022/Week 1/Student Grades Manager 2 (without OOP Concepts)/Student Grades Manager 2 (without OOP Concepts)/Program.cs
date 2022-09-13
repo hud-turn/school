@@ -50,7 +50,7 @@ namespace ListPrint
                     intiterator = 0;
                     for(int strstudentid = 0;strstudentid!=0;)
                     {
-                        if (intiterator != 12 && strstud_idlst[intiterator].Contains(strstudentid))//checks to see if intiterator is less than 26 and if the letter in the array is the same as the one in the list
+                        if (intiterator != 12 && strstud_idlst[intiterator].Contains(strstu_id))//checks to see if intiterator is less than 26 and if the letter in the array is the same as the one in the list
                         {
                             for(int i = 0; i != 503;)
                             {
