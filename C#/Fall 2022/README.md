@@ -88,15 +88,17 @@ Write code that is able to do the following:
 _______________________________________________________________________________________________________________________________________________________________________
 Week 2/Example 2:
 Create three classes:
+
 PassFailCourse:
 • Property: Course Name (String)
 • Property: Grade (Boolean; TRUE = pass, FALSE = fail)
 • Method: Passed: Return the grade
-GradedCourse
+GradedCourse:
 • Property: Course name (String)
 • Property: Grade (Decimal; 0-100)
 • Method: Passed: Return TRUE if the grade is >=70, otherwise return FALSE
-Degree
+
+Degree:
 • Property: PassFailCourse PFCourseA
 • Property: PassFailCourse PFCourseB
 • Property: GradedCourse GCourseA
