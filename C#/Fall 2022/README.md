@@ -76,3 +76,13 @@ Requirements:
 - Must only use Lists. A list cannot contain any type of array/dictionary/list object.
 - Grades are of type decimal
 - Cannot allow creation of a duplicate student based on ID
+_______________________________________________________________________________________________________________________________________________________________________
+Week 2/Example 1:
+Add a new property to the class Student called ‘Grade’, set it as 
+Decimal.
+Write code that is able to do the following:
+• Create a list of type Student
+• Add 3 students with arbitrary grades to the list
+• Display a list of all students with their grade: Ex: “Moe Manshad, 0”
+• Calculate and display grade average
+_______________________________________________________________________________________________________________________________________________________________________
