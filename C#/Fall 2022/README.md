@@ -86,3 +86,30 @@ Write code that is able to do the following:
 • Display a list of all students with their grade: Ex: “Moe Manshad, 0”
 • Calculate and display grade average
 _______________________________________________________________________________________________________________________________________________________________________
+Week 2/Example 2:
+Create three classes:
+PassFailCourse:
+• Property: Course Name (String)
+• Property: Grade (Boolean; TRUE = pass, FALSE = fail)
+• Method: Passed: Return the grade
+GradedCourse
+• Property: Course name (String)
+• Property: Grade (Decimal; 0-100)
+• Method: Passed: Return TRUE if the grade is >=70, otherwise return FALSE
+Degree
+• Property: PassFailCourse PFCourseA
+• Property: PassFailCourse PFCourseB
+• Property: GradedCourse GCourseA
+• Property: GradedCourse GCourseB
+• Method: Passed: a degree is fulfilled (passed) if at least three out of the four courses are passed.
+_______________________________________________________________________________________________________________________________________________________________________
+Week 2/Example 3:
+Create a class called Course
+• A course has a name, course id, a list of Students (use Student class from Exercise 1)
+• A course has the following methods:
+• GetAverageGrade
+• GetMinGrade
+• GetMaxGrade
+• GetPercentGrades
+• I can choose As, Bs, Cs, Ds or Fs
+_______________________________________________________________________________________________________________________________________________________________________
