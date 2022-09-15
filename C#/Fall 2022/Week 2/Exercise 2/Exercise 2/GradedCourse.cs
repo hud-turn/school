@@ -19,7 +19,7 @@ namespace Exercise_2
         }
         public string GCCourseName { get; set; }//these are the properties, this allows us to read and write
         public decimal GCGrade { get; set; }//these are the properties, this allows us to read and write
-        public decimal Passed()//this is a method
+        public bool Passed()//this is a method
         {
             if(GCGrade >= 70)
             {
