@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            List<string> strfirstnamelst = new List<string> {"See","Moe","Pie","Pea" };//creating the empty list
-            List<string> strlastnamelst = new List<string> {"Sharpe","Manshad","Thon","Sea" };//creating the empty list
-            List<string> strstud_idlst = new List<string> {"UNC123456789","UNC987654321","UNCABCDEFABC","UNCCBAFDECBA" };
-            List<decimal> decgrdlst = new List<decimal> {90,0,60,70 };//creating the empty list
+            List<string> strfirstnamelst = new List<string> {};//creating the empty list
+            List<string> strlastnamelst = new List<string> {};//creating the empty list
+            List<string> strstud_idlst = new List<string> {};
+            List<decimal> decgrdlst = new List<decimal> {};//creating the empty list
             int intuserinput = 0, intidtag = 0;
             decimal decgrdinput = 0, decsum = 0, decdivisor = 0, decmax = decimal.MinValue, decmin = decimal.MaxValue, decgradea = 0, decgradeb = 0, decgradec = 0, decgraded = 0, decgradef = 0;
 
@@ -40,7 +40,7 @@
                             Console.Clear();//clears console
                             Console.WriteLine("Please input the last name of the student you want to add:");//telling user what to do
                             strlastnamelst.Add(Console.ReadLine());//converts a string to a decimal and then adds it to the decimal list
-                            decgrdlst.Add(-500);
+                            decgrdlst.Add(int.Parse(null));
                             Console.WriteLine("Great! You entered the student's information.\nPlease hit enter to return to the main menu");//telling user what to do
                             Console.ReadKey();
                             System.Threading.Thread.Sleep(100);//tells the program to sleep for 100 milliseconds
@@ -131,8 +131,12 @@
                 {
                     foreach (decimal iter in decgrdlst)
                     {
-                        decsum += iter;
-                        decdivisor++;
+                        if (iter != null)
+                        {
+                            decsum += iter;
+                            decdivisor++;
+                        }
+                        
                     }
                     for (int i = 0; i != strstud_idlst.Count();i++)
                     {
@@ -167,7 +171,7 @@
                             decgradef++;
                         }
                     }
-                    Console.WriteLine("This is the student grade average: " + decsum/decdivisor);
+                    Console.WriteLine("This is the student grade average: " + decgrdlst.Sum()/decgrdlst.Count());
                     Console.WriteLine("This is the lowest grade " + decmin + " and it is " + strmingrade + "'s grade.");
                     Console.WriteLine("This is the highest grade " + decmax + " and it is " + strmaxgrade + "'s grade.");
                     Console.WriteLine(Math.Round(((decgradea / decgrdlst.Count())*100),2) + "% of the class has an A");
