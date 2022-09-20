@@ -22,12 +22,12 @@ namespace OOP_Exercise_Objects_and_Classes
         {
             double averagegrd = 0, doubgrade = 0;
 
-            foreach (Course s in LSTstudent.Grade)//iterating through every line in strnamelst
+            foreach ( Student s in LSTstudent)//iterating through every line in strnamelst
             {
                 //Console.WriteLine(s.FirstName + s.LastName + s.Grade);//printing the output
                 doubgrade += s.Grade;
             }
-
+            LSTstudent.Count();
             return averagegrd;
         }
         public double GradeMin()//this is a method
