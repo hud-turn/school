@@ -7,7 +7,7 @@ namespace In_Class_Work
         static void Main()
         {
             double doubgrade = 0;
-            Student S0 = new Student("Moe ", "Manshad", 10);//myself is the variable and Student is the object
+            Student S0 = new Student("Moe ", "Manshad", 10);//myself is the variable and Course is the object
             Student S1 = new Student("S0 ", "S0", 20);
             Student S2 = new Student("S2 ", "S1", 30);
             Student S3 = new Student("S3 ", "S1", 40);
