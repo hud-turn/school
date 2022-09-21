@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace In_Class_Work
+namespace OOP_Exercise_Objects_and_Classes
 {
     internal class Student         
     {
-        public Student(string firstname, string lastname, double grade)//don't do uppercase parameters also public allows the for that program to be global
+        public Student(string firstname, string lastname, double grade)//don't do uppercase parameters also public allows the for that program to be global. This is a constructor
         {
             this.FirstName = firstname;//this passes firstname from our program.cs file over to 
             this.LastName = lastname;
