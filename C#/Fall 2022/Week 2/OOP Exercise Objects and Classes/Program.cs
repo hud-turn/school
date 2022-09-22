@@ -1,6 +1,6 @@
-﻿using OOP_Exercise_Objects_and_Classes;
+﻿using OOP_Exercise2_Objects_and_Classes;
 using System;
-namespace OOP_Exercise_Objects_and_Classes//namespace
+namespace OOP_Exercise2_Objects_and_Classes//namespace
 {
     class Program//class
     {
