@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise_2
+namespace Exercise_3
 {
     internal class GradedCourse//this creates the class, access specifier is internal in this case
     {

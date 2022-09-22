@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise_2
+namespace Exercise_3
 {
     internal class Degree
     {
@@ -12,21 +12,17 @@ namespace Exercise_2
         {
             this.PFCourseA = pfcoursea;
             this.PFCourseB = pfcourseb;
-            
+            this.GCourseA = gcoursea;
+            this.GCourseB = gcourseb;
         }
         public PassFailCourse PFCourseA { get; set; }
         public PassFailCourse PFCourseB { get; set; }
+        public GradedCourse GCourseA { get; set; }
+        public GradedCourse GCourseB { get; set; }
 
         public bool Passed()//this is a method
         {
-            if (PFCourseA.Passed() == true)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            
         }
 
     }

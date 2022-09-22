@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise_2
+namespace Exercise_3
 {
     internal class PassFailCourse//this creates the class
     {
