@@ -54,12 +54,36 @@ namespace OOP_Exercise_Objects_and_Classes
             }
             return maxgrade;
         }
-        public double GradePercent()
+        public double GradePercent(char parameter)//this is a method
         {
             double gradepercenta = 0, gradepercentb = 0, gradepercentc = 0, gradepercentd = 0, gradepercentf = 0;
+            char a = 'A', b = 'B',c = 'C', d = 'D', f = 'F';
 
+            if (parameter == a)
+            {
+                return gradepercenta;
+            }
+            else if (parameter == b)
+            {
+                return gradepercentb;
+            }
+            else if (parameter == c)
+            {
+                return gradepercentc;
+            }
+            else if (parameter == d)
+            {
+                return gradepercentd;
+            }
+            else if (parameter == f)
+            {
+                return gradepercentf;
+            }
+            else
+            {
+                return 0;
+            }
 
-            return gradepercenta;
         }
     }
 }
