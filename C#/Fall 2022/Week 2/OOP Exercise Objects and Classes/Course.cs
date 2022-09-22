@@ -40,7 +40,7 @@ namespace OOP_Exercise_Objects_and_Classes
                     minimumgrade = s.Grade;
                 }
             }
-            return minimumgrade;
+            return minimumgrade;//returns grade minimum to GradeMin()
         }
         public double GradeMax()//this is a method
         {
@@ -52,7 +52,7 @@ namespace OOP_Exercise_Objects_and_Classes
                     maxgrade = s.Grade;
                 }
             }
-            return maxgrade;
+            return maxgrade;//returns grade maximum to GradeMax()
         }
         public double GradePercent(char parameter)//this is a method and it contains a parameter which is a char type
         {
@@ -63,45 +63,45 @@ namespace OOP_Exercise_Objects_and_Classes
             {
                 if (s.Grade >= 90)
                 {
-                    gradepercenta++;
+                    gradepercenta++;//adds 1 to gradepercenta
                 }
                 else if (s.Grade >= 80 && s.Grade <= 89)
                 {
-                    gradepercentb++;
+                    gradepercentb++;//adds 1 to gradepercentb
                 }
                 else if (s.Grade >= 70 && s.Grade <= 79)
                 {
-                    gradepercentc++;
+                    gradepercentc++;//adds 1 to gradepercentc
                 }
                 else if (s.Grade >= 60 && s.Grade <= 69)
                 {
-                    gradepercentd++;
+                    gradepercentd++;//adds 1 to gradepercentd
                 }
                 else
                 {
-                    gradepercentf++;
+                    gradepercentf++;//adds 1 to gradepercentf
                 }
             }
 
             if (parameter == a)
             {
-                return (gradepercenta/LSTstudent.Count())*100;
+                return (gradepercenta/LSTstudent.Count())*100;//this returns the % of A's in the class
             }
             else if (parameter == b)
             {
-                return (gradepercentb / LSTstudent.Count())*100;
+                return (gradepercentb / LSTstudent.Count())*100;//this returns the % of B's in the class
             }
             else if (parameter == c)
             {
-                return (gradepercentc / LSTstudent.Count())*100;
+                return (gradepercentc / LSTstudent.Count())*100;//this returns the % of C's in the class
             }
             else if (parameter == d)
             {
-                return (gradepercentd / LSTstudent.Count()) * 100;
+                return (gradepercentd / LSTstudent.Count()) * 100;//this returns the % of D's in the class
             }
             else if (parameter == f)
             {
-                return (gradepercentf / LSTstudent.Count()) * 100;
+                return (gradepercentf / LSTstudent.Count()) * 100;//this returns the % of F's in the class
             }
             else
             {
