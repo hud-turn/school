@@ -32,22 +32,22 @@ namespace OOP_Exercise_Objects_and_Classes
         }
         public double GradeMin()//this is a method
         {
-            double minimumgrade = double.MaxValue,mingrade =0;
+            double minimumgrade = double.MaxValue;
             foreach( Student s in LSTstudent)
             {
-                if (s.Grade > minimumgrade)
+                if (s.Grade < minimumgrade)
                 {
-                    mingrade = s.Grade;
+                    minimumgrade = s.Grade;
                 }
             }
-            return mingrade;
+            return minimumgrade;
         }
         public double GradeMax()//this is a method
         {
-            double maxgrd = double.MinValue,maxgrade = 0;
+            double maxgrade = double.MinValue;
             foreach (Student s in LSTstudent)
             {
-                if (s.Grade < maxgrd)
+                if (s.Grade > maxgrade)
                 {
                     maxgrade = s.Grade;
                 }

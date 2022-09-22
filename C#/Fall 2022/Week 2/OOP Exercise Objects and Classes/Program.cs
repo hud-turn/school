@@ -1,8 +1,8 @@
 ﻿using OOP_Exercise_Objects_and_Classes;
 using System;
-namespace OOP_Exercise_Objects_and_Classes
+namespace OOP_Exercise_Objects_and_Classes//namespace
 {
-    class Program
+    class Program//class
     {
         static void Main()
         {
@@ -23,7 +23,7 @@ namespace OOP_Exercise_Objects_and_Classes
             List<Student> strnamelst = new List<Student> {S0, S1, S2, S3, S4, S5, S6, S7, S8, S9 };//creating the list and loading objects mySelf, S0, and S1 into the list
             Course test = new Course("Test","123",strnamelst);
 
-            Console.WriteLine(test.GradeAverage() + " " + test.GradeMin());
+            Console.WriteLine(test.GradeAverage() + " " + test.GradeMin() + " " + test.GradeMax());
             Console.ReadKey();
         }
     }
