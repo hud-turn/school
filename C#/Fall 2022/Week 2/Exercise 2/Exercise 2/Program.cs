@@ -1,7 +1,6 @@
 ﻿using Exercise_3;
 using In_Class_Work;
 using System;
-using System.Security.Cryptography.X509Certificates;
 
 namespace In_Class_Work
 {
