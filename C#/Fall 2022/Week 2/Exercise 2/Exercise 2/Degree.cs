@@ -22,8 +22,33 @@ namespace Exercise_3
 
         public bool Passed()//this is a method
         {
-            
+            int iterator = 0;
+            if (PFCourseA.Passed() == true)
+            {
+                iterator++;
+            }
+            if (PFCourseB.Passed() == true)
+            {
+                iterator++;
+            }
+            if (GCourseA.Passed() == true)
+            {
+                iterator++;
+            }
+            if (GCourseB.Passed() == true)
+            {
+                iterator++;
+            }
+            if (iterator >= 3 )
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
+        
 
     }
 }
