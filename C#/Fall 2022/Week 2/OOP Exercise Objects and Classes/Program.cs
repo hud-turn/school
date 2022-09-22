@@ -6,7 +6,6 @@ namespace OOP_Exercise_Objects_and_Classes//namespace
     {
         static void Main()
         {
-            double doubgrade = 0;
             char passthru = ' ';//initializing the variable passthru so that we can put it into text later
             
             Student S0 = new Student("S0 ", "S1", 10);//S0 is the variable and Course is the object
@@ -25,7 +24,7 @@ namespace OOP_Exercise_Objects_and_Classes//namespace
             Course test = new Course("Test","123",strnamelst);
 
             Console.Write("Please input the grade you want to look for: ");
-            passthru = char.Parse(Console.ReadLine());
+            passthru = char.ToUpper(char.Parse(Console.ReadLine()));
             Console.WriteLine("The average grade is: " + test.GradeAverage() + "\nThe minimum grade is: " + test.GradeMin() + "\nThe maximum grade is: " + test.GradeMax() + "\nThe % of people with a " + passthru + " is " + test.GradePercent(passthru) + "%");
             Console.ReadKey();
         }

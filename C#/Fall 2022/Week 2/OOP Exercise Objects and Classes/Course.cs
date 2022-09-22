@@ -56,8 +56,8 @@ namespace OOP_Exercise_Objects_and_Classes
         }
         public double GradePercent(char parameter)//this is a method and it contains a parameter which is a char type
         {
-            double gradepercenta = 0, gradepercentb = 0, gradepercentc = 0, gradepercentd = 0, gradepercentf = 0;
-            char a = 'A', b = 'B',c = 'C', d = 'D', f = 'F';
+            double gradepercenta = 0, gradepercentb = 0, gradepercentc = 0, gradepercentd = 0, gradepercentf = 0;//stores number of grades with a certain percentage
+            char a = 'A', b = 'B',c = 'C', d = 'D', f = 'F';//used for char matching
 
             foreach (Student s in LSTstudent)
             {
