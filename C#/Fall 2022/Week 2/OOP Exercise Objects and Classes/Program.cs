@@ -7,10 +7,11 @@ namespace OOP_Exercise_Objects_and_Classes//namespace
         static void Main()
         {
             double doubgrade = 0;
+            char passthru = ' ';//initializing the variable passthru so that we can put it into text later
             
-            Student S0 = new Student("Moe ", "Manshad", 10);//S0 is the variable and Course is the object
+            Student S0 = new Student("S0 ", "S1", 10);//S0 is the variable and Course is the object
             //If I wanted to modify S0 I could do S0.FirstName = "Joe";
-            Student S1 = new Student("S0 ", "S0", 20);
+            Student S1 = new Student("S1 ", "S1", 20);
             Student S2 = new Student("S2 ", "S1", 30);
             Student S3 = new Student("S3 ", "S1", 40);
             Student S4 = new Student("S4 ", "S1", 50);
@@ -23,8 +24,9 @@ namespace OOP_Exercise_Objects_and_Classes//namespace
             List<Student> strnamelst = new List<Student> {S0, S1, S2, S3, S4, S5, S6, S7, S8, S9 };//creating the list and loading objects mySelf, S0, and S1 into the list
             Course test = new Course("Test","123",strnamelst);
 
-            char passthru = char.Parse(Console.ReadLine());
-            Console.WriteLine(test.GradeAverage() + " " + test.GradeMin() + " " + test.GradeMax() + " " + test.GradePercent(passthru));
+            Console.Write("Please input the grade you want to look for: ");
+            passthru = char.Parse(Console.ReadLine());
+            Console.WriteLine("The average grade is: " + test.GradeAverage() + "\nThe minimum grade is: " + test.GradeMin() + "\nThe maximum grade is: " + test.GradeMax() + "\nThe % of people with a " + passthru + " is " + test.GradePercent(passthru) + "%");
             Console.ReadKey();
         }
     }
