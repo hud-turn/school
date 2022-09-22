@@ -21,10 +21,9 @@ namespace OOP_Exercise_Objects_and_Classes
             Student S9 = new Student("S9 ", "S1", 100);
             //Console.WriteLine(mySelf.FirstName+ mySelf.LastName + mySelf.Grade);
             List<Student> strnamelst = new List<Student> {S0, S1, S2, S3, S4, S5, S6, S7, S8, S9 };//creating the list and loading objects mySelf, S0, and S1 into the list
-            Course test = new Course();
+            Course test = new Course("Test","123",strnamelst);
 
-            test.GradeAverage();
-            Console.WriteLine();
+            Console.WriteLine(test.GradeAverage() + " " + test.GradeMin());
             Console.ReadKey();
         }
     }

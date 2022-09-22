@@ -35,7 +35,7 @@ namespace OOP_Exercise_Objects_and_Classes
             double minimumgrade = double.MaxValue,mingrade =0;
             foreach( Student s in LSTstudent)
             {
-                if (s.Grade < minimumgrade)
+                if (s.Grade > minimumgrade)
                 {
                     mingrade = s.Grade;
                 }
@@ -47,7 +47,7 @@ namespace OOP_Exercise_Objects_and_Classes
             double maxgrd = double.MinValue,maxgrade = 0;
             foreach (Student s in LSTstudent)
             {
-                if (s.Grade > maxgrd)
+                if (s.Grade < maxgrd)
                 {
                     maxgrade = s.Grade;
                 }
