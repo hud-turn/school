@@ -22,7 +22,7 @@ namespace In_Class_Work
 
 
             Degree d = new Degree(aa, bb, x, y);
-            Console.WriteLine("\nHas " + d.Passed());
+            Console.WriteLine("\nHas the student passed three classes and obtained their degree? s" + d.Passed());
             Console.ReadKey();
         }
     }
