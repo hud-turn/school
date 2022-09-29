@@ -116,3 +116,43 @@ Degree:
 • Property: GradedCourse GCourseB
 • Method: Passed: a degree is fulfilled (passed) if at least three out of the four courses are passed.
 _______________________________________________________________________________________________________________________________________________________________________
+Week 3/OOP Exercise 4: Data Abstraction
+Using the concept of abstraction create classes that allow us to represent many football teams, each football team has:
+	Team Name + City Name
+	1 Coach + Name + Age
+	1 Quarterback + Name + Age
+	2 Running backs + Name + Age
+	2 Wide receivers + Name + Age
+	1 Tight end + Name + Age
+	2 Corner Backs + Name + Age
+	2 Safeties + Names + Age
+	1 Defensive Tackle + Names + Age
+	1 Defensive End + Name + Age
+	1 Line Backer + Name + Age
+	1 Kicker + Name + Age
+Demonstrate your implementation by choosing an NFL team and creating it using your classes. Make sure to display full-team roster.
+_______________________________________________________________________________________________________________________________________________________________________
+Week 3/OOP Exercise 5: Data Abstraction
+Create a set of classes that describe players playing a game of 3 vs. 3 basketball moving in a Cartesian plane court with two baskets, along with a referee and a basketball. With the following requirements:
+	The size of the court is 10 x 10, a basket is 3 x 2, and both the ball and player is 1 x 1
+	Create methods that provide:
+		A list of players + location on the court
+		A list of players distance close to the referee sorted in ascending order
+		A method that denotes if a basket has been scored
+Demonstrate your implementation by creating a game with arbitrary data.
+_______________________________________________________________________________________________________________________________________________________________________
+Week 3/OOP Exercise 6: Data Abstraction
+Create a set of classes that describe a bank and the different types of bank accounts:
+	Checking Account
+	Savings Account
+Add the following methods to each bank account:
+	CloseAccount: Used when a bank account must be closed.
+	AddFunds: Used when we need to add funds to the account.
+	CheckBalance: Used when we need to check current balance on account.
+	GetTransactionCount: You must keep track of the # of transactions on the account.
+The bank must have a property that keeps track of all its members
+The bank must have a balance, which is affected based on user transactions
+The bank must have the following methods:
+	ListAllMemebers
+	GetAccountTypeCount
+	GetTransactionCount
