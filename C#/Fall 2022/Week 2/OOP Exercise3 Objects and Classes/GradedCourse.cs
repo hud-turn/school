@@ -12,13 +12,13 @@ namespace Exercise_3
         //constructors
         //properties
         //and methods
-        public GradedCourse(string gccoursename, decimal gcgrade)//we use a constructor here, public is the access specifier. The properties are listed in the ()
+        public GradedCourse(string gccoursename, decimal gcgrade)//we use a constructor here, public is the access specifier for the class. The properties are listed in the ()
         {
             this.GCCourseName = gccoursename;
             this.GCGrade = gcgrade;
         }
-        public string GCCourseName { get; set; }//these are the properties, this allows us to read and write
-        public decimal GCGrade { get; set; }//these are the properties, this allows us to read and write
+        public string GCCourseName { get; set; }//these are the access specifier for the variables in the class, this allows us to read and write
+        public decimal GCGrade { get; set; }//these are the access specifier for the variables in the class, this allows us to read and write
         public bool Passed()//this is a method
         {
             if(GCGrade >= 70)
