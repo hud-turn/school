@@ -77,7 +77,7 @@ Requirements:
 - Grades are of type decimal
 - Cannot allow creation of a duplicate student based on ID
 _______________________________________________________________________________________________________________________________________________________________________
-Week 2/Example 1:
+Week 2/OOP Exercise 1:
 Add a new property to the class Student called ‘Grade’, set it as 
 Decimal.
 Write code that is able to do the following:
@@ -86,7 +86,7 @@ Write code that is able to do the following:
 • Display a list of all students with their grade: Ex: “Moe Manshad, 0”
 • Calculate and display grade average
 _______________________________________________________________________________________________________________________________________________________________________
-Week 2/Example 2:
+Week 2/OOP Exercise 2:
 Create a class called Course
 • A course has a name, course id, a list of Students (use Student class from Exercise 1)
 • A course has the following methods:
@@ -96,8 +96,7 @@ Create a class called Course
 • GetPercentGrades
 • I can choose As, Bs, Cs, Ds or Fs
 _______________________________________________________________________________________________________________________________________________________________________
-Week 2/Example 3:
-Create three classes:
+Week 2/OOP Exercise 3:Create three classes
 
 PassFailCourse:
 • Property: Course Name (String)
