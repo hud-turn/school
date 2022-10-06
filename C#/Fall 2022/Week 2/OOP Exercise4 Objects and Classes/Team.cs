@@ -17,13 +17,5 @@ namespace In_Class_Work
         public string TeamName { get; set; }//get means I can read and set means I can change the value of that property
         public string CityName { get; set; } //get means that I can read the value of that property and set means that I can change the value
         public List<Players> LstPlayers { get; set;  }
-        public string TeamNameReturn()
-        {
-            return TeamName;
-        }
-        public string CityNameReturn()
-        {
-            return CityName;
-        }
     }
 }

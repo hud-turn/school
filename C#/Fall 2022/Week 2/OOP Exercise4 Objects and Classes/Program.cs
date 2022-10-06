@@ -40,8 +40,11 @@ namespace In_Class_Work
 
             Team TeamOne = new Team("Broncos", "Denver", listofplayers);
 
-            Console.WriteLine(TeamOne.TeamNameReturn() + TeamOne.CityNameReturn());
-            
+            Console.WriteLine(TeamOne.TeamName + TeamOne.CityName);
+            foreach (Players s in TeamOne.LstPlayers)
+            {
+                Console.WriteLine(s.PlayerPOS + " " + s.PlayerName  + " " + s.Age);
+            }            
             Console.ReadKey();
         }
     }
