@@ -16,9 +16,6 @@ namespace OOP_Exercise6_Objects_and_Classes
     }
     public List<Member> ListAllMembers()
     {
-        foreach (s in List<Member>)
-        {
-            return Console.WriteLine(s.MemberName);
-        }
+        
     }
 }
