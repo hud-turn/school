@@ -16,8 +16,16 @@ namespace OOP_Exercise6_Objects_and_Classes
         public Checking_Account ChkAcct { get; set; }
         public Savings_Account SvgAcct { get; set; }
     }
-    public Member Remove()
+    public Member RemoveAcct(int userinput, double memberid, Checking_Account removecheck)
     {
+        if (userinput == 1)
+        {
 
+            return;
+        }
+        else if(userinput == 2)
+        {
+
+        }
     }
 }

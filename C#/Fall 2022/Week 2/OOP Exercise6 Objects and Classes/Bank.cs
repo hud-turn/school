@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_Exercise5_Objects_and_Classes
+namespace OOP_Exercise6_Objects_and_Classes
 {
     internal class Bank
     {
