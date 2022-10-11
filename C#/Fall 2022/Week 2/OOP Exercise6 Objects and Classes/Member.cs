@@ -8,24 +8,25 @@ namespace OOP_Exercise6_Objects_and_Classes
 {
     internal class Member
     {
-        public Member(double memeberid, string membername, Checking_Account chkacct, Savings_Account svgacct )
+        public Member(double memberid, string membername, Accounts accts)
         {
-            this.ChkAcct = chkacct;
-            this.SvgAcct = svgacct;
+            this.MemberID = memberid;
+            this.MemberName = membername;
+            this.ChkAcct = accts;
         }
-        public Checking_Account ChkAcct { get; set; }
-        public Savings_Account SvgAcct { get; set; }
+        public double MemberID { get; set; }
+        public string MemberName { get; set; }
+        public Accounts ChkAcct { get; set; }
     }
-    public Member RemoveAcct(int userinput, double memberid, Checking_Account removecheck)
+    public Member RemoveAcct(int userinput, double memberid, Accounts removeaccts)
     {
         if (userinput == 1)
         {
-
             return;
         }
         else if(userinput == 2)
         {
-
+            return;
         }
     }
 }

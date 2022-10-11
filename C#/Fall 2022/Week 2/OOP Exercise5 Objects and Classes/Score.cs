@@ -10,7 +10,8 @@ namespace OOP_Exercise5_Objects_and_Classes
     {
         public Score (Location locscore)
         {
-
+            this.LocScore = locscore;
         }
+        public Location LocScore { get; set; }
     }
 }

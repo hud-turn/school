@@ -10,7 +10,8 @@ namespace OOP_Exercise5_Objects_and_Classes
     {
         public Basket1 (List<Location> lstlocations)
         {
-
+            this.LstLocations = lstlocations;
         }
+        public List<Location> LstLocations { get; set; }
     }
 }

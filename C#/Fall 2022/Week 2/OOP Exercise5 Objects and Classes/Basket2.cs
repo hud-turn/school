@@ -8,7 +8,7 @@ namespace OOP_Exercise5_Objects_and_Classes
 {
     internal class Basket2
     {
-        public Basket2(List<Location> lstlocations)
+        public Basket2 (List<Location> lstlocations)
         {
 
         }
