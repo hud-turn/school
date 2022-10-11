@@ -8,5 +8,10 @@ namespace OOP_Exercise5_Objects_and_Classes
 {
     internal class Reff
     {
+        public Reff(Location locreff)
+        {
+            this.LocReff = locreff;
+        }
+        public Location LocReff { get; set; }
     }
 }

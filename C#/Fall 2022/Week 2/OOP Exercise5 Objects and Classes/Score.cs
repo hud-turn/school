@@ -8,5 +8,9 @@ namespace OOP_Exercise5_Objects_and_Classes
 {
     internal class Score
     {
+        public Score (Location locscore)
+        {
+
+        }
     }
 }

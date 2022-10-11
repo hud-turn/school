@@ -8,5 +8,10 @@ namespace OOP_Exercise5_Objects_and_Classes
 {
     internal class Ball
     {
+        public Ball (Location locball)
+        {
+            this.LocBall = locball;
+        }
+        public Location LocBall { get; set; }
     }
 }
