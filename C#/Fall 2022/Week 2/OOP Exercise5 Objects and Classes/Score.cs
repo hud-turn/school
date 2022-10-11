@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Exercise5_Objects_and_Classes
 {
-    internal class Ball
+    internal class Score
     {
     }
 }

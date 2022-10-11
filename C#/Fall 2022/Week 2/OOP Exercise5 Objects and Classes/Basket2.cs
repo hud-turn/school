@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOP_Exercise5_Objects_and_Classes
 {
-    internal class Class1
+    internal class Basket2
     {
+        public Basket2(List<Location> lstlocations)
+        {
+
+        }
     }
 }
