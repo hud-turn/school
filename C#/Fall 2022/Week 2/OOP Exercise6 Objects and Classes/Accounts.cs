@@ -25,16 +25,37 @@ namespace OOP_Exercise6_Objects_and_Classes
         public List<double> STransactions { get; set; }
 
     }
-    public double AddFunds(int accountsel, double accounttransaction)
-    {
+    //public double AddFunds(int memberid, int accountsel, double accounttransaction)
+    //{
+    //    if (accountsel == 0)
+    //    {
+    //        return 0;
+    //    }
+    //    else if (accountsel == 1)
+    //    {
+    //        return 1;
+    //    }
+    //}
+    //public double CheckBalance(int memberid, int accountsel, double accountbal)
+    //{
+    //    if (accountsel == 0)
+    //    {
+    //        return 0;
+    //    }
+    //    else if (accountsel == 1)
+    //    {
 
-    }
-    public double CheckBalance()
-    {
+    //    }
+    //}
+    //public int GetTransactionCount(int memberid, int accountsel, int transactionct)
+    //{
+    //    if (accountsel == 0)
+    //    {
+    //        return 0;
+    //    }
+    //    else if (accountsel == 1)
+    //    {
 
-    }
-    public int GetTransactionCount()
-    {
-
-    }
+    //    }
+    //}
 }

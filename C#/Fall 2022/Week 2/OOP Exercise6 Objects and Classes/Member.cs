@@ -8,7 +8,7 @@ namespace OOP_Exercise6_Objects_and_Classes
 {
     internal class Member
     {
-        public Member(double memberid, string membername, Accounts accts)
+        public Member(int memberid, string membername, Accounts accts)
         {
             this.MemberID = memberid;
             this.MemberName = membername;
@@ -18,15 +18,16 @@ namespace OOP_Exercise6_Objects_and_Classes
         public string MemberName { get; set; }
         public Accounts ChkAcct { get; set; }
     }
-    public Member RemoveAcct(int userinput, double memberid, Accounts removeaccts)
-    {
-        if (userinput == 1)
-        {
-            return;
-        }
-        else if(userinput == 2)
-        {
-            return;
-        }
-    }
+    //public Member RemoveAcct(int userinput, int memberid, Accounts removeaccts)
+    //{
+    //    if (userinput == 1)
+    //    {
+
+    //        return 0;
+    //    }
+    //    else if (userinput == 2)
+    //    {
+    //        return 1;
+    //    }
+    //}
 }
