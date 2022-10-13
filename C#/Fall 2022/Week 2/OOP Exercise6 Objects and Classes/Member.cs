@@ -17,5 +17,7 @@ namespace OOP_Exercise6_Objects_and_Classes
         public double MemberID { get; set; }
         public string MemberName { get; set; }
         public Accounts ChkAcct { get; set; }
+
+        public List<Accounts> Stuff { get; set; }
     }
 }

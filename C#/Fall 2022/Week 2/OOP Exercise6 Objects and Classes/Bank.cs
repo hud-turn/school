@@ -15,22 +15,25 @@ namespace OOP_Exercise6_Objects_and_Classes
             this.Members = members;
         }
         public List<Member> Members { get; set; }
-    }
-    public List<string> ListAllMembers(List<Member> memberlist)
-    {
-        foreach (Member s in members.MemberName)
+
+
+        public void ListAllMembers()
         {
-            ;
+            foreach (Member s in this.Members)
+            {
+                
+            }
+            
         }
-        return membernamelst;
-    }
-    public int GetAccountTypeCount()
-    {
+        public int GetAccountTypeCount()
+        {
 
-    }
-    public int GetTransactionCount()
-    {
+        }
+        public int GetTransactionCount()
+        {
 
+        }
     }
+    
 
 }
