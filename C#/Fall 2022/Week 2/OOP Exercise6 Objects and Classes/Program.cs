@@ -10,6 +10,7 @@ namespace In_Class_Work
     {
         static void Main()
         {
+            //Data
             int userinput = 0;
             List<Member> members = new List<Member>();
             Bank BankOne = new Bank (members);
@@ -54,9 +55,7 @@ namespace In_Class_Work
             accounts0003.Add(CAccount3);
             accounts0004.Add(CAccount4);
 
-
-
-           Member Member1 = new Member(0001, "Tom", accounts0001);
+            Member Member1 = new Member(0001, "Tom", accounts0001);
             Member Member2 = new Member(0002, "Tim", accounts0002);
             Member Member3 = new Member(0003, "Tod", accounts0003);
             Member Member4 = new Member(0004, "Ted", accounts0004);
@@ -65,6 +64,7 @@ namespace In_Class_Work
             members.Add(Member2);
             members.Add(Member3);
             members.Add(Member4);
+            //Data
 
             while (userinput != 5)
             {
@@ -73,8 +73,8 @@ namespace In_Class_Work
                 Console.Clear();
                 if (userinput == 1)
                 {
-                    Console.WriteLine("Please input the member ID that you would like to remove:");
-                    userinput = int.Parse(Console.ReadLine());
+                    //Console.WriteLine("Please input the member ID that you would like to remove:");
+                    //userinput = int.Parse(Console.ReadLine());
                     Console.WriteLine("Please input if you would like to remove a checking or savings account.\n1.Checking\n2.Savings ");
                     userinput = int.Parse(Console.ReadLine());
                     if (userinput == 1)
@@ -93,38 +93,68 @@ namespace In_Class_Work
                 }
                 else if (userinput == 2)
                 {
-                    Console.WriteLine("Please input the member ID of the customer you would like to add funds to:");
-                    userinput = int.Parse(Console.ReadLine());
+                    //Console.WriteLine("Please input the member ID of the customer you would like to add funds to:");
+                    //userinput = int.Parse(Console.ReadLine());
                     Console.WriteLine("Please input if you would like to add funds to a checking or savings account.\n1.Checking\n2.Savings ");
                     userinput = int.Parse(Console.ReadLine());
                     if (userinput == 1)
                     {
                         Console.Clear();
                         Console.WriteLine("How much would you like to add to this account?:");
-                        userinput = int.Parse(Console.ReadLine());
-                        CAccount1.AddFunds();
+                        double balance = double.Parse(Console.ReadLine());
+                        CAccount1.AddFunds(balance);
                         Console.ReadKey();
                     }
                     else
                     {
                         Console.Clear();
-                        SAccount2.CloseAccount();
+                        Console.WriteLine("How much would you like to add to this account?:");
+                        double balance = double.Parse(Console.ReadLine());
+                        SAccount1.AddFunds(balance);
                         Console.ReadKey();
                     }
                     userinput = 0;
                 }
                 else if (userinput == 3)
                 {
-
+                    Console.WriteLine("Which account balance do you want to check?\n1.Checking\n2.Savings ");
+                    userinput = int.Parse(Console.ReadLine());
+                    if (userinput == 1)
+                    {
+                        Console.Clear();
+                        Console.Write("There is ");
+                        CAccount1.CheckBalance();
+                        Console.Write(" in this account.");
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        Console.Write("There is ");
+                        SAccount1.CheckBalance();
+                        Console.Write(" in this account.");
+                        Console.ReadKey();
+                    }
                     userinput = 0;
                 }
                 else if (userinput == 4)
                 {
-                    Console.WriteLine("Please input the type of account you want to count using either a one or a two.\n1.Checking Account\n2.Savings Account");
+                    Console.WriteLine("Which account do you want to check?\n1.Checking\n2.Savings ");
                     userinput = int.Parse(Console.ReadLine());
-                    Console.WriteLine(BankOne.GetTransactionCount(userinput));
-                    Console.ReadKey();
-                    userinput = 0;
+                    if (userinput == 1)
+                    {
+                        Console.Clear();
+                        Console.WriteLine("You have selected checking account, there have been " + CAccount1.AcctGetTransactionCount() + " transactions in this account.");
+                        //double balance = double.Parse(Console.ReadLine());
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        Console.WriteLine("You have selected checking account, there have been " + SAccount1.AcctGetTransactionCount() + " transactions in this account.");
+                        //double balance = double.Parse(Console.ReadLine());
+                        Console.ReadKey();
+                    }
                 }
                 else if (userinput == 5)
                 {

@@ -27,20 +27,21 @@ namespace OOP_Exercise6_Objects_and_Classes
         public string CloseAccount()
         {
             this.Acctstat = false;
-            return "Checking Account Removed";
+            return "Account Removed";
         }
         public string AddFunds(double balance)
         {
             this.Balance += balance;
-            return "Credit has been added to account";
+            return "Credit has been added to this account";
         }
         public void CheckBalance()
         {
-            Console.WriteLine(this.Balance);
+            Console.Write(this.Balance);
         }
-        public void GetTransactionCount()
+        public int AcctGetTransactionCount()
         {
-            Console.WriteLine(this.Transactions.Count());
+            int count = this.Transactions.Count();
+            return count;
         }
     }
 }
