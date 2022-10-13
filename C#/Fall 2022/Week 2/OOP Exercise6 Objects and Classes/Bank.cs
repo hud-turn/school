@@ -26,7 +26,18 @@ namespace OOP_Exercise6_Objects_and_Classes
         }
         public int GetAccountTypeCount(int accounttype)
         {
-            
+            int count = 0;
+            foreach (Member s in this.Members)
+            {
+                foreach (Account a in s.Acct)
+                {
+                    if (a.AcctType == accounttype && a.Acctstat == true)
+                    {
+                        count++;
+                    }
+                }
+            }
+            return count;
         }
         public int GetTransactionCount(int accounttype)
         {

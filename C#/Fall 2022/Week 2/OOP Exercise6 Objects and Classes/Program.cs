@@ -36,14 +36,14 @@ namespace In_Class_Work
             stransactions4.Add(1595);
 
            
-            Account CAccount1 = new Account(0001, true, true, 0001, 500, ctransactions1);
-            Account CAccount2 = new Account(0002, true, true, 0002, 500, ctransactions2);
-            Account CAccount3 = new Account(0003, true, true, 0003, 500, ctransactions3);
-            Account CAccount4 = new Account(0004, true, true, 0004, 500, ctransactions4);
-            Account SAccount1 = new Account(0001, true, false, 0001, 500, stransactions1);
-            Account SAccount2 = new Account(0002, true, false, 0002, 500, stransactions2);
-            Account SAccount3 = new Account(0003, true, false, 0003, 500, stransactions3);
-            Account SAccount4 = new Account(0004, true, false, 0004, 500, stransactions4);
+            Account CAccount1 = new Account(0001, true, 1, 0001, 500, ctransactions1);
+            Account CAccount2 = new Account(0002, true, 1, 0002, 500, ctransactions2);
+            Account CAccount3 = new Account(0003, true, 1, 0003, 500, ctransactions3);
+            Account CAccount4 = new Account(0004, true, 1, 0004, 500, ctransactions4);
+            Account SAccount1 = new Account(0001, true, 2, 0001, 500, stransactions1);
+            Account SAccount2 = new Account(0002, true, 2, 0002, 500, stransactions2);
+            Account SAccount3 = new Account(0003, true, 2, 0003, 500, stransactions3);
+            Account SAccount4 = new Account(0004, true, 2, 0004, 500, stransactions4);
 
             List<Account> accounts0001 = new List<Account>();
             List<Account> accounts0002 = new List<Account>();
@@ -79,17 +79,38 @@ namespace In_Class_Work
                     userinput = int.Parse(Console.ReadLine());
                     if (userinput == 1)
                     {
+                        Console.Clear();
                         CAccount1.CloseAccount();
+                        Console.ReadKey();
                     }
                     else
                     {
+                        Console.Clear();
                         SAccount2.CloseAccount();
+                        Console.ReadKey();
                     }
                     userinput = 0;
                 }
                 else if (userinput == 2)
                 {
-
+                    Console.WriteLine("Please input the member ID of the customer you would like to add funds to:");
+                    userinput = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Please input if you would like to add funds to a checking or savings account.\n1.Checking\n2.Savings ");
+                    userinput = int.Parse(Console.ReadLine());
+                    if (userinput == 1)
+                    {
+                        Console.Clear();
+                        Console.WriteLine("How much would you like to add to this account?:");
+                        userinput = int.Parse(Console.ReadLine());
+                        CAccount1.AddFunds();
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        SAccount2.CloseAccount();
+                        Console.ReadKey();
+                    }
                     userinput = 0;
                 }
                 else if (userinput == 3)
@@ -115,7 +136,7 @@ namespace In_Class_Work
                 {
                     Console.WriteLine("Please input the type of account you want to count using either a one or a two.\n1.Checking Account\n2.Savings Account");
                     userinput = int.Parse(Console.ReadLine());
-                    //Console.WriteLine(BankOne.GetAccountTypeCount(userinput));
+                    Console.WriteLine(BankOne.GetAccountTypeCount(userinput));
                     Console.ReadKey();
                     userinput = 0;
                 }

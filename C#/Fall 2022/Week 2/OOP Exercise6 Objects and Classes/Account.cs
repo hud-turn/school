@@ -8,7 +8,7 @@ namespace OOP_Exercise6_Objects_and_Classes
 {
     internal class Account
     {
-        public Account(int memberid, bool acctstat, bool accttype, double accountnum, double balance, List<double> transactions)
+        public Account(int memberid, bool acctstat, int accttype, double accountnum, double balance, List<double> transactions)
         {
             this.MemberID = memberid;
             this.Acctstat = acctstat;
@@ -20,7 +20,7 @@ namespace OOP_Exercise6_Objects_and_Classes
 
         public int MemberID { get; set; }
         public bool Acctstat { get; set; }
-        public bool AcctType { get; set; }
+        public double AcctType { get; set; }
         public double AccountNum { get; set; }
         public double Balance { get; set; }
         public List<double> Transactions { get; set; }
