@@ -18,16 +18,4 @@ namespace OOP_Exercise6_Objects_and_Classes
         public string MemberName { get; set; }
         public Accounts ChkAcct { get; set; }
     }
-    //public Member RemoveAcct(int userinput, int memberid, Accounts removeaccts)
-    //{
-    //    if (userinput == 1)
-    //    {
-
-    //        return 0;
-    //    }
-    //    else if (userinput == 2)
-    //    {
-    //        return 1;
-    //    }
-    //}
 }

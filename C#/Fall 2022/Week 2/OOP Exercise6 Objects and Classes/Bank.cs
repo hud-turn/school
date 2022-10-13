@@ -18,12 +18,19 @@ namespace OOP_Exercise6_Objects_and_Classes
     }
     public List<string> ListAllMembers(List<Member> memberlist)
     {
-        List<string> membernamelst = new List<string>();
-        foreach (Member s in memberlist)
+        foreach (Member s in members.MemberName)
         {
-            membernamelst.Add(s.MemberName);
+            ;
         }
         return membernamelst;
+    }
+    public int GetAccountTypeCount()
+    {
+
+    }
+    public int GetTransactionCount()
+    {
+
     }
 
 }
