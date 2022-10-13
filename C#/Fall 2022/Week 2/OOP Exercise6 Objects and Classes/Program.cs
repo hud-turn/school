@@ -2,6 +2,7 @@
 using OOP_Exercise6_Objects_and_Classes;
 using System;
 using System.Collections.Generic;
+using System.Security.Principal;
 
 namespace In_Class_Work
 {
@@ -35,15 +36,19 @@ namespace In_Class_Work
             stransactions4.Add(1595);
 
 
-            Account Account1 = new Account(0001, true, 0001, 500, ctransactions1, false, 0001, 500, stransactions1);
-            Account Account2 = new Account(0002,true, 0002, 500, ctransactions2, true, 0002, 500, stransactions2);
-            Account Account3 = new Account(0003, true, 0003, 500, ctransactions3, false, 0003, 500, stransactions3);
-            Account Account4 = new Account(0004, true, 0004, 500, ctransactions4, true, 0004, 500, stransactions4);
+            Chk_Account CAccount1 = new Chk_Account(0001, true, 0001, 500, ctransactions1);
+            Chk_Account CAccount2 = new Chk_Account(0002, true, 0002, 500, ctransactions2);
+            Chk_Account CAccount3 = new Chk_Account(0003, true, 0003, 500, ctransactions3);
+            Chk_Account CAccount4 = new Chk_Account(0004, true, 0004, 500, ctransactions4);
+            Svg_Account SAccount1 = new Svg_Account(0001, true, 0001, 500, stransactions1);
+            Svg_Account SAccount2 = new Svg_Account(0002, true, 0002, 500, stransactions2);
+            Svg_Account SAccount3 = new Svg_Account(0003, true, 0003, 500, stransactions3);
+            Svg_Account SAccount4 = new Svg_Account(0004, true, 0004, 500, stransactions4);
 
-            Member Member1 = new Member(0001, "Tom", Account1);
-            Member Member2 = new Member(0002, "Tim", Account2);
-            Member Member3 = new Member(0003, "Tod", Account3);
-            Member Member4 = new Member(0004, "Ted", Account4);
+            Member Member1 = new Member(0001, "Tom", CAccount1, SAccount1);
+            Member Member2 = new Member(0002, "Tim", CAccount2, SAccount2);
+            Member Member3 = new Member(0003, "Tod", CAccount3, SAccount3);
+            Member Member4 = new Member(0004, "Ted", CAccount4, SAccount4);
 
             members.Add(Member1);
             members.Add(Member2);
@@ -59,10 +64,16 @@ namespace In_Class_Work
                 {
                     Console.WriteLine("Please input the member ID that you would like to remove:");
                     userinput = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Please input if you would like to remove a checking or savings account:");
-                    int useraccount = int.Parse(Console.ReadLine());
-                    Console.WriteLine(BankOne.CloseAccount(userinput,useraccount));
-                    Console.ReadKey();
+                    Console.WriteLine("Please input if you would like to remove a checking or savings account.\n1.Checking\n2.Savings ");
+                    userinput = int.Parse(Console.ReadLine());
+                    if (userinput == 1)
+                    {
+
+                    }
+                    else
+                    {
+
+                    }
                     userinput = 0;
                 }
                 else if (userinput == 2)

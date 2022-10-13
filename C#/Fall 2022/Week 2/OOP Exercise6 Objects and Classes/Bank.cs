@@ -32,7 +32,7 @@ namespace OOP_Exercise6_Objects_and_Classes
                 int count = 0;
                 foreach (Member s in this.Members)
                 {
-                    if (s.Acct.CAcctstat == true)
+                    if (s.Chk_Acct.CAcctstat == true)
                     {
                         count++;
                     }
@@ -44,7 +44,7 @@ namespace OOP_Exercise6_Objects_and_Classes
                 int count = 0;
                 foreach (Member s in this.Members)
                 {
-                    if (s.Acct.SAcctstat == true)
+                    if (s.Svg_Acct.SAcctstat == true)
                     {
                         count++;
                     }
@@ -63,7 +63,7 @@ namespace OOP_Exercise6_Objects_and_Classes
                 int count = 0;
                 foreach (Member s in this.Members)
                 {
-                    for (double i = 0; i != s.Acct.CTransactions.Count();i++)
+                    for (double i = 0; i != s.Chk_Acct.CTransactions.Count();i++)
                     {
                         count++;
                     }
@@ -75,7 +75,7 @@ namespace OOP_Exercise6_Objects_and_Classes
                 int count = 0;
                 foreach (Member s in this.Members)
                 {
-                    for (double i = 0; i != s.Acct.STransactions.Count(); i++)
+                    for (double i = 0; i != s.Svg_Acct.STransactions.Count(); i++)
                     {
                         count++;
                     }
