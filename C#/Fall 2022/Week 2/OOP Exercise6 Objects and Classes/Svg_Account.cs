@@ -22,17 +22,10 @@ namespace OOP_Exercise6_Objects_and_Classes
         public double SAccountnum { get; set; }
         public double SBalance { get; set; }
         public List<double> STransactions { get; set; }
-        public string SCloseAccount(int memberid)
+        public string CCloseAccount()
         {
-            if (memberid == this.MemberID)
-            {
-                this.SAcctstat = false;
-                return "Savings Account Removed";
-            }
-            else
-            {
-                return "Account not found";
-            }
+            this.SAcctstat = false;
+            return "Checking Account Removed";
         }
     }
 }

@@ -9,17 +9,15 @@ namespace OOP_Exercise6_Objects_and_Classes
 {
     internal class Member
     {
-        public Member(int memberid, string membername, Chk_Account cacct, Svg_Account sacct)
+        public Member(int memberid, string membername, List<Account> accounts)
         {
             this.MemberID = memberid;
             this.MemberName = membername;
-            this.Chk_Acct = cacct;
-            this.Svg_Acct = sacct;
+            this.Acct = accounts;
         }
         public double MemberID { get; set; }
         public string MemberName { get; set; }
-        public Chk_Account Chk_Acct { get; set; }
-        public Svg_Account Svg_Acct { get; set; }
+        public List<Account> Acct { get; set; }
 
     }
 }

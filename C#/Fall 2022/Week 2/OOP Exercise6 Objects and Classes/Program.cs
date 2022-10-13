@@ -29,26 +29,37 @@ namespace In_Class_Work
             ctransactions4.Add(1595);
             ctransactions4.Add(1599);
 
-            stransactions1.Add(159.5);
+            stransactions1.Add(1789.5);
             stransactions1.Add(159.5);
             stransactions2.Add(15.5);
             stransactions3.Add(19.5);
             stransactions4.Add(1595);
 
+           
+            Account CAccount1 = new Account(0001, true, true, 0001, 500, ctransactions1);
+            Account CAccount2 = new Account(0002, true, true, 0002, 500, ctransactions2);
+            Account CAccount3 = new Account(0003, true, true, 0003, 500, ctransactions3);
+            Account CAccount4 = new Account(0004, true, true, 0004, 500, ctransactions4);
+            Account SAccount1 = new Account(0001, true, false, 0001, 500, stransactions1);
+            Account SAccount2 = new Account(0002, true, false, 0002, 500, stransactions2);
+            Account SAccount3 = new Account(0003, true, false, 0003, 500, stransactions3);
+            Account SAccount4 = new Account(0004, true, false, 0004, 500, stransactions4);
 
-            Chk_Account CAccount1 = new Chk_Account(0001, true, 0001, 500, ctransactions1);
-            Chk_Account CAccount2 = new Chk_Account(0002, true, 0002, 500, ctransactions2);
-            Chk_Account CAccount3 = new Chk_Account(0003, true, 0003, 500, ctransactions3);
-            Chk_Account CAccount4 = new Chk_Account(0004, true, 0004, 500, ctransactions4);
-            Svg_Account SAccount1 = new Svg_Account(0001, true, 0001, 500, stransactions1);
-            Svg_Account SAccount2 = new Svg_Account(0002, true, 0002, 500, stransactions2);
-            Svg_Account SAccount3 = new Svg_Account(0003, true, 0003, 500, stransactions3);
-            Svg_Account SAccount4 = new Svg_Account(0004, true, 0004, 500, stransactions4);
+            List<Account> accounts0001 = new List<Account>();
+            List<Account> accounts0002 = new List<Account>();
+            List<Account> accounts0003 = new List<Account>();
+            List<Account> accounts0004 = new List<Account>();
+            accounts0001.Add(CAccount1);
+            accounts0002.Add(CAccount2);
+            accounts0003.Add(CAccount3);
+            accounts0004.Add(CAccount4);
 
-            Member Member1 = new Member(0001, "Tom", CAccount1, SAccount1);
-            Member Member2 = new Member(0002, "Tim", CAccount2, SAccount2);
-            Member Member3 = new Member(0003, "Tod", CAccount3, SAccount3);
-            Member Member4 = new Member(0004, "Ted", CAccount4, SAccount4);
+
+
+           Member Member1 = new Member(0001, "Tom", accounts0001);
+            Member Member2 = new Member(0002, "Tim", accounts0002);
+            Member Member3 = new Member(0003, "Tod", accounts0003);
+            Member Member4 = new Member(0004, "Ted", accounts0004);
 
             members.Add(Member1);
             members.Add(Member2);
@@ -68,11 +79,11 @@ namespace In_Class_Work
                     userinput = int.Parse(Console.ReadLine());
                     if (userinput == 1)
                     {
-
+                        CAccount1.CloseAccount();
                     }
                     else
                     {
-
+                        SAccount2.CloseAccount();
                     }
                     userinput = 0;
                 }
@@ -104,7 +115,7 @@ namespace In_Class_Work
                 {
                     Console.WriteLine("Please input the type of account you want to count using either a one or a two.\n1.Checking Account\n2.Savings Account");
                     userinput = int.Parse(Console.ReadLine());
-                    Console.WriteLine(BankOne.GetAccountTypeCount(userinput));
+                    //Console.WriteLine(BankOne.GetAccountTypeCount(userinput));
                     Console.ReadKey();
                     userinput = 0;
                 }
