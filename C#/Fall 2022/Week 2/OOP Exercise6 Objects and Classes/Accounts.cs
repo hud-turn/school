@@ -8,8 +8,9 @@ namespace OOP_Exercise6_Objects_and_Classes
 {
     internal class Account
     {
-        public Account(bool cacctstat,double caccountnum, double cbalance, List<double> ctransactions, bool sacctstat, double saccountnum, double sbalance, List<double> stransactions)
+        public Account(int memberid, bool cacctstat,double caccountnum, double cbalance, List<double> ctransactions, bool sacctstat, double saccountnum, double sbalance, List<double> stransactions)
         {
+            this.MemberID = memberid;
             this.CAcctstat = cacctstat;
             this.CAccountNum = caccountnum;
             this.CBalance = cbalance;
@@ -18,8 +19,9 @@ namespace OOP_Exercise6_Objects_and_Classes
             this.SAccountnum = saccountnum;
             this.SBalance = sbalance;
             this.STransactions = stransactions;
-            
         }
+
+        public int MemberID { get; set; }
         public bool CAcctstat { get; set; }
         public double CAccountNum { get; set; }
         public double CBalance { get; set; }
@@ -28,6 +30,24 @@ namespace OOP_Exercise6_Objects_and_Classes
         public double SAccountnum { get; set; }
         public double SBalance { get; set; }
         public List<double> STransactions { get; set; }
+        public string CloseAccount(int memberid, int accttype)
+        {
+            if (memberid == this.MemberID)
+            {
+                if (accttype == 1)
+                {
+                    this.CAcctstat = false;
+                    return "Checking Account Removed";
+                }
+                if (accttype == 2)
+                {
+                    this.SAcctstat = false;
+                    return "Savings Account Removed";
+                }
+            }
 
+
+            return "Account not found";
+        }
     }
 }

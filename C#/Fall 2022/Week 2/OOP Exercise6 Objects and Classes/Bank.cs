@@ -87,26 +87,5 @@ namespace OOP_Exercise6_Objects_and_Classes
                 return 0;
             }
         }
-        public string CloseAccount(int memberid, int accttype)
-        {
-            foreach (Member s in this.Members)
-            {
-                if (memberid == s.MemberID)
-                {
-                    if (accttype == 1)
-                    {
-                        s.Acct.CAcctstat = false;
-                        return "Checking Account Removed";
-                    }
-                    if (accttype == 2)
-                    {
-                        s.Acct.SAcctstat = false;
-                        return "Savings Account Removed";
-                    }
-                }
-            }
-            return "Account not found";
-        }
-    }
-    
+    }    
 }

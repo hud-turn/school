@@ -35,10 +35,10 @@ namespace In_Class_Work
             stransactions4.Add(1595);
 
 
-            Account Account1 = new Account(true, 0001, 500, ctransactions1, false, 0001, 500, stransactions1);
-            Account Account2 = new Account(true, 0002, 500, ctransactions2, true, 0002, 500, stransactions2);
-            Account Account3 = new Account(true, 0003, 500, ctransactions3, false, 0003, 500, stransactions3);
-            Account Account4 = new Account(true, 0004, 500, ctransactions4, true, 0004, 500, stransactions4);
+            Account Account1 = new Account(0001, true, 0001, 500, ctransactions1, false, 0001, 500, stransactions1);
+            Account Account2 = new Account(0002,true, 0002, 500, ctransactions2, true, 0002, 500, stransactions2);
+            Account Account3 = new Account(0003, true, 0003, 500, ctransactions3, false, 0003, 500, stransactions3);
+            Account Account4 = new Account(0004, true, 0004, 500, ctransactions4, true, 0004, 500, stransactions4);
 
             Member Member1 = new Member(0001, "Tom", Account1);
             Member Member2 = new Member(0002, "Tim", Account2);
@@ -49,8 +49,6 @@ namespace In_Class_Work
             members.Add(Member2);
             members.Add(Member3);
             members.Add(Member4);
-
-
 
             while (userinput != 5)
             {
