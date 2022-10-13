@@ -21,18 +21,45 @@ namespace OOP_Exercise6_Objects_and_Classes
         {
             foreach (Member s in this.Members)
             {
-                
+                Console.WriteLine(s.MemberName);
             }
             
         }
-        public int GetAccountTypeCount()
+        public int GetAccountTypeCount(int accounttype)
         {
-
+            if (accounttype == 1)
+            {
+                int count = 0;
+                foreach (Member s in this.Members)
+                {
+                    if (s.Acct.CAcctstat == true)
+                    {
+                        count++;
+                    }
+                }
+                return count;
+            }
+            if (accounttype == 2)
+            {
+                int count = 0;
+                foreach (Member s in this.Members)
+                {
+                    if (s.Acct.SAcctstat == true)
+                    {
+                        count++;
+                    }
+                }
+                return count;
+            }
+            else
+            {
+                return 0;
+            }
         }
-        public int GetTransactionCount()
-        {
+        //public int GetTransactionCount()
+        //{
 
-        }
+        //}
     }
     
 

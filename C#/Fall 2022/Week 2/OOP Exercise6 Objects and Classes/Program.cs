@@ -21,10 +21,10 @@ namespace In_Class_Work
             List<double> stransactions3 = new List<double>();
             List<double> stransactions4 = new List<double>();
 
-            Accounts Account1 = new Accounts(0001, 500, ctransactions1, 0001, 500, stransactions1);
-            Accounts Account2 = new Accounts(0002, 500, ctransactions2, 0002, 500, stransactions1);
-            Accounts Account3 = new Accounts(0003, 500, ctransactions3, 0003, 500, stransactions1);
-            Accounts Account4 = new Accounts(0004, 500, ctransactions4, 0004, 500, stransactions1);
+            Account Account1 = new Account(true, 0001, 500, ctransactions1, false, 0001, 500, stransactions1);
+            Account Account2 = new Account(true, 0002, 500, ctransactions2, true, 0002, 500, stransactions1);
+            Account Account3 = new Account(true, 0003, 500, ctransactions3, false, 0003, 500, stransactions1);
+            Account Account4 = new Account(true, 0004, 500, ctransactions4, true, 0004, 500, stransactions1);
 
             Member Member1 = new Member(0001, "Tom", Account1);
             Member Member2 = new Member(0002, "Tim", Account2);
@@ -36,36 +36,59 @@ namespace In_Class_Work
             members.Add(Member3);
             members.Add(Member4);
 
-            foreach(Member s in members)
+
+
+            while (userinput != 5)
             {
-                Console.WriteLine(s.MemberName);
+                Console.WriteLine("Please input what you would like to do.\n1. Close an account\n2.Add Funds\n3.Check a Balance\n4.Get a transaction Count\n5.List all Members\n6.Get an account type count\n7.Get a transaction count");
+                userinput = int.Parse(Console.ReadLine());
+                Console.Clear();
+                if (userinput == 1)
+                {
+                    Console.WriteLine("");
+                    userinput = int.Parse(Console.ReadLine());
+
+                    userinput = 0;
+                }
+                else if (userinput == 2)
+                {
+
+                    userinput = 0;
+                }
+                else if (userinput == 3)
+                {
+
+                    userinput = 0;
+                }
+                else if (userinput == 4)
+                {
+
+                    userinput = 0;
+                }
+                else if (userinput == 5)
+                {
+                    BankOne.ListAllMembers();
+                    Console.ReadKey();
+                    userinput = 0;
+                }
+                else if (userinput == 6)
+                {
+                    Console.WriteLine("Please input the type of account you want to count using either a one or a two.\n1.Checking Account\n2.Savings Account");
+                    userinput = int.Parse(Console.ReadLine());
+                    Console.WriteLine(BankOne.GetAccountTypeCount(userinput));
+                    Console.ReadKey();
+                    userinput = 0;
+                }
+                else if (userinput == 7)
+                {
+                    userinput = 0;
+                }
+                else
+                {
+                    break;
+                }
+                Console.Clear();
             }
-
-            //while (userinput != 5)
-            //{
-            //    Console.WriteLine("Please input what you would like to do:");
-            //    userinput =int.Parse(Console.ReadLine());
-            //    if(userinput == 1)
-            //    {
-
-            //    }
-            //    else if(userinput == 2)
-            //    {
-
-            //    }
-            //    else if (userinput == 3)
-            //    {
-
-            //    }
-            //    else if (userinput == 4)
-            //    {
-
-            //    }
-            //    else
-            //    {
-            //        break;
-            //    }
-            //}
         }
     }
 }

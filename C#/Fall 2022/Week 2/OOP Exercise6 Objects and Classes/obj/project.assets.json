@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\OOP Exercise6 Objects and Classes\\OOP Exercise6 Objects and Classes.csproj",
+      "projectUniqueName": "C:\\Users\\turn4527\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 2\\OOP Exercise6 Objects and Classes\\OOP Exercise6 Objects and Classes.csproj",
       "projectName": "OOP Exercise6 Objects and Classes",
-      "projectPath": "E:\\OOP Exercise6 Objects and Classes\\OOP Exercise6 Objects and Classes.csproj",
+      "projectPath": "C:\\Users\\turn4527\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 2\\OOP Exercise6 Objects and Classes\\OOP Exercise6 Objects and Classes.csproj",
       "packagesPath": "C:\\Users\\turn4527\\.nuget\\packages\\",
-      "outputPath": "E:\\OOP Exercise6 Objects and Classes\\obj\\",
+      "outputPath": "C:\\Users\\turn4527\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 2\\OOP Exercise6 Objects and Classes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\turn4527\\AppData\\Roaming\\NuGet\\NuGet.Config",
