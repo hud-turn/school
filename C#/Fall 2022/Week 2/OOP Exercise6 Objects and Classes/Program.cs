@@ -21,10 +21,24 @@ namespace In_Class_Work
             List<double> stransactions3 = new List<double>();
             List<double> stransactions4 = new List<double>();
 
+            ctransactions1.Add(159.5);
+            ctransactions1.Add(159.5);
+            ctransactions2.Add(15.5);
+            ctransactions3.Add(19.5);
+            ctransactions4.Add(1595);
+            ctransactions4.Add(1599);
+
+            stransactions1.Add(159.5);
+            stransactions1.Add(159.5);
+            stransactions2.Add(15.5);
+            stransactions3.Add(19.5);
+            stransactions4.Add(1595);
+
+
             Account Account1 = new Account(true, 0001, 500, ctransactions1, false, 0001, 500, stransactions1);
-            Account Account2 = new Account(true, 0002, 500, ctransactions2, true, 0002, 500, stransactions1);
-            Account Account3 = new Account(true, 0003, 500, ctransactions3, false, 0003, 500, stransactions1);
-            Account Account4 = new Account(true, 0004, 500, ctransactions4, true, 0004, 500, stransactions1);
+            Account Account2 = new Account(true, 0002, 500, ctransactions2, true, 0002, 500, stransactions2);
+            Account Account3 = new Account(true, 0003, 500, ctransactions3, false, 0003, 500, stransactions3);
+            Account Account4 = new Account(true, 0004, 500, ctransactions4, true, 0004, 500, stransactions4);
 
             Member Member1 = new Member(0001, "Tom", Account1);
             Member Member2 = new Member(0002, "Tim", Account2);
@@ -45,9 +59,12 @@ namespace In_Class_Work
                 Console.Clear();
                 if (userinput == 1)
                 {
-                    Console.WriteLine("");
+                    Console.WriteLine("Please input the member ID that you would like to remove:");
                     userinput = int.Parse(Console.ReadLine());
-
+                    Console.WriteLine("Please input if you would like to remove a checking or savings account:");
+                    int useraccount = int.Parse(Console.ReadLine());
+                    Console.WriteLine(BankOne.CloseAccount(userinput,useraccount));
+                    Console.ReadKey();
                     userinput = 0;
                 }
                 else if (userinput == 2)
@@ -62,7 +79,10 @@ namespace In_Class_Work
                 }
                 else if (userinput == 4)
                 {
-
+                    Console.WriteLine("Please input the type of account you want to count using either a one or a two.\n1.Checking Account\n2.Savings Account");
+                    userinput = int.Parse(Console.ReadLine());
+                    Console.WriteLine(BankOne.GetTransactionCount(userinput));
+                    Console.ReadKey();
                     userinput = 0;
                 }
                 else if (userinput == 5)
@@ -81,6 +101,10 @@ namespace In_Class_Work
                 }
                 else if (userinput == 7)
                 {
+                    Console.WriteLine("Please input the type of account you want to count using either a one or a two.\n1.Checking Account\n2.Savings Account");
+                    userinput = int.Parse(Console.ReadLine());
+                    Console.WriteLine(BankOne.GetTransactionCount(userinput));
+                    Console.ReadKey();
                     userinput = 0;
                 }
                 else

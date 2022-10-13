@@ -20,11 +20,8 @@ namespace OOP_Exercise6_Objects_and_Classes
 
         //public List<Account> Stuff { get; set; }
     }
-    
-    //public bool CloseAccount()
-    //{
 
-    //}
+   
     //public double AddFunds(int memberid, int accountsel, double accounttransaction)
     //{
     //    if (accountsel == 0)

@@ -56,11 +56,57 @@ namespace OOP_Exercise6_Objects_and_Classes
                 return 0;
             }
         }
-        //public int GetTransactionCount()
-        //{
-
-        //}
+        public int GetTransactionCount(int accounttype)
+        {
+            if (accounttype == 1)
+            {
+                int count = 0;
+                foreach (Member s in this.Members)
+                {
+                    for (double i = 0; i != s.Acct.CTransactions.Count();i++)
+                    {
+                        count++;
+                    }
+                }
+                return count;
+            }
+            if (accounttype == 2)
+            {
+                int count = 0;
+                foreach (Member s in this.Members)
+                {
+                    for (double i = 0; i != s.Acct.STransactions.Count(); i++)
+                    {
+                        count++;
+                    }
+                }
+                return count;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+        public string CloseAccount(int memberid, int accttype)
+        {
+            foreach (Member s in this.Members)
+            {
+                if (memberid == s.MemberID)
+                {
+                    if (accttype == 1)
+                    {
+                        s.Acct.CAcctstat = false;
+                        return "Checking Account Removed";
+                    }
+                    if (accttype == 2)
+                    {
+                        s.Acct.SAcctstat = false;
+                        return "Savings Account Removed";
+                    }
+                }
+            }
+            return "Account not found";
+        }
     }
     
-
 }
