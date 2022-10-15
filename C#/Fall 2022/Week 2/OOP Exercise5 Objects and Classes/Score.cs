@@ -13,6 +13,7 @@ namespace OOP_Exercise5_Objects_and_Classes
             this.TeamIndicator = teamindicator;
             this.TeamScore = teamscore;
         }
-        public Location LocScore { get; set; }
+        public bool TeamIndicator { get; set; }
+        public int TeamScore { get; set; }
     }
 }
