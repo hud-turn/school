@@ -41,7 +41,7 @@ namespace In_Class_Work
             BasketList.Add(Basket23);
             BasketList.Add(Basket24);
 
-            Location LocBall = new Location(5, 5);
+            Location LocBall = new Location(10,0 );
             Ball Ball = new Ball(LocBall);
 
             List<Team> teamgame = new List<Team>();
@@ -69,8 +69,18 @@ namespace In_Class_Work
 
             Court courtgame = new Court(teamscores, BasketList ,Ball, teamgame, referee);
 
+            Console.WriteLine("This is the list of players:");
             courtgame.ListAllMembers();
+
+            Console.WriteLine("\nThis is the list of players and how close they are to the ref.:");
             courtgame.ClosestToReff();
+
+            Console.WriteLine("\nThe following line indicates if a basket has been scored when the ball enters the basket:");
+            Console.WriteLine(courtgame.BasketScored());
+
+            Console.WriteLine("\nThe following line indicates if a basket has been scored during this game:");
+            Console.WriteLine(courtgame.Scored());
+
             Console.ReadKey();
         }
     }

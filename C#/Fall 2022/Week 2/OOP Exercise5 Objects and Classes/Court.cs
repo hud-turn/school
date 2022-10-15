@@ -34,10 +34,11 @@ namespace OOP_Exercise5_Objects_and_Classes
         }
         public void ClosestToReff()
         {
-            double x =this.CourtReff.LocReff.X;
-            double y = this.CourtReff.LocReff.Y;
+            
             foreach (Team a in this.CourtTeam)
             {
+                double x = this.CourtReff.LocReff.X;
+                double y = this.CourtReff.LocReff.Y;
                 double xdiff= a.TeamPlayersLoc.X - x;
                 double ydiff = a.TeamPlayersLoc.Y - y;
                 double hypo = (ydiff * ydiff) + (xdiff * xdiff);
@@ -48,12 +49,27 @@ namespace OOP_Exercise5_Objects_and_Classes
             //Console.WriteLine(CourtTeam.OrderBy(x => x.Hypotenuse).ToList());
 
         }
-        public void BasketScored()
+        public string Scored()
+        {
+            foreach (Score a in this.CourtScore)
+            {
+                if(a.TeamScore > 0)
+                {
+                    return "A basket has been scored";
+                }
+            }
+            return "A basket has not been scored";
+        }
+        public string BasketScored()
         {
             foreach (Basket a in this.CourtBasket)
             {
-                
+                if (a.Loc.X == this.CourtBall.LocBall.X && a.Loc.Y == this.CourtBall.LocBall.Y)
+                {
+                    return "A ball has entered the basket";
+                }
             }
+            return "A ball has not gone into the basket";
         }
     }
 }
