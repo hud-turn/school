@@ -44,7 +44,7 @@ namespace OOP_Exercise5_Objects_and_Classes
                 double hypo = (ydiff * ydiff) + (xdiff * xdiff);
                 double hypotenuse = Math.Sqrt(hypo);
                 a.Hypotenuse = hypotenuse;
-                Console.WriteLine(a.TeamPlayerName + " " + a.Hypotenuse);
+                Console.WriteLine(a.TeamPlayerName + " " + Math.Round(a.Hypotenuse, 2));
             }
             //Console.WriteLine(CourtTeam.OrderBy(x => x.Hypotenuse).ToList());
 
