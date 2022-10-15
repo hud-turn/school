@@ -27,18 +27,23 @@ namespace In_Class_Work
             Location refloc = new Location(6, 6);
             Reff referee = new Reff(refloc);
 
-            Location p11 = new Location(6, 3);
-            Location p12 = new Location(5, 3);
-            Location p13 = new Location(7, 3);
+            Location locp11 = new Location(6, 3);
+            Location locp12 = new Location(5, 3);
+            Location locp13 = new Location(7, 3);
 
-            Location p21 = new Location(3, 6);
-            Location p22 = new Location(3, 5);
-            Location p23 = new Location(3, 7);
+            Location locp21 = new Location(3, 6);
+            Location locp22 = new Location(3, 5);
+            Location locp23 = new Location(3, 7);
 
             List<Team> teamgame = new List<Team>();
 
+            Team p11 = new Team(false, "Jim", locp11);
+            Team p12 = new Team(false, "Pym", locp12);
+            Team p13 = new Team(false, "Quinn", locp13);
 
-
+            Team p21 = new Team(true, "Harper", locp21);
+            Team p22 = new Team(true, "Casey", locp22);
+            Team p23 = new Team(true, "Alex", locp23);
 
         }
     }

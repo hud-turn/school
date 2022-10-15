@@ -8,9 +8,10 @@ namespace OOP_Exercise5_Objects_and_Classes
 {
     internal class Score
     {
-        public Score (Location locscore)
+        public Score (bool teamindicator, int teamscore)
         {
-            this.LocScore = locscore;
+            this.TeamIndicator = teamindicator;
+            this.TeamScore = teamscore;
         }
         public Location LocScore { get; set; }
     }
