@@ -24,11 +24,35 @@ namespace OOP_Exercise5_Objects_and_Classes
         public Ball CourtBall { get; set; }
         public List <Team> CourtTeam { get; set; }
         public Reff CourtReff  { get; set; }
+
         public void ListAllMembers()
         {
             foreach (Team s in this.CourtTeam)
             {
-                Console.WriteLine(s.TeamPlayerName + s.TeamPlayersLoc);
+                Console.WriteLine(s.TeamPlayerName + " " + s.TeamPlayersLoc.X + " " + s.TeamPlayersLoc.Y);
+            }
+        }
+        public void ClosestToReff()
+        {
+            double x =this.CourtReff.LocReff.X;
+            double y = this.CourtReff.LocReff.Y;
+            foreach (Team a in this.CourtTeam)
+            {
+                double xdiff= a.TeamPlayersLoc.X - x;
+                double ydiff = a.TeamPlayersLoc.Y - y;
+                double hypo = (ydiff * ydiff) + (xdiff * xdiff);
+                double hypotenuse = Math.Sqrt(hypo);
+                a.Hypotenuse = hypotenuse;
+                Console.WriteLine(a.TeamPlayerName + " " + a.Hypotenuse);
+            }
+            //Console.WriteLine(CourtTeam.OrderBy(x => x.Hypotenuse).ToList());
+
+        }
+        public void BasketScored()
+        {
+            foreach (Basket a in this.CourtBasket)
+            {
+                
             }
         }
     }

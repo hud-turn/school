@@ -8,19 +8,17 @@ namespace OOP_Exercise5_Objects_and_Classes
 {
     internal class Team
     {
-        public Team(bool teamaffil, string teamplayername, Location teamplayersloc)
+        public Team(bool teamaffil, string teamplayername, Location teamplayersloc,double hypotenuse)
         {
             this.TeamAffil = teamaffil; 
             this.TeamPlayerName = teamplayername;
             this.TeamPlayersLoc = teamplayersloc;
+            this.Hypotenuse = hypotenuse;
         }
         public bool TeamAffil { get; set; }
         public string TeamPlayerName { get; set; }
         public Location TeamPlayersLoc { get; set; }
-        public void PlayerNameandLoc()
-        {
-            
-        }
+        public double Hypotenuse { get; set; }
     }
     
 }
