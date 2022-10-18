@@ -1,0 +1,15 @@
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\bin\Debug\net6.0\Midterm Exam.exe
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\bin\Debug\net6.0\Midterm Exam.deps.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\bin\Debug\net6.0\Midterm Exam.runtimeconfig.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\bin\Debug\net6.0\Midterm Exam.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\bin\Debug\net6.0\Midterm Exam.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\obj\Debug\net6.0\Midterm Exam.csproj.AssemblyReference.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\obj\Debug\net6.0\Midterm Exam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\obj\Debug\net6.0\Midterm Exam.AssemblyInfoInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\obj\Debug\net6.0\Midterm Exam.AssemblyInfo.cs
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\obj\Debug\net6.0\Midterm Exam.csproj.CoreCompileInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\obj\Debug\net6.0\Midterm Exam.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\obj\Debug\net6.0\refint\Midterm Exam.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\obj\Debug\net6.0\Midterm Exam.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\obj\Debug\net6.0\Midterm Exam.genruntimeconfig.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\Midterm Exam\obj\Debug\net6.0\ref\Midterm Exam.dll
