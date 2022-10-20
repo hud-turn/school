@@ -22,7 +22,7 @@ namespace OOP_Exercise6_Objects_and_Classes
         public bool Acctstat { get; set; }
         public double AcctType { get; }//Changes
         public double AccountNum { get; }//Changes
-        public double Balance { get; set; }
+        private double Balance { get; set; }
         public List<double> Transactions { get; set; }
         public string CloseAccount()
         {

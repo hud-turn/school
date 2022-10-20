@@ -21,7 +21,7 @@ namespace OOP_Exercise6_Objects_and_Classes
         {
             foreach (Member s in this.Members)
             {
-                Console.WriteLine(s.MemberName + " " + s.MemberID);
+                Console.WriteLine(s.MemberName);
             }            
         }
         public int GetAccountTypeCount(int accounttype)
@@ -31,7 +31,7 @@ namespace OOP_Exercise6_Objects_and_Classes
             {
                 foreach (Account a in s.Acct)
                 {
-                    if (a.AcctType == 1 && a.Acctstat == true)
+                    if (a.AcctType == accounttype && a.Acctstat == true)
                     {
                         count++;
                     }
