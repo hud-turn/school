@@ -23,18 +23,19 @@ namespace In_Class_Work
 
             Degree d = new Degree(aa, bb, x, y);//we pass the variables from the previous section over to the Degree class and create a new variable with the datatype of Degree.
             Console.Write("\nHas the student passed three classes and obtained their degree? ");//output
-            if (d.Passed() == true)//did the user pass the class? we run .Passed() on the varible d that we created.
-            {
-                Console.Write("Yes");
-            }
-            else//if the user didn't pass then they (by default) did not pass.
-            {
-                Console.Write("No");
-            }
-            Console.WriteLine(d.Passed());
+            ////if (d.Passed() == true)//did the user pass the class? we run .Passed() on the varible d that we created.
+            //{
+            //    Console.Write("Yes");
+            //}
+            //else//if the user didn't pass then they (by default) did not pass.
+            //{
+            //    Console.Write("No");
+            //}
+            //Console.WriteLine(d.Passed());
             Console.WriteLine(d.GPA());
             Console.WriteLine(d.PassedCourses());
             Console.WriteLine(d.FailedCourses());
+            Console.WriteLine(d.DegGPA);
             Console.ReadKey();
         }
     }

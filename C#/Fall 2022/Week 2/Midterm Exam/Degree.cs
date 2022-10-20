@@ -93,7 +93,7 @@ namespace Exercise_3
         }
         public int FailedCourses()
         {
-            int iterator = 0;
+            int iterator = 0; 
             if (PFCourseA.Passed() == false)
             {
                 iterator++;
@@ -111,6 +111,11 @@ namespace Exercise_3
                 iterator++;
             }
             return iterator;
+        }
+        public void DegGPA()
+        {
+            this.Passed();
+            this.GPA();
         }
     }
 }
