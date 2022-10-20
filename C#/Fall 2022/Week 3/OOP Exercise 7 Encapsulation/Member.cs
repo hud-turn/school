@@ -15,7 +15,7 @@ namespace OOP_Exercise6_Objects_and_Classes
             this.MemberName = membername;
             this.Acct = accounts;
         }
-        public double MemberID { get; set; }
+        public double MemberID { get;}//Changes
         public string MemberName { get; set; }
         public List<Account> Acct { get; set; }
 

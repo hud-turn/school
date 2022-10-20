@@ -21,7 +21,7 @@ namespace OOP_Exercise6_Objects_and_Classes
         {
             foreach (Member s in this.Members)
             {
-                Console.WriteLine(s.MemberName);
+                Console.WriteLine(s.MemberName + " " + s.MemberID);
             }            
         }
         public int GetAccountTypeCount(int accounttype)
