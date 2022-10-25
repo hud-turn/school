@@ -1,5 +1,5 @@
 ﻿using In_Class_Work;
-using OOP_Exercise8_Objects_and_Classes;
+using OOP_Exercise8_Inheritance;
 using System;
 using System.Collections.Generic;
 using System.Security.Principal;

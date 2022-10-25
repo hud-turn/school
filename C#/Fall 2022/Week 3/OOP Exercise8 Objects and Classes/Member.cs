@@ -5,7 +5,7 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_Exercise8_Objects_and_Classes
+namespace OOP_Exercise8_Inheritance
 {
     internal class Member
     {

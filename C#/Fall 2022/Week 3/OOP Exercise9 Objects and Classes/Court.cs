@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading.Tasks.Sources;
 
-namespace OOP_Exercise9_Objects_and_Classes
+namespace OOP_Exercise9_Inheritance
 {
     internal class Court
     {

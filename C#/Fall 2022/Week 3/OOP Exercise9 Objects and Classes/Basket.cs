@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_Exercise9_Objects_and_Classes
+namespace OOP_Exercise9_Inheritance
 {
     internal class Basket
     {
