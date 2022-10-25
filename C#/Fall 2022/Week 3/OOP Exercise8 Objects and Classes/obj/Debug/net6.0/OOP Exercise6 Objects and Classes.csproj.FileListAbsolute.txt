@@ -1,0 +1,30 @@
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.csproj.AssemblyReference.cache
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.AssemblyInfoInputs.cache
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.AssemblyInfo.cs
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.csproj.CoreCompileInputs.cache
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\OOP Exercise6 Objects and Classes.exe
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\OOP Exercise6 Objects and Classes.deps.json
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\OOP Exercise6 Objects and Classes.runtimeconfig.json
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\OOP Exercise6 Objects and Classes.dll
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\OOP Exercise6 Objects and Classes.pdb
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.dll
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\refint\OOP Exercise6 Objects and Classes.dll
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.pdb
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.genruntimeconfig.cache
+C:\Users\Hudson Turner\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\ref\OOP Exercise6 Objects and Classes.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\OOP Exercise6 Objects and Classes.exe
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\OOP Exercise6 Objects and Classes.deps.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\OOP Exercise6 Objects and Classes.runtimeconfig.json
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\OOP Exercise6 Objects and Classes.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\OOP Exercise6 Objects and Classes.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.csproj.AssemblyReference.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.AssemblyInfoInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.AssemblyInfo.cs
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.csproj.CoreCompileInputs.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.pdb
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\OOP Exercise6 Objects and Classes.genruntimeconfig.cache
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\obj\Debug\net6.0\ref\OOP Exercise6 Objects and Classes.dll
+C:\Users\turn4527\Documents\GitHub\school\C#\Fall 2022\Week 2\OOP Exercise6 Objects and Classes\bin\Debug\net6.0\ref\OOP Exercise6 Objects and Classes.dll
