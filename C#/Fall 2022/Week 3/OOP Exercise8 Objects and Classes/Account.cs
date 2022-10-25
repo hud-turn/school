@@ -43,6 +43,8 @@ namespace OOP_Exercise8_Inheritance
             return count;
         }
     }
+    //so we will add a method to the account class.
+    //inheritance allows us to pull methods from the account class and reference them using another class without removing data/program and breaking crap.
     public class CheckingAccount : Account
     {
         public CheckingAccount(int memberid, bool acctstat, int accttype, double accountnum, double balance, List<double> transactions):base(memberid,acctstat,accttype,accountnum,balance,transactions)
