@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Exercise8_Inheritance
 {
-    internal class Account
+    public class Account
     {
         public Account(int memberid, bool acctstat, int accttype, double accountnum, double balance, List<double> transactions)
         {
@@ -17,7 +17,6 @@ namespace OOP_Exercise8_Inheritance
             this.Balance = balance;
             this.Transactions = transactions;
         }
-
         public int MemberID { get; set; }
         public bool Acctstat { get; set; }
         public double AcctType { get; set; }
@@ -34,14 +33,30 @@ namespace OOP_Exercise8_Inheritance
             this.Balance += balance;
             return "Credit has been added to this account";
         }
-        public void CheckBalance()
+        public double CheckBalance()
         {
-            Console.Write(this.Balance);
+            return this.Balance;
         }
         public int AcctGetTransactionCount()
         {
             int count = this.Transactions.Count();
             return count;
         }
+    }
+    public class CheckingAccount : Account
+    {
+        public CheckingAccount(int memberid, bool acctstat, int accttype, double accountnum, double balance, List<double> transactions):base(memberid,acctstat,accttype,accountnum,balance,transactions)
+        {
+
+        }
+
+    }
+    public class SavingsAccount : Account
+    {
+        public SavingsAccount(int memberid, bool acctstat, int accttype, double accountnum, double balance, List<double> transactions) : base(memberid, acctstat, accttype, accountnum, balance, transactions)
+        {
+
+        }
+
     }
 }
