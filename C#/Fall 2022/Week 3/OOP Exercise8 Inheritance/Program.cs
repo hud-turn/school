@@ -67,7 +67,7 @@ namespace OOP_Exercise8_Inheritance
 
             while (userinput != 8)
             {
-                Console.WriteLine("Please input what you would like to do.\n1. Close an account\n2.Add Funds\n3.Check a Balance\n4.Get a transaction Count\n5.List all Members\n6.Get an account type count\n7.Get a transaction count\n8.Exit Program");
+                Console.WriteLine("Please input what you would like to do.\n1.Close an account\n2.Add Funds\n3.Check a Balance\n4.Get a transaction Count\n5.List all Members\n6.Get an account type count\n7.Print Balance of Checking Account\n8.Print Balance of Savings Account\n9.Exit Program");
                 userinput = int.Parse(Console.ReadLine());
                 Console.Clear();
                 if (userinput == 1)
@@ -176,6 +176,12 @@ namespace OOP_Exercise8_Inheritance
                     userinput = 0;
                 }
                 else if (userinput == 8)
+                {
+                    SAccount1.PrintBalance();
+                    Console.ReadKey();
+                    userinput = 0;
+                }
+                else if (userinput == 9)
                 {
                     break;
                 }
