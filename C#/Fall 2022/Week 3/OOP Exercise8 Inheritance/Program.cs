@@ -171,7 +171,7 @@ namespace OOP_Exercise8_Inheritance
                 }
                 else if (userinput == 7)
                 {
-                    CAccount1.PrintBalance();
+                    SAccount1.PrintBalance();
                     Console.ReadKey();
                     userinput = 0;
                 }
