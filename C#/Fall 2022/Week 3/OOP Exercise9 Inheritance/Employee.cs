@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Exercise9_Objects_and_Classes
 {
-    internal class Employee
+    public class Employee
     {
         public Employee(bool teamaffil, string teamplayername, Location teamplayersloc, double hypotenuse)
         {

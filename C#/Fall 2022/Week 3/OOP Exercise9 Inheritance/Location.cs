@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Exercise9_Inheritance
 {
-    internal class Location
+    public class Location
     {
         public Location (int x, int y)
         {
