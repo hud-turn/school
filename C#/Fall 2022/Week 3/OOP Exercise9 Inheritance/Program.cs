@@ -51,12 +51,12 @@ namespace In_Class_Work
             Location locp21 = new Location(3, 6);
             Location locp22 = new Location(3, 5);
             Location locp23 = new Location(3, 7);        
-            Team p11 = new Team(false, "Jim", locp11,0);
-            Team p12 = new Team(false, "Pym", locp12,0);
-            Team p13 = new Team(false, "Quinn", locp13,0);
-            Team p21 = new Team(true, "Harper", locp21,0);
-            Team p22 = new Team(true, "Casey", locp22,0);
-            Team p23 = new Team(true, "Alex", locp23,0);
+            Team p11 = new Player(false, "Jim", locp11,0);
+            Team p12 = new Player(false, "Pym", locp12,0);
+            Team p13 = new Player(false, "Quinn", locp13,0);
+            Team p21 = new Player(true, "Harper", locp21,0);
+            Team p22 = new Player(true, "Casey", locp22,0);
+            Team p23 = new Player(true, "Alex", locp23,0);
             teamgame.Add(p11);
             teamgame.Add(p12);
             teamgame.Add(p13);

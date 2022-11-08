@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOP_Exercise9_Objects_and_Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics.Metrics;
@@ -27,7 +28,7 @@ namespace OOP_Exercise9_Inheritance
 
         public void ListAllMembers()
         {
-            foreach (Team s in this.CourtTeam)
+            foreach (Team s in )
             {
                 Console.WriteLine(s.TeamPlayerName + " " + s.TeamPlayersLoc.X + " " + s.TeamPlayersLoc.Y);
             }

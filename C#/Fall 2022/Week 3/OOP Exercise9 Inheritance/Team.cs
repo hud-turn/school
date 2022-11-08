@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOP_Exercise9_Objects_and_Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,17 +9,10 @@ namespace OOP_Exercise9_Inheritance
 {
     internal class Team
     {
-        public Team(bool teamaffil, string teamplayername, Location teamplayersloc,double hypotenuse)
+        public Team(List <Player> playerattributes)
         {
-            this.TeamAffil = teamaffil; 
-            this.TeamPlayerName = teamplayername;
-            this.TeamPlayersLoc = teamplayersloc;
-            this.Hypotenuse = hypotenuse;
+            this.PlayerAttributes = playerattributes;
         }
-        public bool TeamAffil { get; set; }
-        public string TeamPlayerName { get; set; }
-        public Location TeamPlayersLoc { get; set; }
-        public double Hypotenuse { get; set; }
+        public List <Player> PlayerAttributes { get; set; }
     }
-    
 }
