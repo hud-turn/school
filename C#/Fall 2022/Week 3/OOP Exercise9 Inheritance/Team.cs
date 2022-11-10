@@ -9,10 +9,10 @@ namespace OOP_Exercise9_Inheritance
 {
     internal class Team
     {
-        public Team(List <Player> playerattributes)
+        public Team(Player teamplayers)
         {
-            this.PlayerAttributes = playerattributes;
+            this.TeamPlayers = teamplayers;
         }
-        public List <Player> PlayerAttributes { get; set; }
+        public Player TeamPlayers { get; set; }
     }
 }
