@@ -28,24 +28,31 @@ namespace OOP_Exercise9_Inheritance
 
         public void ListAllMembers()
         {
-            foreach (Team s in )
+            foreach (Team s in this.CourtTeam)
             {
-                Console.WriteLine(s.TeamPlayerName + " " + s.TeamPlayersLoc.X + " " + s.TeamPlayersLoc.Y);
+                foreach (Player a in s.TeamPlayers)
+                {
+                    Console.WriteLine(a.TeamPlayerName + " " + a.TeamPlayersLoc.X + " " + a.TeamPlayersLoc.Y);
+                }
             }
         }
         public void ClosestToReff()
         {
             
-            foreach (Team a in this.CourtTeam)
+            foreach (Team b in this.CourtTeam)
             {
-                double x = this.CourtReff.LocReff.X;
-                double y = this.CourtReff.LocReff.Y;
-                double xdiff= a.TeamPlayersLoc.X - x;
-                double ydiff = a.TeamPlayersLoc.Y - y;
-                double hypo = (ydiff * ydiff) + (xdiff * xdiff);
-                double hypotenuse = Math.Sqrt(hypo);
-                a.Hypotenuse = hypotenuse;
-                Console.WriteLine(a.TeamPlayerName + " " + Math.Round(a.Hypotenuse, 2));
+                foreach (Player a in b.TeamPlayers)
+                {
+                    double x = this.CourtReff.LocReff.X;
+                    double y = this.CourtReff.LocReff.Y;
+                    double xdiff = a.TeamPlayersLoc.X - x;
+                    double ydiff = a.TeamPlayersLoc.Y - y;
+                    double hypo = (ydiff * ydiff) + (xdiff * xdiff);
+                    double hypotenuse = Math.Sqrt(hypo);
+                    a.Hypotenuse = hypotenuse;
+                    Console.WriteLine(a.TeamPlayerName + " " + Math.Round(a.Hypotenuse, 2));
+                }
+                    
             }
             //Console.WriteLine(CourtTeam.OrderBy(x => x.Hypotenuse).ToList());
 
