@@ -1,4 +1,4 @@
-﻿using OOP_Exercise9_Objects_and_Classes;
+﻿using OOP_Exercise9_Inheritance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace OOP_Exercise9_Inheritance
 {
-    internal class Team
+    public class Team
     {
-        public Team(List <Player> teamplayers)
+        public Team(Player teamplayers)
         {
             this.TeamPlayers = teamplayers;
         }
-        public List <Player> TeamPlayers { get; set; }
+        public Player TeamPlayers { get; set; }
     }
 }

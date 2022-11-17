@@ -1,9 +1,8 @@
-﻿using In_Class_Work;
-using OOP_Exercise9_Inheritance;
+﻿using OOP_Exercise9_Inheritance;
 using System;
 using System.Security.Principal;
 
-namespace In_Class_Work
+namespace OOP_Exercise9_Inheritance
 {
     class Program
     {
@@ -44,25 +43,38 @@ namespace In_Class_Work
             Location LocBall = new Location(10,0 );
             Ball Ball = new Ball(LocBall);
 
-            List<Team> teamgame = new List<Team>();
+           
             Location locp11 = new Location(8, 6);
             Location locp12 = new Location(9, 3);
             Location locp13 = new Location(7, 3);
             Location locp21 = new Location(3, 6);
             Location locp22 = new Location(3, 5);
             Location locp23 = new Location(3, 7);        
-            Team p11 = new Player(false, "Jim", locp11,0);
-            Team p12 = new Player(false, "Pym", locp12,0);
-            Team p13 = new Player(false, "Quinn", locp13,0);
-            Team p21 = new Player(true, "Harper", locp21,0);
-            Team p22 = new Player(true, "Casey", locp22,0);
-            Team p23 = new Player(true, "Alex", locp23,0);
+            Player p11 = new Player(5, "Jim", locp11,0,1);
+            Player p12 = new Player(5, "Pym", locp12,0,1);
+            Player p13 = new Player(5, "Quin", locp13,0,1);
+            Player p21 = new Player(6, "Harper", locp21,0,1);
+            Player p22 = new Player(6, "Casey", locp22,0, 1);
+            Player p23 = new Player(6, "Alex", locp23,0, 1);
+            Player p24 = new Player(5, "Jimm", locp11, 0, 2);
+            Player p25 = new Player(5, "Pymm", locp12, 0, 2);
+            Player p26 = new Player(5, "Quinn", locp13, 0, 2);
+            Player p27 = new Player(6, "Haarper", locp21, 0, 2);
+            Player p28 = new Player(6, "Caseyy", locp22, 0, 2);
+            Player p29 = new Player(6, "Alux", locp23, 0, 2);
+            List <Player> teamgame = new List <Player>();
             teamgame.Add(p11);
             teamgame.Add(p12);
             teamgame.Add(p13);
             teamgame.Add(p21);
             teamgame.Add(p22);
             teamgame.Add(p23);
+            teamgame.Add(p24);
+            teamgame.Add(p25);
+            teamgame.Add(p26);
+            teamgame.Add(p27);
+            teamgame.Add(p28);
+            teamgame.Add(p29);
 
             Location refloc = new Location(6, 6);
             Reff referee = new Reff(refloc);

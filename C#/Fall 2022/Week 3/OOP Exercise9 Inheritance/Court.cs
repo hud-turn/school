@@ -1,4 +1,4 @@
-﻿using OOP_Exercise9_Objects_and_Classes;
+﻿using OOP_Exercise9_Inheritance;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +12,7 @@ namespace OOP_Exercise9_Inheritance
 {
     internal class Court
     {
-        public Court(List <Score> courtscore,List<Basket> courtbasket, Ball courtball, List<Team> courtteam, Reff courtreff)
+        public Court(List <Score> courtscore,List<Basket> courtbasket, Ball courtball, List<Player> courtteam, Reff courtreff)
         {
             this.CourtScore = courtscore;
             this.CourtBasket = courtbasket;
@@ -23,36 +23,29 @@ namespace OOP_Exercise9_Inheritance
         public List <Score> CourtScore { get; set; }
         public List<Basket> CourtBasket { get; set; }
         public Ball CourtBall { get; set; }
-        public List <Team> CourtTeam { get; set; }
+        public List <Player> CourtTeam { get; set; }
         public Reff CourtReff  { get; set; }
 
         public void ListAllMembers()
         {
-            foreach (Team s in this.CourtTeam)
+            foreach (Player s in this.CourtTeam)
             {
-                foreach (Player a in s.TeamPlayers)
-                {
-                    Console.WriteLine(a.TeamPlayerName + " " + a.TeamPlayersLoc.X + " " + a.TeamPlayersLoc.Y);
-                }
+                Console.WriteLine(s.TeamPlayerName + " " + s.TeamPlayersLoc.X + " " + s.TeamPlayersLoc.Y);
             }
         }
         public void ClosestToReff()
         {
             
-            foreach (Team b in this.CourtTeam)
+            foreach (Player b in this.CourtTeam)
             {
-                foreach (Player a in b.TeamPlayers)
-                {
-                    double x = this.CourtReff.LocReff.X;
-                    double y = this.CourtReff.LocReff.Y;
-                    double xdiff = a.TeamPlayersLoc.X - x;
-                    double ydiff = a.TeamPlayersLoc.Y - y;
-                    double hypo = (ydiff * ydiff) + (xdiff * xdiff);
-                    double hypotenuse = Math.Sqrt(hypo);
-                    a.Hypotenuse = hypotenuse;
-                    Console.WriteLine(a.TeamPlayerName + " " + Math.Round(a.Hypotenuse, 2));
-                }
-                    
+                double x = this.CourtReff.LocReff.X;
+                double y = this.CourtReff.LocReff.Y;
+                double xdiff = b.TeamPlayersLoc.X - x;
+                double ydiff = b.TeamPlayersLoc.Y - y;
+                double hypo = (ydiff * ydiff) + (xdiff * xdiff);
+                double hypotenuse = Math.Sqrt(hypo);
+                b.Hypotenuse = hypotenuse;
+                Console.WriteLine(b.TeamPlayerName + " " + Math.Round(b.Hypotenuse, 2));
             }
             //Console.WriteLine(CourtTeam.OrderBy(x => x.Hypotenuse).ToList());
 
