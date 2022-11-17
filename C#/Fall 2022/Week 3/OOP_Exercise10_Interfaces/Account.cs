@@ -8,6 +8,15 @@ namespace OOP_Exercise10_Interfaces
 {
     public class Account
     {
+        public Account()
+        {
+            this.Balance = 0;
+            this.Interest = 0;
+        }
+        public Account(string name)
+        {
+            this.Name = name;
+        }
         public Account(decimal balance)
         {
             this.Balance = balance;
@@ -19,6 +28,7 @@ namespace OOP_Exercise10_Interfaces
         }
         public decimal Interest { get; set; }
         public decimal Balance { get; set; }
+        public string Name { get; set; }
         public decimal getBalance()
         {
             return this.Balance;

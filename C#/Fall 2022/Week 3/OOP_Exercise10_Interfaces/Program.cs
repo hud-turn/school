@@ -14,7 +14,7 @@ namespace OOP_Exercise10_Interfaces
         static void Main()
         {
             Account account = new Account(100, 7);
-            Console.WriteLine((account.getBalance()));
+            Console.WriteLine((account.PrintName()));
         }
     }
 }

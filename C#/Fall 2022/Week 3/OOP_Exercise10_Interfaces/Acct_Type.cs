@@ -7,15 +7,15 @@ using System.Xml.Linq;
 
 namespace OOP_Exercise10_Interfaces
 {
-    class A
+    class Savings
     {
-        A(string name) { this.Name = name; }
+        Savings(string name) { this.Name = name; }
         public string Name { get; set; }
         public virtual void PrintName() { Console.Writeline(“Your name is “ + this.Name); }
     }
-    class B : A
+    class Checking : Savings
     {
-        B(string name) : base(name) { }
+        Checking(string name) : base(name) { }
         public override void PrintName()
         {
             Console.Writeline(“B: Your name is “ + this.Name);
