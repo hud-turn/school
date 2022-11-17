@@ -9,16 +9,25 @@ namespace OOP_Exercise10_Interfaces
 {
     class Savings
     {
-        Savings(string name) { this.Name = name; }
+        Savings(string name) 
+        { 
+            this.Name = name; 
+        }
         public string Name { get; set; }
-        public virtual void PrintName() { Console.Writeline(“Your name is “ + this.Name); }
+        public virtual void PrintName() 
+        { 
+            Console.WriteLine("Your name is " + this.Name); 
+        }
     }
     class Checking : Savings
     {
-        Checking(string name) : base(name) { }
+        Checking(string name) : base(name) 
+        {
+        }
         public override void PrintName()
         {
-            Console.Writeline(“B: Your name is “ + this.Name);
+            Console.WriteLine("B: Your name is " + this.Name);
         }
     }
+    
 }
