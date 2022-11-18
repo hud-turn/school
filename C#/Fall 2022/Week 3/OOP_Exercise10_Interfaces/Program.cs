@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading.Tasks.Sources;
 
-namespace OOP_Exercise10_Interfaces
+namespace OOP_Exercise11_PolyMorphism_Exercises
 {
     class Program
     {

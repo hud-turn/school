@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace OOP_Exercise10_Interfaces
+namespace OOP_Exercise11_PolyMorphism_Exercises
 {
     class Savings
     {
