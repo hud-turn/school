@@ -220,29 +220,29 @@ This application has a menu allowing an instructor to:
 
 1. Enter Course (id, title)
 2. Enter Students (id, first name, last name)
-	-Show instructor a list of courses
-	-After instructor selects a course, let instructor input id,first-name,last-name of student
+	•Show instructor a list of courses
+	•After instructor selects a course, let instructor input id,first-name,last-name of student
 3. Remove Students 
-	-Show instructor a list of courses
-	-Then instructor can select a course by ID + Course Title
-	-Then Show instructor a list of ID + student first name last name from Course
-	-Then instructor may input student id to remove 
+	•Show instructor a list of courses
+	•Then instructor can select a course by ID + Course Title
+	•Then Show instructor a list of ID + student first name last name from Course
+	•Then instructor may input student id to remove 
 4. Remove Course
-	-Show instructor a list of courses with ID + Title
-	-Instructor can then select which course to remove by entering course ID
-		-Note that removing a course will result in remove ALL students from the course
+	•Show instructor a list of courses with ID + Title
+	•Instructor can then select which course to remove by entering course ID
+		•Note that removing a course will result in remove ALL students from the course
 5. Enter Student grade (e.g, 0-100; ex: 92.5)
-	-Show instructor a list of courses
-	-Then Show instructor a list of ID + student first name last name from Course
-	-Then instructor inputs student by ID to enter/update grade
+	•Show instructor a list of courses
+	•Then Show instructor a list of ID + student first name last name from Course
+	•Then instructor inputs student by ID to enter/update grade
 6.Grade Analytics 
-	-Display student grade average
-	-Display Minimum grade + Student Name
-	-Display Maximum grade + Student Name
-	-Display Median grade + Student Name
-	-Display % of A's (90-100)
-	-Display % of B's (80-89)
-	-Display % of C's (70-79)
-	-Display % of D's (60-69)
-	-Display % of F's (0-59)
+	•Display student grade average
+	•Display Minimum grade + Student Name
+	•Display Maximum grade + Student Name
+	•Display Median grade + Student Name
+	•Display % of A's (90-100)
+	•Display % of B's (80-89)
+	•Display % of C's (70-79)
+	•Display % of D's (60-69)
+	•Display % of F's (0-59)
 7.Quit
