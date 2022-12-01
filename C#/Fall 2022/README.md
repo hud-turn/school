@@ -181,18 +181,18 @@ Demonstrate your new code and show that you can use your classes to have:\
 _______________________________________________________________________________________________________________________________________________________________________
 Week3/OOP Exercise 10: Interfaces\
 Create a hotel for monsters (e.g., Hotel Transylvania)\
-Hotel should be able to book reservations (check-in, check-out dates). There are infinite amount of rooms in the hotel.\
+Hotel should be able to book reservations (check-in, check-out dates).\
+There are infinite amount of rooms in the hotel.\
 Monsters have different abilities, think of 4 unique monsters and abstract their abilities as interfaces.\
 Create appropriate classes to abstract necessary data and implement encapsulation and inheritance.\
 _______________________________________________________________________________________________________________________________________________________________________
 Week4/Quiz\
 BACS 387 Quiz Fall 2022\
-Use all OOP concepts learned in this course (classes, objects, abstraction, encapsulation, inheritance
-with classes and interfaces) to write a program that follows the menu options and input/output below.\
+Use all OOP concepts learned in this course (classes, objects, abstraction, encapsulation, inheritance with classes and interfaces) to write a program that follows the menu options and input/output below.\
 Your code will contain classes and will demonstrate the use of your classes including a working menu below.\
 You will provide at least one example of each OOP concept.\
 Make sure to provide a comment when you apply a specific OOP concept.\
-Main Menu:\ 
+Main Menu: 
 	Gives the user 3 options to choose from:
 	1) Practice\
 	2) Analytics\
@@ -201,7 +201,7 @@ If the user selects option 1: Practice\
 	• Ask the user to input a word\
 	• Ask the user “how many vowels there are in the word?”, the user can enter a [number]\
 	• Ask the user “are there any repeating letters in the word?”, the user can answer by [yes] or [no]\
-After asking these questions go back to the main menu\
+After asking these questions go back to the main menu
 If the user selects option 2: Analytics\
 	• Display how many questions the user answered\
 	• Display % of correct questions answered\
@@ -214,7 +214,7 @@ If the user selects option 3: Quit\
 Then make sure the program ends
 _______________________________________________________________________________________________________________________________________________________________________
 Week4/OOP Exercise 11: All Concepts!
-Write a C# console application using OOP concepts implementing Encapsulation, Inheritance and Polymorphism.\ 
+Write a C# console application using OOP concepts implementing Encapsulation, Inheritance and Polymorphism. 
 You must show with comments where you are using said OOP concepts.
 
 This application has a menu allowing an instructor to:
@@ -237,7 +237,7 @@ This application has a menu allowing an instructor to:
 		•Note that removing a course will result in remove ALL students from the course\
 	•Show instructor a list of courses\
 	•Then Show instructor a list of ID + student first name last name from Course\
-	•Then instructor inputs student by ID to enter/update grade\
+	•Then instructor inputs student by ID to enter/update grade.
 
 6.Grade Analytics 
 
