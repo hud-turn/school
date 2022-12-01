@@ -22,7 +22,7 @@ Week 1/Assignment Name: Analytics
 	-Find maximum number and display to screen.
 _______________________________________________________________________________________________________________________________________________________________________
 Week 1/Assignment Name: Student Grades Manager 1 (without OOP Concepts)\
-	Write a C# console application that allows me to type in any word and get the value of the word.\ 
+	Write a C# console application that allows me to type in any word and get the value of the word. \ 
 	You will calculate the value of the word by assigning a value to each letter starting with A going through Z.\
 	You will use the Fibonacci sequence (Links to an external site.) to assign values.   
 	Start your sequence with zero so then the values will start as follows:
