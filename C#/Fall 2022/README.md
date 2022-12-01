@@ -155,3 +155,64 @@ The bank must have the following methods:
 	ListAllMemebers
 	GetAccountTypeCount
 	GetTransactionCount
+_______________________________________________________________________________________________________________________________________________________________________
+Week3/OOP Exercise 7: Encapsulation
+Use your solution from Exercise 6 and implement Encapsulation in at least 5 places (property, method) in your code. Provide a report on why you chose to apply encapsulation on said place.
+_______________________________________________________________________________________________________________________________________________________________________
+Week3/OOP Exercise 8: Inheritance
+Use your exercise 6 implementation. 
+
+Add "PrintBalance" method to your Account class
+Create two new classes:
+	CheckingAccount must inherit from Account class
+	SavingsAccount must inherit from Account class
+You must re-factor (make necessary changes) your code to use the new classes.
+_______________________________________________________________________________________________________________________________________________________________________
+Week3/OOP Exercise 9: Inheritance
+Apply inheritance to your Exercise 5. 
+	Create a new class called Player that must inherit from an Employee class
+Refactor your code with the new changes.
+Demonstrate your new code and show that you can use your classes to have:
+	3 on 3 basketball
+	3 on 3 flag-football
+	3 on 3 soccer
+_______________________________________________________________________________________________________________________________________________________________________
+Week3/OOP Exercise 10: Interfaces
+Create a hotel for monsters (e.g., Hotel Transylvania) 
+Hotel should be able to book reservations (check-in, check-out dates). There are infinite amount of rooms in the hotel.
+Monsters have different abilities, think of 4 unique monsters and abstract their abilities as interfaces.
+Create appropriate classes to abstract necessary data and implement encapsulation and inheritance.
+_______________________________________________________________________________________________________________________________________________________________________
+Week4/OOP Exercise 11: All Concepts!
+Write a C# console application using OOP concepts implementing Encapsulation, Inheritance and Polymorphism. You must show with comments where you are using said OOP concepts.
+
+This application has a menu allowing an instructor to:
+
+1. Enter Course (id, title)
+2. Enter Students (id, first name, last name)
+	Show instructor a list of courses
+	After instructor selects a course, let instructor input id,first-name,last-name of student
+3. Remove Students 
+	Show instructor a list of courses
+	Then instructor can select a course by ID + Course Title
+	Then Show instructor a list of ID + student first name last name from Course
+	Then instructor may input student id to remove 
+4. Remove Course
+	Show instructor a list of courses with ID + Title
+	Instructor can then select which course to remove by entering course ID
+		Note that removing a course will result in remove ALL students from the course
+5. Enter Student grade (e.g, 0-100; ex: 92.5)
+	Show instructor a list of courses
+	Then Show instructor a list of ID + student first name last name from Course
+	Then instructor inputs student by ID to enter/update grade
+6.Grade Analytics 
+	Display student grade average
+	Display Minimum grade + Student Name
+	Display Maximum grade + Student Name
+	Display Median grade + Student Name
+	Display % of A's (90-100)
+	Display % of B's (80-89)
+	Display % of C's (70-79)
+	Display % of D's (60-69)
+	Display % of F's (0-59)
+7.Quit
