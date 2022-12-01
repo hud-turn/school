@@ -22,9 +22,9 @@ Week 1/Assignment Name: Analytics
 	-Find maximum number and display to screen.
 _______________________________________________________________________________________________________________________________________________________________________
 Week 1/Assignment Name: Student Grades Manager 1 (without OOP Concepts)\
-	Write a C# console application that allows me to type in any word and get the value of the word.\ 
+	Write a C# console application that allows me to type in any word and get the value of the word. \ 
 	You will calculate the value of the word by assigning a value to each letter starting with A going through Z.\
-	You will use the Fibonacci sequence (Links to an external site.) to assign values.\  
+	You will use the Fibonacci sequence (Links to an external site.) to assign values. \  
 	Start your sequence with zero so then the values will start as follows:
 
 	A	=	0
@@ -100,19 +100,19 @@ Week 2/OOP Exercise 3:Create three classes\
 PassFailCourse:\
 • Property: Course Name (String)\
 • Property: Grade (Boolean; TRUE = pass, FALSE = fail)\
-• Method: Passed: Return the grade\
+• Method: Passed: Return the grade
 
 GradedCourse:\
 • Property: Course name (String)\
 • Property: Grade (Decimal; 0-100)\
-• Method: Passed: Return TRUE if the grade is >=70, otherwise return FALSE\
+• Method: Passed: Return TRUE if the grade is >=70, otherwise return FALSE
 
 Degree:\
 • Property: PassFailCourse PFCourseA\
 • Property: PassFailCourse PFCourseB\
 • Property: GradedCourse GCourseA\
 • Property: GradedCourse GCourseB\
-• Method: Passed: a degree is fulfilled (passed) if at least three out of the four courses are passed.\
+• Method: Passed: a degree is fulfilled (passed) if at least three out of the four courses are passed.
 _______________________________________________________________________________________________________________________________________________________________________
 Week 3/OOP_Exercise_Inclass_PolyMorphism_Exercises\
 Stuff we worked on in class
@@ -156,7 +156,7 @@ The bank must have a balance, which is affected based on user transactions\
 The bank must have the following methods:\
 	ListAllMemebers\
 	GetAccountTypeCount\
-	GetTransactionCount\
+	GetTransactionCount
 _______________________________________________________________________________________________________________________________________________________________________
 Week3/OOP Exercise 7: Encapsulation\
 Use your solution from Exercise 6 and implement Encapsulation in at least 5 places (property, method) in your code. Provide a report on why you chose to apply encapsulation on said place.
@@ -184,7 +184,7 @@ Create a hotel for monsters (e.g., Hotel Transylvania)\
 Hotel should be able to book reservations (check-in, check-out dates).\
 There are infinite amount of rooms in the hotel.\
 Monsters have different abilities, think of 4 unique monsters and abstract their abilities as interfaces.\
-Create appropriate classes to abstract necessary data and implement encapsulation and inheritance.\
+Create appropriate classes to abstract necessary data and implement encapsulation and inheritance. \
 _______________________________________________________________________________________________________________________________________________________________________
 Week4/Quiz\
 BACS 387 Quiz Fall 2022\
@@ -208,7 +208,7 @@ If the user selects option 2: Analytics\
 	• Display % of incorrect questions answered\
 	• Display longest word entered\
 	• Display smallest word entered\
-After this go back to the main menu\
+After this go back to the main menu \
 
 If the user selects option 3: Quit\
 Then make sure the program ends
