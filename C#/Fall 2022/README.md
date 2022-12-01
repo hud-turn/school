@@ -22,9 +22,9 @@ Week 1/Assignment Name: Analytics
 	-Find maximum number and display to screen.
 _______________________________________________________________________________________________________________________________________________________________________
 Week 1/Assignment Name: Student Grades Manager 1 (without OOP Concepts)\
-	Write a C# console application that allows me to type in any word and get the value of the word. \ 
+	Write a C# console application that allows me to type in any word and get the value of the word.\ 
 	You will calculate the value of the word by assigning a value to each letter starting with A going through Z.\
-	You will use the Fibonacci sequence (Links to an external site.) to assign values. \  
+	You will use the Fibonacci sequence (Links to an external site.) to assign values.   
 	Start your sequence with zero so then the values will start as follows:
 
 	A	=	0
@@ -84,7 +84,7 @@ Write code that is able to do the following:\
 • Create a list of type Student\
 • Add 3 students with arbitrary grades to the list\
 • Display a list of all students with their grade: Ex: “Moe Manshad, 0”\
-• Calculate and display grade average\
+• Calculate and display grade average
 _______________________________________________________________________________________________________________________________________________________________________
 Week 2/OOP Exercise 2:\
 Create a class called Course\
@@ -94,7 +94,7 @@ Create a class called Course\
 • GetMinGrade\
 • GetMaxGrade\
 • GetPercentGrades\
-• I can choose As, Bs, Cs, Ds or Fs\
+• I can choose As, Bs, Cs, Ds or Fs
 _______________________________________________________________________________________________________________________________________________________________________
 Week 2/OOP Exercise 3:Create three classes\
 PassFailCourse:\
