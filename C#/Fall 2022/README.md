@@ -1,4 +1,4 @@
-Week 1/Assignment Name: List Print
+Week 1/Assignment Name: List Print\
 	Create a list of type string and add 10 arbitrary names (e.g, Mike, Rosa, etc...) to it. 
 	Then sort the list in descending (e.g., Z to A) order and display to screen.
 _______________________________________________________________________________________________________________________________________________________________________
@@ -8,7 +8,7 @@ Week 1/Assignment Name: Console Menu
 	1. About this developer: display anything interesting about you.
 	2. Quit: this option will quit the application. 
 _______________________________________________________________________________________________________________________________________________________________________
-Week 1/Assignment Name: Remove from list
+Week 1/Assignment Name: Remove from list\
 	Modify your "List Print" assignment where after you print the names, you ask the user to enter a name to remove from the list.  
 	Then display the new list.
 _______________________________________________________________________________________________________________________________________________________________________
