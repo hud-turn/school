@@ -115,6 +115,9 @@ Degree:
 • Property: GradedCourse GCourseB
 • Method: Passed: a degree is fulfilled (passed) if at least three out of the four courses are passed.
 _______________________________________________________________________________________________________________________________________________________________________
+Week 3/OOP_Exercise_Inclass_PolyMorphism_Exercises
+Stuff we worked on in class
+_______________________________________________________________________________________________________________________________________________________________________
 Week 3/OOP Exercise 4: Data Abstraction
 Using the concept of abstraction create classes that allow us to represent many football teams, each football team has:
 	Team Name + City Name
@@ -182,6 +185,33 @@ Create a hotel for monsters (e.g., Hotel Transylvania)
 Hotel should be able to book reservations (check-in, check-out dates). There are infinite amount of rooms in the hotel.
 Monsters have different abilities, think of 4 unique monsters and abstract their abilities as interfaces.
 Create appropriate classes to abstract necessary data and implement encapsulation and inheritance.
+_______________________________________________________________________________________________________________________________________________________________________
+Week4/Quiz
+BACS 387 Quiz Fall 2022
+Use all OOP concepts learned in this course (classes, objects, abstraction, encapsulation, inheritance
+with classes and interfaces) to write a program that follows the menu options and input/output below.
+Your code will contain classes and will demonstrate the use of your classes including a working menu
+below. You will provide at least one example of each OOP concept. Make sure to provide a comment
+when you apply a specific OOP concept.
+Main Menu: Gives the user 3 options to choose from:
+	1) Practice
+	2) Analytics
+	3) Quit
+If the user selects option 1: Practice
+	• Ask the user to input a word
+	• Ask the user “how many vowels there are in the word?”, the user can enter a [number]
+	• Ask the user “are there any repeating letters in the word?”, the user can answer by [yes] or [no]
+After asking these questions go back to the main menu
+If the user selects option 2: Analytics
+	• Display how many questions the user answered
+	• Display % of correct questions answered
+	• Display % of incorrect questions answered
+	• Display longest word entered
+	• Display smallest word entered
+After this go back to the main menu
+
+If the user selects option 3: Quit
+Then make sure the program ends
 _______________________________________________________________________________________________________________________________________________________________________
 Week4/OOP Exercise 11: All Concepts!
 Write a C# console application using OOP concepts implementing Encapsulation, Inheritance and Polymorphism. You must show with comments where you are using said OOP concepts.
