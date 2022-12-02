@@ -12,7 +12,7 @@ Week 1/Assignment Name: Remove from list\
 	Modify your "List Print" assignment where after you print the names, you ask the user to enter a name to remove from the list.  
 	Then display the new list.
 _______________________________________________________________________________________________________________________________________________________________________
-Week 1/Assignment Name: Analytics
+Week 1/Assignment Name: Analytics\
 	Create a list of type decimal and add 10  decimal numbers to it.
 
 	-Calculate the average and display to screen.
