@@ -14,6 +14,14 @@ namespace OOP_Exercise10_Interfaces
     {
         void Drain_Health();
     }
+    interface IMonster_Transform
+    {
+        void Transform();
+    }
+    interface IMonster_Fire_Breath
+    {
+        void Fire_Breath();
+    }
     class Zombie : IMonster_Undead
     {
         public void Undead()
