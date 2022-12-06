@@ -20,13 +20,13 @@ namespace Final_Exam
             DeviceH Device2 = new DeviceH("Device2", 20, 200);
             DeviceH Device3 = new DeviceH("Device3", 30, 300);
             DeviceH Device4 = new DeviceH("Device4", 40, 400);
-            //DeviceH Device5 = new DeviceH("Device5", 50, 500);
+            DeviceH Device5 = new DeviceH("Device5", 50, 500);
 
             devices.Add(Device1);
             devices.Add(Device2);
             devices.Add(Device3);
             devices.Add(Device4);
-            //devices.Add(Device5);
+            devices.Add(Device5);
 
             ListOne.PowerConsumptMedian();
 

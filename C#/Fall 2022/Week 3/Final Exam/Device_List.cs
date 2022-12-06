@@ -26,8 +26,8 @@ namespace Final_Exam
         }
         public void PowerConsumptMedian()
         {
-            int count = 0, intmediani = 0, intmedianii = 0;
-            double powerconsuptmedian = 0, doublemedian = 0, doubmediani = 0, doubleprocessedhigh = 0, doubmedianii = 0, doubleuserinputcount = 0, doubleuserprocessedlow = 0, doubhigher = 0, doublower = 0;
+            int intmediani = 0, intmedianii = 0;
+            double powerconsuptmedian = 0, doublemedian = 0, doubmediani = 0, doubleprocessedhigh = 0, doubmedianii = 0, count = 0, doubleuserprocessedlow = 0, doubhigher = 0, doublower = 0;
             List <int> ints = new List<int>();
             foreach (DeviceH c in this.Devices)
             {
@@ -42,7 +42,7 @@ namespace Final_Exam
                 doubleprocessedhigh = ((count - 1) / 2) + 0.1;//finding the higher number out of the two numbers used for the median
                 doubmediani = Math.Round(doubleprocessedhigh, 0);//converting the median to an integer so we can process it easily in the next step
 
-                doubleuserprocessedlow = ((doubleuserinputcount - 1) / 2) - 0.1;//finding the lower number out of the two numbers used for the median
+                doubleuserprocessedlow = (((count - 1) / 2) - 0.1);//finding the lower number out of the two numbers used for the median
                 doubmedianii = Math.Round(doubleuserprocessedlow, 0);//converting the median to an integer so we can process it easily in the next step
 
                 intmediani = Convert.ToInt32(doubmediani);//converting double to int
@@ -59,7 +59,7 @@ namespace Final_Exam
             }
             else
             {
-                intmediani = Convert.ToInt32(Math.Round((doubleuserinputcount - 1) / 2));
+                intmediani = Convert.ToInt32(Math.Round((count - 1) / 2));
                 powerconsuptmedian = ints[intmediani];
                 //Console.WriteLine("else"); This line was used in the debugging of the program
             }
