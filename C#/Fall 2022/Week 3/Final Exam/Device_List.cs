@@ -53,15 +53,13 @@ namespace Final_Exam
                 doubhigher = ints[intmediani];//median highernumber in integer form
                 doublower = ints[intmedianii];//median lowernumber in integer form
                 powerconsuptmedian = ((doubhigher + doublower)/2);//sum of the two numbers
-                //Console.WriteLine("The median is: " + doublemediancalc / 2);
-                //Console.WriteLine("if"); This line was used in the debugging of the program
+                
 
             }
             else
             {
                 intmediani = Convert.ToInt32(Math.Round((count - 1) / 2));
                 powerconsuptmedian = ints[intmediani];
-                //Console.WriteLine("else"); This line was used in the debugging of the program
             }
             Console.WriteLine(powerconsuptmedian);
         }
