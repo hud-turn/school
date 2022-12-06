@@ -1,24 +1,35 @@
-﻿using Final;
+﻿using System;
 using Final_Exam;
-using System;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 using System.Security.Principal;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Final
+namespace Final_Exam
 {
     class Program
     {
         static void Main()
         {
-            List<DeviceI> devices = new List<DeviceI>();
+            List<DeviceH> devices = new List<DeviceH>();
             Device_List ListOne = new Device_List(devices);
-            Device Device1 = new DeviceI("Device1", 10, 100);
-            Device Device2 = new DeviceI("Device2", 20, 200);
-            Device Device3 = new DeviceI("Device3", 30, 300);
-            Device Device4 = new DeviceI("Device4", 40, 400);
-            Device Device5 = new DeviceI("Device5", 50, 500);
-            devices.Add(devices);
+            DeviceH Device1 = new DeviceH("Device1", 10, 100);
+            DeviceH Device2 = new DeviceH("Device2", 20, 200);
+            DeviceH Device3 = new DeviceH("Device3", 30, 300);
+            DeviceH Device4 = new DeviceH("Device4", 40, 400);
+            //DeviceH Device5 = new DeviceH("Device5", 50, 500);
+
+            devices.Add(Device1);
+            devices.Add(Device2);
+            devices.Add(Device3);
+            devices.Add(Device4);
+            //devices.Add(Device5);
+
+            ListOne.PowerConsumptMedian();
+
         }
     }
 }
