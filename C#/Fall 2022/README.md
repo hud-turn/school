@@ -252,3 +252,23 @@ This application has a menu allowing an instructor to:
 	•Display % of F's (0-59)
 	
 7.Quit
+_______________________________________________________________________________________________________________________________________________________________________
+Final Exam/Problem 1
+As a programmer you are asked to create a system that keeps track of power consumption of devices in the building. This system stores the following information:
+
+Device name
+Device current power usage (wattage)
+Device up-time (how many hours it has been on)
+Your system must be able to perform the following calculations:
+
+Calculate longest running device
+Calculate median power consumption of all devices
+This question will be graded as follows:
+
+(5pts) Abstraction: Create appropriate classes to describe data needed
+(5pts) Encapsulation: Apply encapsulation to one property or method
+(10pts) Inheritance with Classes: Inherit from base class
+(10pts) Inheritance with Interfaces: Inherit from an Interface
+(10pts) Polymorphism (2 different ways)
+(10pts) Correctly create calculation methods (see bullets e & f)
+(10pts) Write some code that demonstrates use of your classes
