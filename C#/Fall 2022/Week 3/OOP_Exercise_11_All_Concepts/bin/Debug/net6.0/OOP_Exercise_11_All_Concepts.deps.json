@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "OOP_Exercise_11_All_Concepts/1.0.0": {
+        "runtime": {
+          "OOP_Exercise_11_All_Concepts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OOP_Exercise_11_All_Concepts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
