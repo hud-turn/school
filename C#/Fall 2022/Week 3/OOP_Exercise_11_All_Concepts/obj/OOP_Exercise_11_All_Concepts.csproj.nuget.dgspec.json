@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hudson Turner\\source\\repos\\OOP_Exercise_11_All_Concepts\\OOP_Exercise_11_All_Concepts.csproj": {}
+    "C:\\Users\\Hudson Turner\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 3\\OOP_Exercise_11_All_Concepts\\OOP_Exercise_11_All_Concepts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hudson Turner\\source\\repos\\OOP_Exercise_11_All_Concepts\\OOP_Exercise_11_All_Concepts.csproj": {
+    "C:\\Users\\Hudson Turner\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 3\\OOP_Exercise_11_All_Concepts\\OOP_Exercise_11_All_Concepts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hudson Turner\\source\\repos\\OOP_Exercise_11_All_Concepts\\OOP_Exercise_11_All_Concepts.csproj",
+        "projectUniqueName": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 3\\OOP_Exercise_11_All_Concepts\\OOP_Exercise_11_All_Concepts.csproj",
         "projectName": "OOP_Exercise_11_All_Concepts",
-        "projectPath": "C:\\Users\\Hudson Turner\\source\\repos\\OOP_Exercise_11_All_Concepts\\OOP_Exercise_11_All_Concepts.csproj",
+        "projectPath": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 3\\OOP_Exercise_11_All_Concepts\\OOP_Exercise_11_All_Concepts.csproj",
         "packagesPath": "C:\\Users\\Hudson Turner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hudson Turner\\source\\repos\\OOP_Exercise_11_All_Concepts\\obj\\",
+        "outputPath": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\school\\C#\\Fall 2022\\Week 3\\OOP_Exercise_11_All_Concepts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hudson Turner\\AppData\\Roaming\\NuGet\\NuGet.Config",
