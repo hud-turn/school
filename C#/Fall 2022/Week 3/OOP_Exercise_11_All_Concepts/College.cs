@@ -181,7 +181,7 @@ namespace OOP_Exercise_11_All_Concepts
         }
         public void DisplayGrades()
         {
-            double count = 0, outputa = 0, outputb = 0, outputc = 0, outputd = 0, outputf = 0, aa = 0, bb = 0, cc = 0, dd = 0, ff = 0;
+            double count = 0, aa = 0, bb = 0, cc = 0, dd = 0, ff = 0;
             foreach (Enrollment a in this.EnrollmentList)
             {
                 foreach (Course d in a.ListofCourses)

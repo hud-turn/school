@@ -15,7 +15,7 @@ namespace OOP_Exercise_11_All_Concepts
             this.FirstName = firstname;
             this.LastName = lastname;
         }
-        public int StuID { get; set; }
+        public int StuID { get;}//encapsulation
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
