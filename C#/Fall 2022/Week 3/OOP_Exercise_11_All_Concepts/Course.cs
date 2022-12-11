@@ -14,7 +14,7 @@ namespace OOP_Exercise_11_All_Concepts
             this.CourseID = courseid;
             this.CourseTitle = coursetitle;
         }
-        public int CourseID { get; set; }
+        public int CourseID { get; set;}
         public string CourseTitle { get;}
 
         public Course(int courseid, decimal studentgrade)

@@ -71,7 +71,7 @@ namespace OOP_Exercise_11_All_Concepts
                     courseid = int.Parse(Console.ReadLine());
                     Console.WriteLine("Please select a course title to input: ");
                     title = Console.ReadLine();
-                    CollegeList.ShowStuCourse(courseid, title);
+                    CollegeList.ShowStuCourseIDandTitle(courseid, title);
                     Console.WriteLine("Which Student would you like to remove?");
                     stuid = int.Parse(Console.ReadLine());
                     CollegeList.RemoveStudent(stuid);
@@ -82,11 +82,13 @@ namespace OOP_Exercise_11_All_Concepts
                     CollegeList.OutputListCourses();
                     Console.WriteLine("Please input a course you would like to remove");
                     courseid = int.Parse(Console.ReadLine());
-                    CollegeList.RemoveCourse(courseid);
+                    CollegeList.RemoveCourse(courseid);                                       
                 }
                 else if (intuserinput == 5)
                 {
                     CollegeList.OutputListCourses();
+                    Console.WriteLine();
+                    CollegeList.ShowStuCourseID();
                 }
                 else if (intuserinput == 6)
                 {

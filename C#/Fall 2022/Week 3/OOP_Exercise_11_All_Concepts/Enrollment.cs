@@ -20,6 +20,5 @@ namespace OOP_Exercise_11_All_Concepts
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public List<Course> ListofCourses { get; set; }
-
     }
 }
