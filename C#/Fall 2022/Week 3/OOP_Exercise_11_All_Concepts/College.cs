@@ -45,7 +45,7 @@ namespace OOP_Exercise_11_All_Concepts
             {
                foreach (Course d in c.ListofCourses)
                 {
-                    if(d.CourseID == courseid && d.CourseTitle == coursetitle)
+                    if(d.CourseIDP == courseid)
                     {
                         Console.WriteLine(c.StuID +" | "+ c.LastName +" "+ c.FirstName);
                     }
@@ -98,7 +98,7 @@ namespace OOP_Exercise_11_All_Concepts
             }
             foreach (Course c in this.CourseList)
             {
-                if (courseid == c.CourseIDP)
+                if (courseid == c.CourseID)
                 {
                     CourseList.Remove(c);
                     Console.WriteLine("The course has successfully been removed");
@@ -117,7 +117,7 @@ namespace OOP_Exercise_11_All_Concepts
                 {
                     foreach (Course d in a.ListofCourses)
                     {
-                        if (stuid == a.StuID && firstname == a.FirstName && courseid == d.CourseID)
+                        if (stuid == a.StuID && firstname == a.FirstName && courseid == d.CourseIDP)
                         {
                             d.StudentGrade = stugrade;
                             Console.WriteLine("The student was updated.");

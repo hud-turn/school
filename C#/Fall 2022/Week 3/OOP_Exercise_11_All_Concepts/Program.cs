@@ -31,7 +31,6 @@ namespace OOP_Exercise_11_All_Concepts
             Course coorsecrateone = new Course(course1, gradeone);
             Course coorsecratetwo = new Course(course2, gradetwo);
             Course coorsecratethree = new Course(course3, gradethree);
-            Console.WriteLine(coorsecratethree.CourseIDP);
             List<Course> courseswithgradesone = new List<Course>();
             List<Course> courseswithgradestwo = new List<Course>();
             List<Course> courseswithgradesthree = new List<Course>();
