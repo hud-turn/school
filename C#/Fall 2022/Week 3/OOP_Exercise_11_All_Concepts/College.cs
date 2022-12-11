@@ -40,6 +40,7 @@ namespace OOP_Exercise_11_All_Concepts
         {
             List<Student> nlist1 = new List<Student>();
             Console.Clear();
+            Console.WriteLine("ID    | Name");
             foreach (Enrollment c in this.EnrollmentList)
             {
                foreach (Course d in c.ListofCourses)
@@ -62,7 +63,8 @@ namespace OOP_Exercise_11_All_Concepts
                 {
                     if (d.CourseID == courseid)
                     {
-                        Console.WriteLine(c.StuID + " | " + c.LastName + " " + c.FirstName);
+                        
+                        Console.WriteLine(c.StuID + " | " + c.LastName + " " + c.FirstName + c.ListofCourses.Count());
                     }
                 }
             }
@@ -118,10 +120,11 @@ namespace OOP_Exercise_11_All_Concepts
                         if (stuid == a.StuID && firstname == a.FirstName && courseid == d.CourseID)
                         {
                             d.StudentGrade = stugrade;
+                            Console.WriteLine("The student was updated.");
                         }
                         else
                         {
-                            Console.WriteLine("The student couldn't be found.");
+                            //Console.WriteLine("The student couldn't be found.");
                         }
                     }
                 }
@@ -131,7 +134,19 @@ namespace OOP_Exercise_11_All_Concepts
                 Console.WriteLine("Please input a valid grade");
             }
         }
-        public void InputNewGrade()
+        public void GradeAvg()
+        {
+
+        }
+        public void MinGrade()
+        {
+
+        }
+        public void MaxGrade()
+        {
+
+        }
+        public void DisplayGrades()
         {
 
         }

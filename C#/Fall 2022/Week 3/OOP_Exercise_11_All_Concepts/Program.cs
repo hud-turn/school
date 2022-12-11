@@ -18,6 +18,7 @@ namespace OOP_Exercise_11_All_Concepts
             //Data to make testing easier
             string firstname1 = "Jhames", firstname2 = "Moregan", firstname3 = "Phil", coursetitle = "Title";
             int intuserinput = 0, course1 = 12345, course2 = 98765, course3 = 65498, stuid1 = 10000, stuid2 = 10001, stuid3 = 10002;
+            decimal gradeone = 0,gradetwo = 50 ,gradethree = 100;
             Course courseone = new Course(course1, coursetitle);
             Course coursetwo = new Course(course2, coursetitle);
             Course coursethree = new Course(course3, coursetitle);
@@ -25,9 +26,25 @@ namespace OOP_Exercise_11_All_Concepts
             courses.Add(coursetwo);
             courses.Add(coursethree);
 
-            Enrollment studentone = new Enrollment(stuid1, firstname1, firstname1, courses);
-            Enrollment studenttwo = new Enrollment(stuid2 , firstname2, firstname2, courses);
-            Enrollment studentthree = new Enrollment(stuid3, firstname3, firstname3, courses);
+            Course coursegradeone = new Course(course1, gradeone);
+            Course coursegradetwo = new Course(course2, gradetwo);
+            Course coursegradethree = new Course(course3, gradethree);
+            List<Course> coursesgradesone = new List<Course>();
+            List<Course> coursesgradestwo = new List<Course>();
+            List<Course> coursesgradesthree = new List<Course>();
+            coursesgradesone.Add(coursegradeone);
+            coursesgradesone.Add(coursegradetwo);
+            coursesgradesone.Add(coursegradethree);
+            coursesgradestwo.Add(coursegradeone);
+            coursesgradestwo.Add(coursegradetwo);
+            coursesgradestwo.Add(coursegradethree);
+            coursesgradesthree.Add(coursegradeone);
+            coursesgradesthree.Add(coursegradetwo);
+            coursesgradesthree.Add(coursegradethree);
+
+            Enrollment studentone = new Enrollment(stuid1, firstname1, firstname1, coursesgradesone);
+            Enrollment studenttwo = new Enrollment(stuid2 , firstname2, firstname2, coursesgradestwo);
+            Enrollment studentthree = new Enrollment(stuid3, firstname3, firstname3, coursesgradesthree);
             enrollmentlist.Add(studentone);
             enrollmentlist.Add (studenttwo);
             enrollmentlist.Add(studentthree);
@@ -87,7 +104,7 @@ namespace OOP_Exercise_11_All_Concepts
                 else if (intuserinput == 5)
                 {
                     CollegeList.OutputListCourses();
-                    Console.WriteLine("Please input the course:");
+                    Console.WriteLine("Please input the course: ");
                     courseid = int.Parse(Console.ReadLine());
                     CollegeList.ShowStuCourseID(courseid);
                     Console.WriteLine("Please input the student ID you wish to update: ");
@@ -96,7 +113,7 @@ namespace OOP_Exercise_11_All_Concepts
                     string stufirstname = Console.ReadLine();
                     Console.WriteLine("Please input the student grade you wish to update: ");
                     decimal gradeinput = decimal.Parse(Console.ReadLine());
-                    CollegeList.InputNewGrade();
+                    CollegeList.EnterStuGrade(stuid,stufirstname,courseid,gradeinput);
 
                     Console.ReadKey();
                 }
