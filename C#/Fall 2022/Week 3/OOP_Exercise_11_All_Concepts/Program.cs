@@ -17,7 +17,7 @@ namespace OOP_Exercise_11_All_Concepts
 
             //Data to make testing easier
             string firstname1 = "Jhames", firstname2 = "Moregan", firstname3 = "Phil", coursetitle = "Title";
-            int intuserinput = 0, course1 = 12345, course2 = 98765, course3 = 65498, stuid1 = 00000, stuid2 = 00001, stuid3 = 00002;
+            int intuserinput = 0, course1 = 12345, course2 = 98765, course3 = 65498, stuid1 = 10000, stuid2 = 10001, stuid3 = 10002;
             Course courseone = new Course(course1, coursetitle);
             Course coursetwo = new Course(course2, coursetitle);
             Course coursethree = new Course(course3, coursetitle);
@@ -87,8 +87,18 @@ namespace OOP_Exercise_11_All_Concepts
                 else if (intuserinput == 5)
                 {
                     CollegeList.OutputListCourses();
-                    Console.WriteLine();
-                    CollegeList.ShowStuCourseID();
+                    Console.WriteLine("Please input the course:");
+                    courseid = int.Parse(Console.ReadLine());
+                    CollegeList.ShowStuCourseID(courseid);
+                    Console.WriteLine("Please input the student ID you wish to update: ");
+                    stuid = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Please input the student first name you wish to update: ");
+                    string stufirstname = Console.ReadLine();
+                    Console.WriteLine("Please input the student grade you wish to update: ");
+                    decimal gradeinput = decimal.Parse(Console.ReadLine());
+                    CollegeList.InputNewGrade();
+
+                    Console.ReadKey();
                 }
                 else if (intuserinput == 6)
                 {

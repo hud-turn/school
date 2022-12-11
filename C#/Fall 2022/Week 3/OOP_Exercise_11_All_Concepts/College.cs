@@ -55,6 +55,7 @@ namespace OOP_Exercise_11_All_Concepts
         {
             List<Student> nlist1 = new List<Student>();
             Console.Clear();
+            Console.WriteLine("ID    | Name");
             foreach (Enrollment c in this.EnrollmentList)
             {
                 foreach (Course d in c.ListofCourses)
@@ -108,20 +109,31 @@ namespace OOP_Exercise_11_All_Concepts
         }
         public void EnterStuGrade(int stuid,string firstname, int courseid, decimal stugrade)
         {
-            foreach(Enrollment a in this.EnrollmentList)
+            if (stugrade >=0 && stugrade <= 100)
             {
-                foreach(Course d in a.ListofCourses)
+                foreach (Enrollment a in this.EnrollmentList)
                 {
-                    if(stuid == a.StuID && firstname == a.FirstName && courseid == d.CourseID)
+                    foreach (Course d in a.ListofCourses)
                     {
-                        d.StudentGrade = stugrade;
-                    }
-                    else
-                    {
-                        Console.WriteLine("The student couldn't be found.");
+                        if (stuid == a.StuID && firstname == a.FirstName && courseid == d.CourseID)
+                        {
+                            d.StudentGrade = stugrade;
+                        }
+                        else
+                        {
+                            Console.WriteLine("The student couldn't be found.");
+                        }
                     }
                 }
             }
+            else
+            {
+                Console.WriteLine("Please input a valid grade");
+            }
+        }
+        public void InputNewGrade()
+        {
+
         }
     }
 }
