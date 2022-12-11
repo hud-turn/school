@@ -41,9 +41,8 @@ namespace OOP_Exercise_11_All_Concepts
                     firstname = Console.ReadLine();
                     Console.WriteLine("Please input the student's last name: ");
                     lastname = Console.ReadLine();
-                    CollegeList.EnterStudents(courseid, stuid, firstname, lastname, coursegrade);
-                    List<Course> studentcourselst = new List<Course>();
-                    Enrollment Enrolled = new Enrollment(stuid, firstname, lastname, studentcourselst);
+                    List<Course> list = new List<Course>();
+                    CollegeList.EnterStudents(courseid, stuid, firstname, lastname,list, coursegrade);
                 }
                 else if (intuserinput == 3)
                 {

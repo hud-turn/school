@@ -24,10 +24,15 @@ namespace OOP_Exercise_11_All_Concepts
                 Console.WriteLine(c.CourseID + "|" + c.CourseTitle);
             }
         }
-        public void EnterStudents(int courseid, int stuid, string firstname, string lastname, decimal grade)
+        public void EnterStudents(int courseid, int stuid, string firstname, string lastname,List<Course> list, decimal grade)
         {
-            List<Course> studentcourselst = new List<Course>();
-            Enrollment Enrolled = new Enrollment(stuid, firstname, lastname, studentcourselst);
+
+            Course newcourse = new Course(courseid, grade);
+            list.Add(newcourse);
+            Enrollment Enrolled = new Enrollment(stuid, firstname, lastname, list);
+            Console.Clear();
+            Console.WriteLine("The student's has been entered into the system");
+            Console.ReadLine();
         }
     }
 }
