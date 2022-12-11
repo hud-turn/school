@@ -17,5 +17,15 @@ namespace OOP_Exercise_11_All_Concepts
         public int CourseID { get; set; }
         public string CourseTitle { get; set; }
 
+        public Course(int courseid, decimal studentgrade)
+        {
+            this.CourseIDP = courseid;
+            //this.CourseTitle = coursetitle;
+            this.StudentGrade = studentgrade;
+        }
+        public int CourseIDP { get; set; }
+        //public string CourseTitle { get; set; }
+        public decimal StudentGrade { get; set; }
+
     }
 }
