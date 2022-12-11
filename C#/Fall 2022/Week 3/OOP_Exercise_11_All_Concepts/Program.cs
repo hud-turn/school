@@ -9,8 +9,7 @@ namespace OOP_Exercise_11_All_Concepts
     {
         static void Main(string[] args)
         {
-            
-
+            //Initializing the lists
             List<Enrollment> enrollmentlist = new List<Enrollment>();
             List<Course> courses = new List<Course>();
             College CollegeList = new College(courses,enrollmentlist);
@@ -18,7 +17,9 @@ namespace OOP_Exercise_11_All_Concepts
             //Data to make testing easier
             string firstname1 = "Jhames", firstname2 = "Moregan", firstname3 = "Phil", coursetitle = "Title";
             int intuserinput = 0, course1 = 12345, course2 = 98765, course3 = 65498, stuid1 = 10000, stuid2 = 10001, stuid3 = 10002;
-            decimal gradeone = 0,gradetwo = 50 ,gradethree = 100;
+            decimal gradeone = 0, gradetwo = 50, gradethree = 100;
+
+            //Creating the CollegeList\Courses section
             Course courseone = new Course(course1, coursetitle);
             Course coursetwo = new Course(course2, coursetitle);
             Course coursethree = new Course(course3, coursetitle);
@@ -26,25 +27,33 @@ namespace OOP_Exercise_11_All_Concepts
             courses.Add(coursetwo);
             courses.Add(coursethree);
 
-            Course coursegradeone = new Course(course1, gradeone);
-            Course coursegradetwo = new Course(course2, gradetwo);
-            Course coursegradethree = new Course(course3, gradethree);
-            List<Course> coursesgradesone = new List<Course>();
-            List<Course> coursesgradestwo = new List<Course>();
-            List<Course> coursesgradesthree = new List<Course>();
-            coursesgradesone.Add(coursegradeone);
-            coursesgradesone.Add(coursegradetwo);
-            coursesgradesone.Add(coursegradethree);
-            coursesgradestwo.Add(coursegradeone);
-            coursesgradestwo.Add(coursegradetwo);
-            coursesgradestwo.Add(coursegradethree);
-            coursesgradesthree.Add(coursegradeone);
-            coursesgradesthree.Add(coursegradetwo);
-            coursesgradesthree.Add(coursegradethree);
+            //Creating the CollegeList\Enrollment section
+            Course coorsecrateone = new Course(course1, gradeone);
+            Course coorsecratetwo = new Course(course2, gradetwo);
+            Course coorsecratethree = new Course(course3, gradethree);
+            Console.WriteLine(coorsecratethree.CourseIDP);
+            List<Course> courseswithgradesone = new List<Course>();
+            List<Course> courseswithgradestwo = new List<Course>();
+            List<Course> courseswithgradesthree = new List<Course>();
 
-            Enrollment studentone = new Enrollment(stuid1, firstname1, firstname1, coursesgradesone);
-            Enrollment studenttwo = new Enrollment(stuid2 , firstname2, firstname2, coursesgradestwo);
-            Enrollment studentthree = new Enrollment(stuid3, firstname3, firstname3, coursesgradesthree);
+            courseswithgradesone.Add(coorsecrateone);
+            courseswithgradesone.Add(coorsecratetwo);
+            courseswithgradesone.Add(coorsecratethree);
+
+            courseswithgradestwo.Add(coorsecrateone);
+            courseswithgradestwo.Add(coorsecratetwo);
+            courseswithgradestwo.Add(coorsecratethree);
+
+            courseswithgradesthree.Add(coorsecrateone);
+            courseswithgradesthree.Add(coorsecratetwo);
+            courseswithgradesthree.Add(coorsecratethree);
+            
+
+            //Adding Students to enrollment section
+            Enrollment studentone = new Enrollment(stuid1, firstname1, firstname1, courseswithgradesone);
+            Enrollment studenttwo = new Enrollment(stuid2 , firstname2, firstname2, courseswithgradestwo);
+            Enrollment studentthree = new Enrollment(stuid3, firstname3, firstname3, courseswithgradesthree);
+            
             enrollmentlist.Add(studentone);
             enrollmentlist.Add (studenttwo);
             enrollmentlist.Add(studentthree);
@@ -114,12 +123,16 @@ namespace OOP_Exercise_11_All_Concepts
                     Console.WriteLine("Please input the student grade you wish to update: ");
                     decimal gradeinput = decimal.Parse(Console.ReadLine());
                     CollegeList.EnterStuGrade(stuid,stufirstname,courseid,gradeinput);
-
+                    Console.WriteLine("You have updated the students grade");
                     Console.ReadKey();
                 }
                 else if (intuserinput == 6)
                 {
-
+                    Console.WriteLine("The average grade is: " + CollegeList.GradeAvg());
+                    Console.WriteLine("The minimum grade is: " + CollegeList.MinGrade());
+                    Console.WriteLine("The maximum grade is: " + CollegeList.MaxGrade());
+                    CollegeList.DisplayGrades();
+                    Console.ReadKey();
                 }
                 else
                 {
