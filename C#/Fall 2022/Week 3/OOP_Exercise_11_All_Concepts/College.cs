@@ -181,7 +181,7 @@ namespace OOP_Exercise_11_All_Concepts
         }
         public void DisplayGrades()
         {
-            int aa = 0, bb = 0, cc = 0, dd = 0, ff = 0, count = 0;
+            double count = 0, outputa = 0, outputb = 0, outputc = 0, outputd = 0, outputf = 0, aa = 0, bb = 0, cc = 0, dd = 0, ff = 0;
             foreach (Enrollment a in this.EnrollmentList)
             {
                 foreach (Course d in a.ListofCourses)
@@ -206,14 +206,14 @@ namespace OOP_Exercise_11_All_Concepts
                     {
                         ff++;
                     }
-                    count++;
                 }
             }
-            
-            Console.WriteLine(aa);
-            Console.WriteLine(cc);
-            Console.WriteLine(dd);
-            Console.WriteLine(ff);
+            count = aa + bb + cc + dd + ff;
+            Console.WriteLine(Math.Round(((aa / count) * 100), 2) + "% of the class has an A");
+            Console.WriteLine(Math.Round(((bb / count) * 100), 2) + "% of the class has a B");
+            Console.WriteLine(Math.Round(((cc / count) * 100), 2) + "% of the class has a C");
+            Console.WriteLine(Math.Round(((dd / count) * 100), 2) + "% of the class has a D");
+            Console.WriteLine(Math.Round(((ff / count) * 100), 2) + "% of the class has a F");
         }
     }
 }
