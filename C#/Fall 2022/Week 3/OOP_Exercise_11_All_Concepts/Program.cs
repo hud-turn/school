@@ -1,5 +1,6 @@
 ﻿using OOP_Exercise_11_All_Concepts;
 using System;
+using System.Numerics;
 using System.Security.Principal;
 
 namespace OOP_Exercise_11_All_Concepts
@@ -8,13 +9,32 @@ namespace OOP_Exercise_11_All_Concepts
     {
         static void Main(string[] args)
         {
-            int intuserinput = 0;
+            
+
             List<Enrollment> enrollmentlist = new List<Enrollment>();
             List<Course> courses = new List<Course>();
             College CollegeList = new College(courses,enrollmentlist);
+
+            //Data to make testing easier
+            string firstname1 = "Jhames", firstname2 = "Moregan", firstname3 = "Phil", coursetitle = "Title";
+            int intuserinput = 0, course1 = 12345, course2 = 98765, course3 = 65498, stuid1 = 00000, stuid2 = 00001, stuid3 = 00002;
+            Course courseone = new Course(course1, coursetitle);
+            Course coursetwo = new Course(course2, coursetitle);
+            Course coursethree = new Course(course3, coursetitle);
+            courses.Add(courseone);
+            courses.Add(coursetwo);
+            courses.Add(coursethree);
+
+            Enrollment studentone = new Enrollment(stuid1, firstname1, firstname1, courses);
+            Enrollment studenttwo = new Enrollment(stuid2 , firstname2, firstname2, courses);
+            Enrollment studentthree = new Enrollment(stuid3, firstname3, firstname3, courses);
+            enrollmentlist.Add(studentone);
+            enrollmentlist.Add (studenttwo);
+            enrollmentlist.Add(studentthree);
+
             while (intuserinput != 7)
             {
-                int stuid = 0, courseid = 0,grade = 0;
+                int stuid = 0, courseid = 0, grade = 0;
                 string title = "", firstname = "", lastname = "";
                 Console.WriteLine("Welcome to the main menu!\nPlease input what function you would like to perform:\n1.Enter Course\n2.Enter Students\n3.Remove Students\n4.Remove Course\n5.Enter Student Grade\n6.Grade Analytics");
                 intuserinput = int.Parse(Console.ReadLine());
@@ -42,19 +62,31 @@ namespace OOP_Exercise_11_All_Concepts
                     Console.WriteLine("Please input the student's last name: ");
                     lastname = Console.ReadLine();
                     List<Course> list = new List<Course>();
-                    CollegeList.EnterStudents(courseid, stuid, firstname, lastname,list, coursegrade);
+                    CollegeList.EnterStudents(courseid, stuid, firstname, lastname, list, coursegrade);
                 }
                 else if (intuserinput == 3)
                 {
-
+                    CollegeList.OutputListCourses();
+                    Console.WriteLine("Please select a course ID to input: ");
+                    courseid = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Please select a course title to input: ");
+                    title = Console.ReadLine();
+                    CollegeList.ShowStuCourse(courseid, title);
+                    Console.WriteLine("Which Student would you like to remove?");
+                    stuid = int.Parse(Console.ReadLine());
+                    CollegeList.RemoveStudent(stuid);
+                    Console.ReadKey();
                 }
                 else if (intuserinput == 4)
                 {
-
+                    CollegeList.OutputListCourses();
+                    Console.WriteLine("Please input a course you would like to remove");
+                    courseid = int.Parse(Console.ReadLine());
+                    CollegeList.RemoveCourse(courseid);
                 }
                 else if (intuserinput == 5)
                 {
-
+                    CollegeList.OutputListCourses();
                 }
                 else if (intuserinput == 6)
                 {

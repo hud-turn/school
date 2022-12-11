@@ -23,6 +23,7 @@ namespace OOP_Exercise_11_All_Concepts
             {
                 Console.WriteLine(c.CourseID + "|" + c.CourseTitle);
             }
+            Console.WriteLine();
         }
         public void EnterStudents(int courseid, int stuid, string firstname, string lastname,List<Course> list, decimal grade)
         {
@@ -31,8 +32,66 @@ namespace OOP_Exercise_11_All_Concepts
             list.Add(newcourse);
             Enrollment Enrolled = new Enrollment(stuid, firstname, lastname, list);
             Console.Clear();
-            Console.WriteLine("The student's has been entered into the system");
+            Console.WriteLine("The student's information has been entered into the system");
             Console.ReadLine();
+        }
+        public void ShowStuCourse(int courseid, string coursetitle)
+        {
+            List<Student> nlist1 = new List<Student>();
+            Console.Clear();
+            foreach (Enrollment c in EnrollmentList)
+            {
+               foreach (Course d in c.ListofCourses)
+                {
+                    if(d.CourseID == courseid && d.CourseTitle == coursetitle)
+                    {
+                        Console.WriteLine(c.StuID +" | "+ c.LastName +" "+ c.FirstName);
+                    }
+                }
+            }
+        }
+        public void RemoveStudent(int stuid)
+        {
+            foreach(Enrollment c in EnrollmentList)
+            {
+                if(stuid == c.StuID)
+                {
+                    EnrollmentList.Remove(c);
+                    Console.WriteLine("The student has successfully been removed");
+                }
+                else
+                {
+                    Console.WriteLine("The student was not successfully removed from the system");
+                }
+            }
+        }
+        public void RemoveCourse(int courseid)
+        {
+            foreach (Course c in CourseList)
+            {
+                if (courseid == c.CourseID)
+                {
+                    CourseList.Remove(c);
+                    Console.WriteLine("The course has successfully been removed");
+                }
+                else
+                {
+                    Console.WriteLine("The course was not successfully removed from the system");
+                }
+            }
+        }
+        public void RemoveStuCourse(int courseid)
+        {
+            foreach (Enrollment c in EnrollmentList)
+            {
+                foreach (Course d in c.ListofCourses)
+                {
+                    if (d.CourseID == courseid && d.CourseTitle == coursetitle)
+                    {
+                        Console.WriteLine(c.StuID + " | " + c.LastName + " " + c.FirstName);
+                    }
+                }
+            }
         }
     }
 }
