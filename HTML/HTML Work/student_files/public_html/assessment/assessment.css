@@ -1,0 +1,99 @@
+/* assessment.css style sheet file for Assessment project  CWB110 
+
+Author: 
+Date: 12/2/2018
+
+*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #f3fde5;
+	color: #666;
+}
+
+body > div#container {
+	width: 760px;
+	margin: 0px auto;
+	border-style: solid;
+	border-color: #018843;
+	border-width: 1px;
+	background-color: white;
+	border-radius: 30px;
+}
+
+body > div > header > h1 {
+	color: white;
+	padding-top: .5em;
+	padding-left: .5em;
+	float: up;
+	background-image: url(images/header.jpg);
+	border-radius: 30px 30px 0px 0px; 
+}
+
+/*Having issues with the spacing of the image and the h1 header, other headers we worked with had photos in the header.*/
+
+body > div > header > img{
+	border-radius: 30px 30px 0px 0px;
+	height: ;
+}
+
+body > div > section > img{
+	float: right;
+}
+
+body > div > section {
+	padding: .5em;
+}
+
+
+ul.strawberry {
+list-style-image: url('images/strawberry-tiny.png');
+}
+
+h3 {
+	color: #f60;
+	padding-bottom: 4px;
+	border-top: 0px;
+	border-right: 0px;
+	border-bottom: 1px;
+	border-left: 0px;
+	border-style: solid;
+	border-color: #666;
+}
+
+aside {
+	width: 40%;
+	float: left;
+	background-color: #f6fcec;
+	border-color: #018843;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 30px;
+	padding: .2em;
+	margin-top: 8px;
+	margin-right: 8px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+footer {
+	background-color: #9c3;
+	padding-top: 32px;
+	color: white;
+	height: 48px;
+	text-align: center;
+	border-radius: 0px 0px 30px 30px;
+}
+
+/*Navigational Stuff, like hyperlinks*/
+
+a:link {
+	color: #f60;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+	
+	
+	

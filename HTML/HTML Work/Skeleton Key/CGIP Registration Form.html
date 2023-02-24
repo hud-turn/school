@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html -->
+<html lang="en" class="gr__cislinux_aims_edu">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+		<!--       New Perspectives on HTML5 and CSS3, 7th Edition      
+		Tutorial 7       Case Problem 1        
+		CGIP Registration Form       
+		Author: Lee Devlin       
+		Date:   8-8-2018        
+		Filename:   cg_register.html     -->            
+		<meta name="viewport" content="width=device-width, initial-scale=1">    
+		<title>CGIP Registration Form</title>    
+		<link href="./CGIP Registration Form_files/cg_base.css" rel="stylesheet">    
+		<link href="./CGIP Registration Form_files/cg_styles.css" rel="stylesheet">    
+		<link href="./CGIP Registration Form_files/cg_forms.css" rel="stylesheet">    
+		<link href="./CGIP Registration Form_files/cg_validate.css" rel="stylesheet">    
+		<script src="./CGIP Registration Form_files/cg_script.js.download"></script> 
+	</head>  
+	<body data-gr-c-s-loaded="true">    
+		<header>       
+			<img src="./CGIP Registration Form_files/cg_logo.png" alt="Computer Graphics and Image Processing" id="logoimg">    
+		</header>    
+		<nav>       
+			<ul>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">home page</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">keynote address</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">speakers</a></li>          
+				<li class="newgroup"><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">general session</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">abstracts</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">programs</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">workshops</a></li>           
+				<li class="newgroup"><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">committees</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">executive session</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">advisory council</a></li>           
+				<li class="newgroup"><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">travel info</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">accommodations</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">banquet</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">family attractions</a></li>          
+				<li class="newgroup"><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">registration</a></li>          
+				<li class="newgroup"><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">ACGIP home page</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">tour Sante Fe</a></li>          
+				<li><a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">links</a></li>                                                             
+			</ul>             
+		</nav>    
+		<section>       
+			<h1>Conference Registration Form</h1>       
+			<p>Required Item (*)</p> 	  
+			<form id="survey" action="http://www.example.com/cg/register" method="post"> 	    
+				<label for="titleBox">Title</label> 	    
+				<input name="title" id="titleBox" type="text" list="titleList"> 		
+				<datalist id="titleList"> 		     
+					<option value="Mr."></option>
+					<option value="Mrs."></option>
+					<option value="Ms."></option>
+					<option value="Prof."></option>
+					<option value="Dr."></option>
+					<option value="Assis. Prof."></option>
+					<option value="Assoc. Prof."></option>
+				</datalist> 		
+				<label for="fnBox">First Name*</label> 		
+				<input name="firstName" id="fnBox" type="text" required=""> 		
+				<label for="lnBox">Last Name*</label> 		
+				<input name="lastName" id="lnBox" type="text" required=""> 		
+				<label for="addBox">Address*</label> 		
+				<textarea name="address" id="addBox" type="text" required=""></textarea> 		
+				<label for="groupBox">Company or University</label> 		
+				<input name="group" id="groupBox" type="text"> 		
+				<label for="mailBox">E-mail*</label> 		
+				<input name="email" id="mailBox" type="email" required=""> 		
+				<label for="phoneBox">Phone Number*</label> 		
+				<input name="phoneNumber" id="phoneBox" type="tel" required="" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"> 		
+				<label for="idBox">ACGIP Membership Number</label> 		
+				<input name="acgipID" id="idBox" type="text" required="" placeholder="acgip-nnnnnn" pattern="^acgip-\d{6}$"> 		
+				<label for="regList">Registration Category</label> 		 
+				<select name="regList" id="regList"> 		   
+					<option value="member">ACGIP Member ($695)</option> 		   
+					<option value="nonmember">Non-Member ($795)</option> 		   
+					<option value="student">Student ($310)</option> 		  
+					<option value="poster">Poster ($95)</option> 		   
+					<option value="guest">Guest ($35)</option> 		 
+				</select> 		 
+				<p><input type="submit" value="continue"></p>       
+			</form>    
+		</section>        
+		<aside>       
+			<dl>          
+				<dt>ACGIP Member ($695)</dt>          
+				<dd>Eligible to attend all sessions and banquet</dd>          
+				<dt>Non-Member ($795)</dt>          
+				<dd>Eligible to attend all sessions and banquet</dd>          
+				<dt>Student ($310)</dt>          
+				<dd>Eligible to attend all sessions. <a href="http://cislinux.aims.edu/~ldevlin/110/compare/html07/case1/cg_register.html#">Proof</a> of              
+				student status required</dd>          
+				<dt>Poster ($95)</dt>          
+				<dd>Eligible to attend display hall and vendor stations</dd>          
+				<dt>Guest ($35)</dt>          
+				<dd>Eligible to attend banquet only</dd>       
+			</dl>    
+		</aside>     
+		<footer>       Association of Computer Graphics and Image Processing    
+		</footer>  
+	</body>
+</html>
+
+
+

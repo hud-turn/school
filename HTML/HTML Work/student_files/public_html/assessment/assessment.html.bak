@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<!--
+			CWB Final Assessment Project
+			Author: Hudson Turner 
+			Date:  12/2/2018
+			Filename: assessment.html
+		-->
+		<meta charset="UTF-8" />
+		<title> SuperNutrients, Inc </title> 
+		<link href="assessment.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>SuperNutrients, Inc.</h1>
+			</header>
+			<section>
+				<h3>Why our produce is super nutritious</h3>
+				<img src="images/strawberries.jpg" alt="" />
+				<p>Don't trust us, <a href="#">trust the science.</a> You may wonder why if you've been eating fruits and vegetables that you have not experienced their miraculous health benefits. And you may also wonder why we can confidently claim <a href="#">our produce is truly life-changing</a>.  Well, first of all, we grow our produce in hydroponically climate-controlled environments with the light and temperature optimized to produce nutrient and flavor profiles that were typical in all plants more than a thousand years ago.  We supply our plants with high density nutrients delivered from our proprietary aquifer. <a href="#">Our produce matches the nutrient profile </a> of fruit and vegetables that grew on earth before modern agricultural methods were developed. Thanks to our scientific evidence derived from archaeological data, we can prove our food is nearly identical to that which humans consumed during most of our evolution.  The food you find in the produce section of a grocery store has nearly nothing in common with that grown just a few hundred years ago other than its appearance.</p>
+				<p>
+					A single serving of our delicious produce contains more vitamins, minerals, and essential nutrients than four times the amount of produce from a typical supermarket. Modern agricultural techniques have rendered  fruits and vegetables so depleted in essential nutrients that they have the nutrient profile as sawdust, along with a flavor to match. <a href="#">If we were termites, that might be OK, but humans cannot thrive on a diet of wood.</a> The reason we see such an epidemic of modern ailments such as cancer, heart disease, diabetes, and auto-immune disorders that were non-existent in humans prior to the 20th century is because of wide-spread use of pesticides, herbicides, GMO crops and depleted soils that has given rise to produce nearly absent in essential nutrients and bland in flavor.
+				</p>
+				<aside>
+					<h4>Flavor = Nutrition...but not always!</h4>
+					<p>
+						From the moment you bite into our produce, you will never want to eat any grown <a href="#">using conventional agricultural methods</a>.  It's no wonder kids hate eating fruits and vegetables today.    Their palates have been subjected to bland natural foods and at the same time to the over-the-top artificial flavor profiles infused into processed foods.    
+					</p>
+				</aside>
+				<p>Produce today is optimized for the following attributes:</p>
+				<ol class="fruit">
+					<li>Durability during transportation</li>
+					<li>Maximum yield</li>
+					<li>Appearance</li>
+				</ol>
+				<p>All of these attributes are optimized to the exclusion of the nutritional content and flavor.  After all, nutrient content can only be measured directly with expensive instrumentation which consumers don't possess.  Flavor can only be measured after taking a bite of the produce which you can't do prior to its purchase.  Your body knows how to detect nutrient deficient foods. If you feel tired, bloated, and foggy-headed 30 minutes after you've eaten, then the food you ate was not nutritious.  You'll be uncomfortably full but not satiated. 
+				</p>
+				<h3>Technology can be agriculture's best friend</h3>
+				<p>
+					The term <a href="#">factory farm</a> conjures up very unpleasant images today, from toxic chemicals to mistreated animals, but in SuperNutrient's growing environments, plants thrive under a diet of the proper nutrients being delivered in the right quantities and at the right time.  Even our light spectrum and timing is controlled to simulate growing conditions before our atmosphere changed due to a continuous stream of pollutants from fossil fuels.  And since we seal our grow houses to guard against pathogens and insects, we have no need to apply chemical pesticides.  
+				</p>
+				<ul class="strawberry">
+					<li><a href="#">The 5 foods you must never eat, ever.</a></li>
+					<li><a href="#">The 10 essential nutrients missing in all modern foods.</a></li>
+					<li><a href="#">The 7 foods that will help you lose weight and avoid premature aging.</a></li>
+				</ul>
+
+			</section>
+			<footer>
+				 &copy; 2018 SuperNutrients, Inc.
+			</footer>
+		</div>
+	</body>
+</html>

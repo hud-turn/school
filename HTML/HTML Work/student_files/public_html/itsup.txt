@@ -1,0 +1,10 @@
+This file should be submitted to the Assignnment area for each assignment that 
+has been completed and published to the cislinux server.
+
+Checklist:
+
+-Complete assignment as explained in each chapter (tutorials) or with instructions (Case Problems)
+-Update index.html to include a link to the completed assignment
+-Publish assignment and updated index to your public_html folder on cislinux.aims.edu
+-Submit this file (itsup.txt) to the Assignment area for the related assignment
+-This will notify me your assignment is ready for grading.

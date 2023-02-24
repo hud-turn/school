@@ -1,0 +1,123 @@
+.daylight a.d2l-chart-clicktarget {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	white-space: nowrap;
+	max-width: 225px; 
+	width: auto;
+}
+
+.daylight a.d2l-chart-clicktarget > div:nth-child(2) {
+	min-width: 180px;
+	width: 100%;
+}
+
+.daylight .progressChartLabel {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-flow: row nowrap;
+	-webkit-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	width: 100%;
+	padding-top: 5px;
+}
+
+.daylight .progressChartLabel > div {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.daylight .progressChartLabel > div:first-child {
+	width: 100%; 
+}
+
+.daylight .progressChartLabel > .d2l-textblock-strong {
+	margin-right: 20px;
+}
+
+[dir='rtl'].daylight .progressChartLabel > .d2l-textblock-strong {
+	margin-right: 0;
+}
+
+.daylight .progressChartLabel > .d2l-textblock:nth-child(3) {
+	margin-left: auto;
+}
+
+[dir='rtl'].daylight .progressChartLabel > .d2l-textblock:nth-child(3) {
+	margin-right: auto;
+	margin-left: 0;
+}
+
+.d2l-progresschart {
+	max-width: 100%;
+}
+
+.d2l-progresschart > svg {
+	position: absolute;
+}
+.d2l-chart-link {
+	display: block;
+}
+
+.d2l-chart {
+	position: relative;
+	-ms-touch-action: none;
+}
+
+.d2l-charttooltip{
+	border-radius: 3px;
+	position: absolute;
+	background-color: white;
+	font-size: 0.9em;
+}
+
+.daylight .d2l-charttooltip{
+	border: 1px solid #D3D9E3;
+}
+
+.d2l-verticalbarchart{
+	position:relative;
+}
+
+.daylight .d2l-chartlabel {
+	color: #565A5C;
+}
+
+.daylight .d2l-stackedprogresschart {
+	padding-bottom: 5px;
+}
+
+.daylight .d2l-charttooltiptext {
+	font-weight: 400;
+	color: #565A5C;
+}
+
+.d2l-chart-label {
+	display: block;
+}
+
+.daylight .d2l-chart-label {
+	padding-top: 5px;
+	color: #565A5C;
+}
+
+.daylight .d2l-chart-clicktarget {
+	color: #565A5C;
+	display: block;
+}
+
+.daylight .d2l-chart-clicktarget:hover, .d2l-chart-clicktarget:focus {
+	color: #565A5C;
+	background-color: #F2F8FC;
+}
+.daylight .d2l-chart-link > .d2l-verticalbarchart {
+	width: calc(210px - 1rem - 1rem);
+}.d2l-chart-popup-placeholder table, .d2l-chart-popup-placeholder th, .d2l-chart-popup-placeholder td
+{
+    border: 1px solid black;
+    text-align: right;
+}
