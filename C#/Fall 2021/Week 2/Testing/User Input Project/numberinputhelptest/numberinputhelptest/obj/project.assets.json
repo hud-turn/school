@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\shamelesshornet\\.nuget\\packages\\": {},
+    "C:\\Users\\Hudson Turner\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shamelesshornet\\source\\repos\\numberinputhelptest\\numberinputhelptest\\numberinputhelptest.csproj",
+      "projectUniqueName": "C:\\Users\\Hudson Turner\\source\\repos\\numberinputhelptest\\numberinputhelptest\\numberinputhelptest.csproj",
       "projectName": "numberinputhelptest",
-      "projectPath": "C:\\Users\\shamelesshornet\\source\\repos\\numberinputhelptest\\numberinputhelptest\\numberinputhelptest.csproj",
-      "packagesPath": "C:\\Users\\shamelesshornet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shamelesshornet\\source\\repos\\numberinputhelptest\\numberinputhelptest\\obj\\",
+      "projectPath": "C:\\Users\\Hudson Turner\\source\\repos\\numberinputhelptest\\numberinputhelptest\\numberinputhelptest.csproj",
+      "packagesPath": "C:\\Users\\Hudson Turner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hudson Turner\\source\\repos\\numberinputhelptest\\numberinputhelptest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\shamelesshornet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hudson Turner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

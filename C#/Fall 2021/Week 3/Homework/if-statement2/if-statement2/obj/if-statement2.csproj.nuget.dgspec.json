@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shamelesshornet\\Documents\\2021\\College\\Fall Graphical Interface Programming - BACS 287 - 023\\Week 3\\Homework\\if-statement2\\if-statement2\\if-statement2.csproj": {}
+    "C:\\Users\\Hudson Turner\\Documents\\2021\\College\\Fall Graphical Interface Programming - BACS 287 - 023\\Week 3\\Homework\\if-statement2\\if-statement2\\if-statement2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shamelesshornet\\Documents\\2021\\College\\Fall Graphical Interface Programming - BACS 287 - 023\\Week 3\\Homework\\if-statement2\\if-statement2\\if-statement2.csproj": {
+    "C:\\Users\\Hudson Turner\\Documents\\2021\\College\\Fall Graphical Interface Programming - BACS 287 - 023\\Week 3\\Homework\\if-statement2\\if-statement2\\if-statement2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shamelesshornet\\Documents\\2021\\College\\Fall Graphical Interface Programming - BACS 287 - 023\\Week 3\\Homework\\if-statement2\\if-statement2\\if-statement2.csproj",
+        "projectUniqueName": "C:\\Users\\Hudson Turner\\Documents\\2021\\College\\Fall Graphical Interface Programming - BACS 287 - 023\\Week 3\\Homework\\if-statement2\\if-statement2\\if-statement2.csproj",
         "projectName": "if-statement2",
-        "projectPath": "C:\\Users\\shamelesshornet\\Documents\\2021\\College\\Fall Graphical Interface Programming - BACS 287 - 023\\Week 3\\Homework\\if-statement2\\if-statement2\\if-statement2.csproj",
-        "packagesPath": "C:\\Users\\shamelesshornet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shamelesshornet\\Documents\\2021\\College\\Fall Graphical Interface Programming - BACS 287 - 023\\Week 3\\Homework\\if-statement2\\if-statement2\\obj\\",
+        "projectPath": "C:\\Users\\Hudson Turner\\Documents\\2021\\College\\Fall Graphical Interface Programming - BACS 287 - 023\\Week 3\\Homework\\if-statement2\\if-statement2\\if-statement2.csproj",
+        "packagesPath": "C:\\Users\\Hudson Turner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hudson Turner\\Documents\\2021\\College\\Fall Graphical Interface Programming - BACS 287 - 023\\Week 3\\Homework\\if-statement2\\if-statement2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\shamelesshornet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hudson Turner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

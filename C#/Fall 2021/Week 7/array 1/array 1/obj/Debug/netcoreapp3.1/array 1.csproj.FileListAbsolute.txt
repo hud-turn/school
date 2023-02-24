@@ -12,17 +12,17 @@ C:\Users\Turn4527\Source\Repos\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.c
 C:\Users\Turn4527\Source\Repos\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.dll
 C:\Users\Turn4527\Source\Repos\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.pdb
 C:\Users\Turn4527\Source\Repos\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.genruntimeconfig.cache
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.exe
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.deps.json
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.runtimeconfig.json
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.runtimeconfig.dev.json
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.dll
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.pdb
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.csproj.AssemblyReference.cache
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.AssemblyInfoInputs.cache
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.AssemblyInfo.cs
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.csproj.CoreCompileInputs.cache
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.dll
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.pdb
-C:\Users\shamelesshornet\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.genruntimeconfig.cache
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.exe
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.deps.json
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.runtimeconfig.json
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.runtimeconfig.dev.json
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.dll
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\bin\Debug\netcoreapp3.1\array 1.pdb
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.csproj.AssemblyReference.cache
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.AssemblyInfoInputs.cache
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.AssemblyInfo.cs
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.csproj.CoreCompileInputs.cache
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.dll
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.pdb
+C:\Users\Hudson Turner\Documents\GitHub\School\C#\Fall 2021\Week 7\array 1\array 1\obj\Debug\netcoreapp3.1\array 1.genruntimeconfig.cache

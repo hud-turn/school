@@ -8,25 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\shamelesshornet\\.nuget\\packages\\": {},
+    "C:\\Users\\Hudson Turner\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shamelesshornet\\Documents\\GitHub\\School\\C#\\Fall 2021\\Extra Credit\\Extra_Credit_I\\lettercount\\lettercount\\lettercount.csproj",
+      "projectUniqueName": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\School\\C#\\Fall 2021\\Extra Credit\\Extra_Credit_I\\lettercount\\lettercount\\lettercount.csproj",
       "projectName": "lettercount",
-      "projectPath": "C:\\Users\\shamelesshornet\\Documents\\GitHub\\School\\C#\\Fall 2021\\Extra Credit\\Extra_Credit_I\\lettercount\\lettercount\\lettercount.csproj",
-      "packagesPath": "C:\\Users\\shamelesshornet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shamelesshornet\\Documents\\GitHub\\School\\C#\\Fall 2021\\Extra Credit\\Extra_Credit_I\\lettercount\\lettercount\\obj\\",
+      "projectPath": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\School\\C#\\Fall 2021\\Extra Credit\\Extra_Credit_I\\lettercount\\lettercount\\lettercount.csproj",
+      "packagesPath": "C:\\Users\\Hudson Turner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\School\\C#\\Fall 2021\\Extra Credit\\Extra_Credit_I\\lettercount\\lettercount\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\shamelesshornet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hudson Turner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

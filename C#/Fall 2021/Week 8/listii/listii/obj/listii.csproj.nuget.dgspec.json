@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shamelesshornet\\Documents\\GitHub\\School\\C#\\Fall 2021\\Week 8\\listii\\listii\\listii.csproj": {}
+    "C:\\Users\\Hudson Turner\\Documents\\GitHub\\School\\C#\\Fall 2021\\Week 8\\listii\\listii\\listii.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shamelesshornet\\Documents\\GitHub\\School\\C#\\Fall 2021\\Week 8\\listii\\listii\\listii.csproj": {
+    "C:\\Users\\Hudson Turner\\Documents\\GitHub\\School\\C#\\Fall 2021\\Week 8\\listii\\listii\\listii.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shamelesshornet\\Documents\\GitHub\\School\\C#\\Fall 2021\\Week 8\\listii\\listii\\listii.csproj",
+        "projectUniqueName": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\School\\C#\\Fall 2021\\Week 8\\listii\\listii\\listii.csproj",
         "projectName": "listii",
-        "projectPath": "C:\\Users\\shamelesshornet\\Documents\\GitHub\\School\\C#\\Fall 2021\\Week 8\\listii\\listii\\listii.csproj",
-        "packagesPath": "C:\\Users\\shamelesshornet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shamelesshornet\\Documents\\GitHub\\School\\C#\\Fall 2021\\Week 8\\listii\\listii\\obj\\",
+        "projectPath": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\School\\C#\\Fall 2021\\Week 8\\listii\\listii\\listii.csproj",
+        "packagesPath": "C:\\Users\\Hudson Turner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hudson Turner\\Documents\\GitHub\\School\\C#\\Fall 2021\\Week 8\\listii\\listii\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\shamelesshornet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hudson Turner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
