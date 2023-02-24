@@ -1,5 +1,0 @@
-﻿  box_office_calc.cpp
-C:\Users\Hudson Turner\Documents\GitHub\School\C++\Spring 2019\box_office_calc\box_office_calc.cpp(10,73): warning C4101: 'netbox': unreferenced local variable
-C:\Users\Hudson Turner\Documents\GitHub\School\C++\Spring 2019\box_office_calc\box_office_calc.cpp(10,55): warning C4101: 'sumtic': unreferenced local variable
-C:\Users\Hudson Turner\Documents\GitHub\School\C++\Spring 2019\box_office_calc\box_office_calc.cpp(10,81): warning C4101: 'distributor': unreferenced local variable
-  box_office_calc.vcxproj -> C:\Users\Hudson Turner\Documents\GitHub\School\C++\Spring 2019\box_office_calc\Debug\box_office_calc.exe
